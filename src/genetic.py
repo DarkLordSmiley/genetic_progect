@@ -1,0 +1,26 @@
+# This is main python script.
+import logging
+from logconfig.logconfig import LogConfig
+
+logConfig = LogConfig()
+log = logging.getLogger("main")
+
+# 1. reading and vailidating configuration
+log.info("Start genetic world emulation...")
+
+log.debug("Read the configuration of world emulation:")
+
+# 2. reading input data
+
+log.debug("Read the input data. Data information:")
+
+# 3. preparing world, bots, epochs etc
+log.debug("Prepared bots, world")
+
+log.info("Prepared bots, world")
+
+# 4. run the prepared world with interactive output
+log.info("Start world emulation...")
+
+# 5. print out the best result
+log.info("Emulation is finished")
