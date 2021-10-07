@@ -2,6 +2,8 @@ import logging
 import sys
 
 class LogConfig:
+    """Config logger class. It initialzes handlers"""
+
     def __init__(self, is_verbose=False, logfile='genetic.log'):
         # configuring log
         if (is_verbose):
