@@ -16,4 +16,10 @@ class Bot:
         случайными значениями float"""
 
         return np.random.uniform(-100.0, 100.0, chromosomeSize)
-        
+
+    #ToDo        
+
+class Population:
+
+
+    #ToDo
