@@ -1,7 +1,7 @@
 configuration:
   data:
-    train: /projects/Sascha/genetic_progect/src/train.csv
-    test: /projects/Sascha/genetic_progect/src/test.csv
+    train: train.csv
+    test: test.csv
   population:
     enabled:
       - polynom
