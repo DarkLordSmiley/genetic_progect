@@ -1,8 +1,11 @@
 configuration:
   data:
-    train: /projects/Sascha/genetic_progect/src/train.csv
-    test: /projects/Sascha/genetic_progect/src/test.csv
+    train: train.csv
+    test: test.csv
   population:
+    # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
+    # Ожидается значение от 0.01 до 1. Где 0.01 - 1%, 1 - 100%
+    bestAmountToReproducePercent: 0.1
     enabled:
       - polynom
       - sincos

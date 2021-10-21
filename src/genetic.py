@@ -11,14 +11,17 @@ log = logging.getLogger("main")
 log.info("Start genetic world emulation...")
 
 log.debug("Read the configuration of world emulation:")
-wc = WorldConfiguration("/projects/Sascha/genetic_progect/src/genetic.yml")
+wc = WorldConfiguration("genetic.yml")
+print("wc=", wc)
+wc1 = WorldConfiguration("genetic.yml")
+print("wc1=", wc1)
 print(wc.config)
 print(wc.getSolveFunctions())
 
 # 2. reading input data
 
 log.debug("Read the input data. Data information:")
-data = csvUtil.readArrayData("/projects/Sascha/genetic_progect/src/test.csv")
+data = csvUtil.readArrayData("test.csv")
 print(data)
 
 # 3. preparing world, bots, epochs etc
