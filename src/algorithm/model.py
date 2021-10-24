@@ -1,4 +1,5 @@
 import numpy as np
+import random
 import config
 
 def getSquareError(errors):
@@ -11,6 +12,13 @@ class Bot:
     для нахождения Аллели - решения данного организма. Это решение может использоваться
     для оценки приспособленности данного организма
     """
+
+    def __init__(self, gens, solveFunction):
+        """
+        Конструктор для создания бота на основе существующего набора ген
+        """
+        self._gens = gens
+        self._solveFunction = solveFunction
 
     def __init__(self, solveFunction, chromosomeSize: int):
         """
@@ -27,8 +35,52 @@ class Bot:
 
         return np.random.uniform(-100.0, 100.0, chromosomeSize)
 
-    #ToDo        
+    def calculate(self, inputs):
+        """
+        Вычисляем значение solve функции на основе значений генов этого
+        экземпляра бота
+        """
+        return map(inputs, lambda val: self._solveFunction(val, self._gens))
 
+    def getGens(self):
+        return self._gens
+
+    def reproduce(self, partner):
+        """
+        Генерируем потомка из ген этого бота и переданного. Выбираем гены случайным образом
+        """
+        if not self._isCompatible(partner):
+            raise Exception("Parner bot is not compatible")
+        
+        thisBotGenChances = np.random.choice([True, False], size = len(self._gens))
+        
+        newGens = []
+        for i in range(0, len(self._gens)):
+            newGens.append(thisBotGenChances[i] and self._gens[i] or partner.getGens[i], thisBotGenChances)
+            
+        return Bot(newGens, self._solveFunction)
+
+    def mutate(self):
+        """
+        Мутируем (изменяем случайным образом) случайный ген
+        """
+        targetGenIndex = random.randint(0, len(self._gens))
+        change = random.random() * 2 - 1;
+        self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change;
+
+    def getSolveFunction(self):
+        return self._solveFunction
+
+    def _isCompatible(self, bot):
+        """
+        Проверяем переданный bot - тип Bot и имеет туже solve функцию
+        """
+        if type(bot) is not Bot:
+            return False
+        if type(bot.getSolveFunction()) is not type(self._solveFunction):
+            return False
+        return True
+        
 class Population:
     """
     Класс-контейнер, содержащий популяцию ботов среди которых проводит отбор на основе
@@ -53,42 +105,51 @@ class Population:
         генерируем новое поколение из лучших
         """
 
-        estimations = self._collectEstimations(trainMatrix)
+        estimations = self._collectEstimations(trainMatrix, numberOfBest)
+        bestBotEstimation = estimations[0]
 
-        bestBot = self._findBest(estimations)
+        bestBots = map(lambda estim: estim.getBot(), estimations)
 
-        # Gene// Reproduce new population from the given best species
-        for (int i = 0; i < size; i++) {
-            IBot parent1 = bestBots.get(RandomUtils.nextInt(0, bestBotsSize));
-            IBot parent2 = bestBots.get(RandomUtils.nextInt(0, bestBotsSize));
-            IBot child = parent1.reproduce(parent2);
-            child.mutate();
-            bots.set(i, child);
-        }
+        # Создаем новое поколение из лучших представителей текущего
+        for i in range(0, len(self.bots)) :
+            parent1 = bestBots[random.randint(0, numberOfBest)]
+            parent2 = bestBots[random.randint(0, numberOfBest)]
+            child = parent1.reproduce(parent2)
+            child.mutate()
+            self.bots[i] = child
 
-        // Increase generation
-        generation++;
+        # Увеличиваем generation
+        self._generation = self._generation + 1
 
-        // Return errors of the best bots
-        return bestEstimations.stream().mapToDouble(BotEstimation::getError).toArray()
+        # Возвращаем ошибки лучшего бота текущей генерации
+        return bestBotEstimation.getErrors()
     
-    def _collectEstimations(self, trainMatrix):
-        # ToDo
-        pass
-
-    def _findBest(selt, estimations):
-        best = estimations[0]
-        for estimation in estimations:
-            if best.error > estimation.error:
-                best = estimation
-        return best
+    def _collectEstimations(self, trainMatrix, numberOfBest):
+        """
+        Собираем лучших ботов с наименьшими ошибками
+        """
+        inputs = trainMatrix[:, 0]
+        estims = map(lambda bot: Estimation(bot, inputs), self.bots)
+        return sorted(estims, key = lambda estim: estim.getError)[:numberOfBest]
 
 class Estimation:
     """
-    Class container which is used to hold bot and its error.
+    Класс - контейнер, содержащий бота и его "ошибки", а так же среднюю ошибку
     """
 
-    def __init__(self, bot, errors):
-        self.bot = bot
-        self.error = getSquareError(errors)
+    def __init__(self, bot, inputs):
+        self._bot = bot
+
+        # неверное - это расчетные значения бота, а не ошибки. Надо принимать Maxtrix здесь, а не только inputs
+        self._errors = bot.calculate(inputs)
+        self._meanError = np.mean(self.errors)
+    
+    def getError(self):
+        return self._error
+
+    def getBot(self):
+        return self._bot
+    
+    def getError(self):
+        return self._meanError
     
