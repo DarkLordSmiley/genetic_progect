@@ -43,3 +43,14 @@ def sinCos(inputValue, gens):
 
     return value
 
+def calcError(value, ethalon):
+    """
+    Вычисляет ошибку между переданным занчением и эталонным значением. Возвращает абсолютное значение (без учета значка ошибки)
+    """
+    return abs(ethalon - value)
+
+def calcSquareError(value, ethalon):
+    """
+    Вычисляет квадратичную ошибку между переданным занчением и эталонным значением
+    """
+    return (ethalon - value)**2

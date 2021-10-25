@@ -1,6 +1,6 @@
 import numpy as np
 import random
-import config
+import function
 
 def getSquareError(errors):
     return np.square(errors).mean()
@@ -8,6 +8,8 @@ def getSquareError(errors):
 class Bot:
     """
     Бот - это организм, содержащий хромосому, т.е. набор генов для решения задачи.
+    Каждый ген - это в полиноме - коэффициент при соответсвтующей степени, в других solve функциях - коэффициент при соответствующем
+    члене ряда (последоваительности)
     Бот так же содержит ссылку на Solve функцию, которую применяет к своим хромосомам
     для нахождения Аллели - решения данного организма. Это решение может использоваться
     для оценки приспособленности данного организма
@@ -137,15 +139,30 @@ class Estimation:
     Класс - контейнер, содержащий бота и его "ошибки", а так же среднюю ошибку
     """
 
-    def __init__(self, bot, inputs):
+    def __init__(self, bot, trainMatrix):
         self._bot = bot
-
-        # неверное - это расчетные значения бота, а не ошибки. Надо принимать Maxtrix здесь, а не только inputs
-        self._errors = bot.calculate(inputs)
-        self._meanError = np.mean(self.errors)
+        self.__calculateBot(trainMatrix)
     
-    def getError(self):
-        return self._error
+    def __calculateBot(self, trainMatrix):
+        """
+        Считаем выходные значение бота для каждого тренировочного значения из trainMaxtrix, где взодные значения берутся из нулевой колонки.
+        Далее вычисляем ошибки всех входных значений путем сравнения с эталонными значениями в trainMatrix. 
+        Эталонные значения ожидаются в первой колонке
+        """
+        self._values = self._bot.calculate(trainMatrix[:, 0])
+        ethalons = trainMatrix[:,1]
+
+        self._errors = []
+        for i in range(0, len(self._values)):
+            self._errors.append(function.calcError(self._values[i], ethalons[i]))
+
+        self._meanError = np.mean(self._errors)
+
+    def getValues(self):
+        return self._values
+
+    def getErrors(self):
+        return self._errors
 
     def getBot(self):
         return self._bot
