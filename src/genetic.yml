@@ -3,9 +3,12 @@ configuration:
     train: train.csv
     test: test.csv
   population:
+    # Размер полуляции - кол-во ботов в полуляции
+    size: 10000
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
-    # Ожидается значение от 0.01 до 1. Где 0.01 - 1%, 1 - 100%
-    bestAmountToReproducePercent: 0.1
+    # Кол-во должно быть меньше чем размер популяции
+    bestAmountToReproduce: 100
     enabled:
       - polynom
       - sincos
+    numberOfEpochs: 100

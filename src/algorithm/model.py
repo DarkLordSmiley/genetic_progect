@@ -1,9 +1,5 @@
 import numpy as np
 import random
-import function
-
-def getSquareError(errors):
-    return np.square(errors).mean()
 
 class Bot:
     """
@@ -22,19 +18,20 @@ class Bot:
         self._gens = gens
         self._solveFunction = solveFunction
 
-    def __init__(self, solveFunction, chromosomeSize: int):
+    @classmethod
+    def create(cls, solveFunction, chromosomeSize: int):
         """
-        Конструктор с Solve функцией и размером хромосомы - т.е. кол-вом ген.
+        Статический инициализатор
         """
-        self._solveFunction = solveFunction
-        self._gens = self._initGens(chromosomeSize)
+        gens = Bot._initGens(chromosomeSize)
+        return cls(gens, solveFunction)
 
-    def _initGens(self, chromosomeSize: int):
+    @classmethod
+    def _initGens(cls, chromosomeSize: int):
         """
         Создает массив ген указанного в chromosomeSize размера и инициализирует его
         случайными значениями float
         """
-
         return np.random.uniform(-100.0, 100.0, chromosomeSize)
 
     def calculate(self, inputs):
@@ -42,7 +39,7 @@ class Bot:
         Вычисляем значение solve функции на основе значений генов этого
         экземпляра бота
         """
-        return map(inputs, lambda val: self._solveFunction(val, self._gens))
+        return list(map(lambda val: self._solveFunction(val, self._gens), inputs))
 
     def getGens(self):
         return self._gens
@@ -58,7 +55,7 @@ class Bot:
         
         newGens = []
         for i in range(0, len(self._gens)):
-            newGens.append(thisBotGenChances[i] and self._gens[i] or partner.getGens[i], thisBotGenChances)
+            newGens.append(thisBotGenChances[i] and self._gens[i] or partner.getGens()[i])
             
         return Bot(newGens, self._solveFunction)
 
@@ -66,7 +63,7 @@ class Bot:
         """
         Мутируем (изменяем случайным образом) случайный ген
         """
-        targetGenIndex = random.randint(0, len(self._gens))
+        targetGenIndex = random.randint(0, len(self._gens) - 1)
         change = random.random() * 2 - 1;
         self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change;
 
@@ -110,12 +107,12 @@ class Population:
         estimations = self._collectEstimations(trainMatrix, numberOfBest)
         bestBotEstimation = estimations[0]
 
-        bestBots = map(lambda estim: estim.getBot(), estimations)
+        bestBots = list(map(lambda estim: estim.getBot(), estimations))
 
         # Создаем новое поколение из лучших представителей текущего
         for i in range(0, len(self.bots)) :
-            parent1 = bestBots[random.randint(0, numberOfBest)]
-            parent2 = bestBots[random.randint(0, numberOfBest)]
+            parent1 = bestBots[random.randint(0, numberOfBest - 1)]
+            parent2 = bestBots[random.randint(0, numberOfBest - 1)]
             child = parent1.reproduce(parent2)
             child.mutate()
             self.bots[i] = child
@@ -124,26 +121,25 @@ class Population:
         self._generation = self._generation + 1
 
         # Возвращаем ошибки лучшего бота текущей генерации
-        return bestBotEstimation.getErrors()
+        return bestBotEstimation
     
     def _collectEstimations(self, trainMatrix, numberOfBest):
         """
         Собираем лучших ботов с наименьшими ошибками
         """
-        inputs = trainMatrix[:, 0]
-        estims = map(lambda bot: Estimation(bot, inputs), self.bots)
-        return sorted(estims, key = lambda estim: estim.getError)[:numberOfBest]
+        estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
+        return sorted(estims, key = lambda estim: estim.getError())[:numberOfBest]
 
 class Estimation:
     """
     Класс - контейнер, содержащий бота и его "ошибки", а так же среднюю ошибку
     """
 
-    def __init__(self, bot, trainMatrix):
+    def __init__(self, bot, trainMatrix, costFunction):
         self._bot = bot
-        self.__calculateBot(trainMatrix)
+        self.__calculateBot(trainMatrix, costFunction)
     
-    def __calculateBot(self, trainMatrix):
+    def __calculateBot(self, trainMatrix, costFunction):
         """
         Считаем выходные значение бота для каждого тренировочного значения из trainMaxtrix, где взодные значения берутся из нулевой колонки.
         Далее вычисляем ошибки всех входных значений путем сравнения с эталонными значениями в trainMatrix. 
@@ -154,7 +150,7 @@ class Estimation:
 
         self._errors = []
         for i in range(0, len(self._values)):
-            self._errors.append(function.calcError(self._values[i], ethalons[i]))
+            self._errors.append(costFunction(self._values[i], ethalons[i]))
 
         self._meanError = np.mean(self._errors)
 
@@ -169,4 +165,10 @@ class Estimation:
     
     def getError(self):
         return self._meanError
+
+def generatePopulation(costFunction, botSolveFunction, numberOfBots, botChromosomeSize):
+    bots = []
+    for b in range(0, numberOfBots):
+        bots.append(Bot.create(botSolveFunction, botChromosomeSize))
     
+    return Population(costFunction, bots)

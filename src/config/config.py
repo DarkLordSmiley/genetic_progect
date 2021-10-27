@@ -27,8 +27,9 @@ class WorldConfiguration:
             raise Exception("Test data file is not found")
         
         bestAmountToReproduce = self.getBestAmountToReproduce()
-        if bestAmountToReproduce > 0.1 or bestAmountToReproduce < 0.01:
-            raise Exception("Param bestAmountToReproducePercent is invalid. Expected between: 0.01 and 1")
+        size = self.getSize()
+        if bestAmountToReproduce >= size:
+            raise Exception(f"Param bestAmountToReproduce must be less than population size {size}")
 
     def getSolveFunctions(self):
         functions = []
@@ -40,5 +41,13 @@ class WorldConfiguration:
         return functions
 
     def getBestAmountToReproduce(self):
-        value = self.config['configuration']['population']['bestAmountToReproducePercent']
-        return float(value)
+        value = self.config['configuration']['population']['bestAmountToReproduce']
+        return int(value)
+
+    def getSize(self):
+        value = self.config['configuration']['population']['size']
+        return int(value)
+    
+    def getNumberOfEpochs(self):
+        value = self.config['configuration']['population']['numberOfEpochs']
+        return int(value)

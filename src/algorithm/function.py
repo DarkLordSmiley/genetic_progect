@@ -3,7 +3,7 @@ import numpy as np
 def cost(ethalonY, botOutput):
     """Функция приспособленности - в данном случае cost функция - разница между эталонным значением
     и результатом расчета ботом с его Solve функцией."""
-    return ethalonY - botOutput
+    return abs(ethalonY - botOutput)
 
 def polymon(inputValue, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
