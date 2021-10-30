@@ -23,8 +23,6 @@ class WorldConfiguration:
     def _validate(self):
         if not path.isfile(self.config['configuration']['data']['train']):
             raise Exception("Train data file is not found")
-        if not path.isfile(self.config['configuration']['data']['test']):
-            raise Exception("Test data file is not found")
         
         bestAmountToReproduce = self.getBestAmountToReproduce()
         size = self.getSize()
@@ -50,4 +48,8 @@ class WorldConfiguration:
     
     def getNumberOfEpochs(self):
         value = self.config['configuration']['population']['numberOfEpochs']
+        return int(value)
+
+    def getTestDataAmount(self):
+        value = self.config['configuration']['data']['testPercent']
         return int(value)

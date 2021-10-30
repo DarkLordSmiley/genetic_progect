@@ -3,7 +3,7 @@ import numpy as np
 def cost(ethalonY, botOutput):
     """Функция приспособленности - в данном случае cost функция - разница между эталонным значением
     и результатом расчета ботом с его Solve функцией."""
-    return abs(ethalonY - botOutput)
+    return abs(botOutput - ethalonY)
 
 def polymon(inputValue, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
@@ -30,27 +30,20 @@ def sinCos(inputValue, gens):
 
     if len(gens) == 0:
         return 0.0
-        
-    halfIndex = len(gens) / 2
+
+    a0 = gens[0]
+    a_array = gens[1:]
+
+    halfIndex = int(len(a_array) / 2)
     
-    value = gens[0]
+    value = a0
 
-    for a in range(1, halfIndex, 1):
-        value = value + gens[a] * np.sin(input * a)
+    for a in range(0, halfIndex):
+        k = a + 1
+        value = value + a_array[a] * np.sin(inputValue * k)
 
-    for b in range(halfIndex,  len(gens), 1):
-        value = value + gens[b] * np.cos(input * (b - halfIndex + 1))
+    for b in range(halfIndex, len(a_array), 1):
+        k = b - halfIndex + 1
+        value = value + a_array[b] * np.cos(inputValue * k)
 
     return value
-
-def calcError(value, ethalon):
-    """
-    Вычисляет ошибку между переданным занчением и эталонным значением. Возвращает абсолютное значение (без учета значка ошибки)
-    """
-    return abs(ethalon - value)
-
-def calcSquareError(value, ethalon):
-    """
-    Вычисляет квадратичную ошибку между переданным занчением и эталонным значением
-    """
-    return (ethalon - value)**2
