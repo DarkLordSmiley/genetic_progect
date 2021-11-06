@@ -41,6 +41,14 @@ class TestBot(unittest.TestCase):
             deviation = abs((newValue - origValue) / origValue)
             self.assertTrue(deviation <= 1.0, "Incorrect mutation")
 
+    def testReproducing(self):
+        gensSize = 5
+        bot1 = model.Bot.create(fun.polymon, gensSize)
+        bot2 = model.Bot.create(fun.polymon, gensSize)
+        child = bot1.reproduce(bot2)
+        self.assertEqual(gensSize, len(child._gens), "Incorrect gen size in child")
+        for i in range(0, gensSize):
+            self.assertTrue(child._gens[i] == bot1._gens[i] or child._gens[i] == bot2._gens[i], "Incorrect gen in child")
     
 if __name__ == '__main__':
     unittest.main()

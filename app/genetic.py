@@ -26,16 +26,21 @@ data = csvUtil.readArrayData("test.csv")
 print(data)
 
 # 3. preparing world, bots, epochs etc
-polynomPopulation = model.generatePopulation(fun.cost, fun.polymon, wc.getSize(), 4)
-log.info("Prepared bots, population")#, polynomPopulation)
+context = model.PopulationContext()\
+    .costFunction(fun.cost)\
+    .botSolveFunction(fun.polymon)\
+    .botsNumberInPopulation(wc.getSize())\
+    .botsChromosomeSize(4)\
+    .epochsNumber(wc.getNumberOfEpochs())\
+    .data(data)\
+    .botsNumberToReproduce(wc.getBestAmountToReproduce())
 
-# 4. run the prepared world with interactive output
+log.info("Prepared context for population")
+
 log.info("Start world emulation...")
-for e in range(0, wc.getNumberOfEpochs()):
-    bestBotEstimation = polynomPopulation.selectBestAndGenerate(data, wc.getBestAmountToReproduce())
-    print(f"Epoch: {e}, best error: {bestBotEstimation.getErrors()[0]}")
+bestBotEstimation = model.runPopulation(context)
 bestBot = bestBotEstimation.getBot()
-print(f"Best result: gens: {bestBot.getGens()}")
 
 # 5. print out the best result
+print(f"Best result: gens: {bestBot.getGens()}")
 log.info("Emulation is finished")

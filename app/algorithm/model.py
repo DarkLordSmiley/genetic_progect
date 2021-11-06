@@ -1,5 +1,10 @@
 import numpy as np
 import random
+import logging
+
+from algorithm.function import cost
+
+log = logging.getLogger("model")
 
 class Bot:
     """
@@ -166,9 +171,51 @@ class Estimation:
     def getError(self):
         return self._meanError
 
+class PopulationContext:
+    def costFunction(self, costFunction):
+        self.costFunction = costFunction
+        return self
+    
+    def botSolveFunction(self, botSolveFunction):
+        self.botSolveFunction = botSolveFunction
+        return self
+
+    def botsNumberInPopulation(self, botsNumber):
+        self.botsNumber = botsNumber
+        return self
+    
+    def botsChromosomeSize(self, botsChromosomeSize):
+        self.botsChromosomeSize = botsChromosomeSize
+        return self
+    
+    def epochsNumber(self, epochsNumber):
+        self.epochsNumber = epochsNumber
+        return self
+    
+    def data(self, data):
+        self.data = data
+        return self
+    
+    def botsNumberToReproduce(self, botsNumberToReproduce):
+        self.botsNumberToReproduce = botsNumberToReproduce
+        return self
+
 def generatePopulation(costFunction, botSolveFunction, numberOfBots, botChromosomeSize):
     bots = []
     for b in range(0, numberOfBots):
         bots.append(Bot.create(botSolveFunction, botChromosomeSize))
     
     return Population(costFunction, bots)
+
+def runPopulation(context: PopulationContext):
+    # Create population
+    population = generatePopulation(context.costFunction, context.botSolveFunction, \
+        context.botsNumber, context.botsChromosomeSize)
+    log.info("Prepared bots, population")#, polynomPopulation)
+
+    # Run the prepared population
+    log.info("Start world emulation...")
+    for e in range(0, context.epochsNumber):
+        bestBotEstimation = population.selectBestAndGenerate(context.data, context.botsNumberToReproduce)
+        print(f"Epoch: {e}, best error: {bestBotEstimation.getErrors()[0]}")
+    return bestBotEstimation
