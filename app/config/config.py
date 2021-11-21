@@ -53,3 +53,6 @@ class WorldConfiguration:
     def getTestDataAmount(self):
         value = self.config['configuration']['data']['testPercent']
         return int(value)
+
+    def getTestData(self):
+        return self.config['configuration']['data']['train']
