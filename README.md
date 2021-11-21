@@ -31,3 +31,7 @@
 * NumPy:
 
 > pip install numpy
+
+* Mat plot
+
+> pip install matplot

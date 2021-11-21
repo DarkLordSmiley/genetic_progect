@@ -1,6 +1,6 @@
 import yaml 
 import os.path as path
-import algorithm.function as alg
+import app.algorithm.function as alg
 
 class WorldConfiguration:
     def __new__(cls, fileName):

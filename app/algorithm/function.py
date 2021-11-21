@@ -1,4 +1,6 @@
 import numpy as np
+import app.algorithm.model as model
+from app.graphics import draw as draw
 
 def cost(ethalonY, botOutput):
     """Функция приспособленности - в данном случае cost функция - разница между эталонным значением
@@ -47,3 +49,10 @@ def sinCos(inputValue, gens):
         value = value + a_array[b] * np.cos(inputValue * k)
 
     return value
+
+def drawEstimation(draw: draw.Draw, estimation: model.Estimation, epoch, context: model.PopulationContext):
+    if epoch < 5 or epoch % 10 == 0:
+        x = context.data[:, 0]
+        y = estimation.getValues()
+        error = round(estimation.getErrors()[0], 5)
+        draw.draw(f"E:{epoch}, err.:{error}", x, y)

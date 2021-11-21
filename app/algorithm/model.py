@@ -2,8 +2,6 @@ import numpy as np
 import random
 import logging
 
-from algorithm.function import cost
-
 log = logging.getLogger("model")
 
 class Bot:
@@ -207,7 +205,7 @@ def generatePopulation(costFunction, botSolveFunction, numberOfBots, botChromoso
     
     return Population(costFunction, bots)
 
-def runPopulation(context: PopulationContext):
+def runPopulation(context: PopulationContext, drawFun):
     # Create population
     population = generatePopulation(context.costFunction, context.botSolveFunction, \
         context.botsNumber, context.botsChromosomeSize)
@@ -218,4 +216,8 @@ def runPopulation(context: PopulationContext):
     for e in range(0, context.epochsNumber):
         bestBotEstimation = population.selectBestAndGenerate(context.data, context.botsNumberToReproduce)
         print(f"Epoch: {e}, best error: {bestBotEstimation.getErrors()[0]}")
+
+        if drawFun:
+            drawFun(bestBotEstimation, e)
+
     return bestBotEstimation
