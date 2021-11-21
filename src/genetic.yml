@@ -1,8 +1,0 @@
-configuration:
-  data:
-    train: train.csv
-    test: test.csv
-  population:
-    enabled:
-      - polynom
-      - sincos
