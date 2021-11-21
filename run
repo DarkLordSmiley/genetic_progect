@@ -1,2 +1,6 @@
-set PYTHONPATH = ./
-python3 ./app/genetic.py
+#!/bin/bash
+
+PYTHONPATH = ./app
+cd ./app
+
+python3 genetic.py

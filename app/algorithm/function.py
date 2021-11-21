@@ -1,6 +1,6 @@
 import numpy as np
-import app.algorithm.model as model
-from app.graphics import draw as draw
+import algorithm.model as model
+from graphics import draw as draw
 
 def cost(ethalonY, botOutput):
     """Функция приспособленности - в данном случае cost функция - разница между эталонным значением
