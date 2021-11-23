@@ -1,3 +1,4 @@
+import numpy
 import numpy as np
 import algorithm.model as model
 from graphics import draw as draw
@@ -16,10 +17,20 @@ def polymon(inputValue, gens):
     if len(gens) == 0:
         return 0.0
         
-    value = gens[0]
+    # value = gens[0]
+    # for ind in range(1, len(gens), 1):
+    #     value = value + gens[ind] * np.power(inputValue, ind)
 
-    for ind in range(1, len(gens), 1): 
-        value = value + gens[ind] * np.power(inputValue, ind)
+    # Оптимизированный алгоритм (через векторы и numpy)
+    # Возводим входное значение (inputValue) поочередно в степени 0, 1, 2, 3 ... len(gens)
+    # результат - вектор степеней ([x^0, x^1, x^2, x^3, ...] где x - это inputValue
+    powers = np.power(inputValue, np.arange(len(gens)), dtype = np.float)
+    # Вектор степеней поэелементно умножаем на значение каждого гена и суммируем все значения
+    # gens - это вектор [a0, a1, a2, a3, ...] умножаем его по вектор степеней, получаем вектор:
+    # [a0*x^0, a1*x^1, a2*x^2, a3*x^3, ...]
+    # и суммируем: value = a0*x^0 + a1*x^1 + a2*x^2 + a3*x^3, ...
+    value = numpy.sum(np.multiply(powers, gens))
+
 
     return value
 

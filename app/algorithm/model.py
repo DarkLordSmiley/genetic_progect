@@ -69,7 +69,7 @@ class Bot:
         """
         targetGenIndex = random.randint(0, len(self._gens) - 1)
         change = (random.random() * 2 - 1)
-        self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change;
+        self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change
 
     def getSolveFunction(self):
         return self._solveFunction
@@ -222,7 +222,7 @@ def runPopulation(context: PopulationContext, drawFun):
     log.info("Prepared bots, population")  # , polynomPopulation)
 
     # Run the prepared population
-    log.info("Start world emulation...")
+    log.info("Launch world...")
     for e in range(0, context.epochsNumber):
         bestBotEstimation = population.selectBestAndGenerate(context.data, context.botsNumberToReproduce)
         print(f"Epoch: {e}, error: {bestBotEstimation.getError()}")

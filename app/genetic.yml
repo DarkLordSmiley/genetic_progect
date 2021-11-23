@@ -1,17 +1,17 @@
 configuration:
   data:
-    train: test_310.csv
+    train: test_x-1_2.csv
     # Количество тренировочных данных, которые будут использоваться в финальном тестировании,
     # но не будут использоваться при тренировке
     testPercent: 10
   population:
     # Размер полуляции - кол-во ботов в полуляции
-    size: 100000
+    size: 20000
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
     # Кол-во должно быть меньше чем размер популяции
     bestAmountToReproduce: 100
     enabled:
       - polynom
       - sincos
-    numberOfEpochs: 200
-    chromosomeSize: 5
+    numberOfEpochs: 70
+    chromosomeSize: 8

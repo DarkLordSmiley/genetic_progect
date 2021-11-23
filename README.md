@@ -35,3 +35,7 @@
 * Mat plot
 
 > pip install matplot
+
+* PyYAML
+
+> pip install --ignore-installed PyYAML
