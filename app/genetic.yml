@@ -6,11 +6,12 @@ configuration:
     testPercent: 10
   population:
     # Размер полуляции - кол-во ботов в полуляции
-    size: 10000
+    size: 100000
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
     # Кол-во должно быть меньше чем размер популяции
     bestAmountToReproduce: 100
     enabled:
       - polynom
       - sincos
-    numberOfEpochs: 100
+    numberOfEpochs: 200
+    chromosomeSize: 5

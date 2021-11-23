@@ -54,5 +54,5 @@ def drawEstimation(draw: draw.Draw, estimation: model.Estimation, epoch, context
     if epoch < 5 or epoch % 10 == 0:
         x = context.data[:, 0]
         y = estimation.getValues()
-        error = round(estimation.getErrors()[0], 5)
+        error = round(estimation.getError(), 5)
         draw.draw(f"E:{epoch}, err.:{error}", x, y)

@@ -4,6 +4,7 @@ import logging
 
 log = logging.getLogger("model")
 
+
 class Bot:
     """
     Бот - это организм, содержащий хромосому, т.е. набор генов для решения задачи.
@@ -53,13 +54,13 @@ class Bot:
         """
         if not self._isCompatible(partner):
             raise Exception("Parner bot is not compatible")
-        
-        thisBotGenChances = np.random.choice([True, False], size = len(self._gens))
-        
+
+        thisBotGenChances = np.random.choice([True, False], size=len(self._gens))
+
         newGens = []
         for i in range(0, len(self._gens)):
             newGens.append(thisBotGenChances[i] and self._gens[i] or partner.getGens()[i])
-            
+
         return Bot(newGens, self._solveFunction)
 
     def mutate(self):
@@ -67,7 +68,7 @@ class Bot:
         Мутируем (изменяем случайным образом) случайный ген
         """
         targetGenIndex = random.randint(0, len(self._gens) - 1)
-        change = random.random() * 2 - 1;
+        change = (random.random() * 2 - 1)
         self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change;
 
     def getSolveFunction(self):
@@ -82,7 +83,8 @@ class Bot:
         if type(bot.getSolveFunction()) is not type(self._solveFunction):
             return False
         return True
-        
+
+
 class Population:
     """
     Класс-контейнер, содержащий популяцию ботов среди которых проводит отбор на основе
@@ -100,7 +102,7 @@ class Population:
 
     def getGeneration(self):
         return self._generation
-    
+
     def selectBestAndGenerate(self, trainMatrix, numberOfBest):
         """
         Выбираем лучшего представителя (с минимальной ошибкой - значением cost функции) и
@@ -112,8 +114,12 @@ class Population:
 
         bestBots = list(map(lambda estim: estim.getBot(), estimations))
 
+        # Оставляем лучших представителей
+        for i in range(0, numberOfBest):
+            self.bots[i] = bestBots[i]
+
         # Создаем новое поколение из лучших представителей текущего
-        for i in range(0, len(self.bots)) :
+        for i in range(numberOfBest, len(self.bots)):
             parent1 = bestBots[random.randint(0, numberOfBest - 1)]
             parent2 = bestBots[random.randint(0, numberOfBest - 1)]
             child = parent1.reproduce(parent2)
@@ -125,13 +131,14 @@ class Population:
 
         # Возвращаем ошибки лучшего бота текущей генерации
         return bestBotEstimation
-    
+
     def _collectEstimations(self, trainMatrix, numberOfBest):
         """
         Собираем лучших ботов с наименьшими ошибками
         """
         estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
-        return sorted(estims, key = lambda estim: estim.getError())[:numberOfBest]
+        return sorted(estims, key=lambda estim: estim.getError())[:numberOfBest]
+
 
 class Estimation:
     """
@@ -141,7 +148,7 @@ class Estimation:
     def __init__(self, bot, trainMatrix, costFunction):
         self._bot = bot
         self.__calculateBot(trainMatrix, costFunction)
-    
+
     def __calculateBot(self, trainMatrix, costFunction):
         """
         Считаем выходные значение бота для каждого тренировочного значения из trainMaxtrix, где взодные значения берутся из нулевой колонки.
@@ -149,7 +156,7 @@ class Estimation:
         Эталонные значения ожидаются в первой колонке
         """
         self._values = self._bot.calculate(trainMatrix[:, 0])
-        ethalons = trainMatrix[:,1]
+        ethalons = trainMatrix[:, 1]
 
         self._errors = []
         for i in range(0, len(self._values)):
@@ -165,15 +172,16 @@ class Estimation:
 
     def getBot(self):
         return self._bot
-    
+
     def getError(self):
         return self._meanError
+
 
 class PopulationContext:
     def costFunction(self, costFunction):
         self.costFunction = costFunction
         return self
-    
+
     def botSolveFunction(self, botSolveFunction):
         self.botSolveFunction = botSolveFunction
         return self
@@ -181,41 +189,43 @@ class PopulationContext:
     def botsNumberInPopulation(self, botsNumber):
         self.botsNumber = botsNumber
         return self
-    
+
     def botsChromosomeSize(self, botsChromosomeSize):
         self.botsChromosomeSize = botsChromosomeSize
         return self
-    
+
     def epochsNumber(self, epochsNumber):
         self.epochsNumber = epochsNumber
         return self
-    
+
     def data(self, data):
         self.data = data
         return self
-    
+
     def botsNumberToReproduce(self, botsNumberToReproduce):
         self.botsNumberToReproduce = botsNumberToReproduce
         return self
+
 
 def generatePopulation(costFunction, botSolveFunction, numberOfBots, botChromosomeSize):
     bots = []
     for b in range(0, numberOfBots):
         bots.append(Bot.create(botSolveFunction, botChromosomeSize))
-    
+
     return Population(costFunction, bots)
+
 
 def runPopulation(context: PopulationContext, drawFun):
     # Create population
     population = generatePopulation(context.costFunction, context.botSolveFunction, \
-        context.botsNumber, context.botsChromosomeSize)
-    log.info("Prepared bots, population")#, polynomPopulation)
+                                    context.botsNumber, context.botsChromosomeSize)
+    log.info("Prepared bots, population")  # , polynomPopulation)
 
     # Run the prepared population
     log.info("Start world emulation...")
     for e in range(0, context.epochsNumber):
         bestBotEstimation = population.selectBestAndGenerate(context.data, context.botsNumberToReproduce)
-        print(f"Epoch: {e}, best error: {bestBotEstimation.getErrors()[0]}")
+        print(f"Epoch: {e}, error: {bestBotEstimation.getError()}")
 
         if drawFun:
             drawFun(bestBotEstimation, e)

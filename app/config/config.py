@@ -45,6 +45,10 @@ class WorldConfiguration:
     def getSize(self):
         value = self.config['configuration']['population']['size']
         return int(value)
+
+    def getChromosomeSize(self):
+        value = self.config['configuration']['population']['chromosomeSize']
+        return int(value)
     
     def getNumberOfEpochs(self):
         value = self.config['configuration']['population']['numberOfEpochs']

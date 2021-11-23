@@ -27,7 +27,7 @@ context = model.PopulationContext()\
     .costFunction(fun.cost)\
     .botSolveFunction(fun.polymon)\
     .botsNumberInPopulation(wc.getSize())\
-    .botsChromosomeSize(8)\
+    .botsChromosomeSize(wc.getChromosomeSize())\
     .epochsNumber(wc.getNumberOfEpochs())\
     .data(data)\
     .botsNumberToReproduce(wc.getBestAmountToReproduce())
