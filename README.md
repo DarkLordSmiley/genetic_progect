@@ -39,3 +39,7 @@
 * PyYAML
 
 > pip install --ignore-installed PyYAML
+
+* Sorted containers
+
+> pip install sortedcontainers

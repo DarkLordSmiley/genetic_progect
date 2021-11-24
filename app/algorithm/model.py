@@ -1,6 +1,10 @@
 import numpy as np
 import random
 import logging
+from multiprocessing import cpu_count, Pool
+from functools import partial
+import heapq
+from sortedcontainers import SortedList
 
 log = logging.getLogger("model")
 
@@ -136,9 +140,18 @@ class Population:
         """
         Собираем лучших ботов с наименьшими ошибками
         """
-        estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
-        return sorted(estims, key=lambda estim: estim.getError())[:numberOfBest]
 
+        # seems not thread safe
+        pool = Pool(4)
+        estims = pool.map(partial(self._collectEstimation, trainMatrix = trainMatrix), self.bots)
+        smallestEstims = heapq.nsmallest(numberOfBest, estims, key=lambda estim: estim.getError())
+        return sorted(smallestEstims, key=lambda estim: estim.getError())
+
+        # estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
+        # return sorted(estims, key=lambda estim: estim.getError())[:numberOfBest]
+
+    def _collectEstimation(self, bot, trainMatrix):
+        return Estimation(bot, trainMatrix, self._costFunction)
 
 class Estimation:
     """

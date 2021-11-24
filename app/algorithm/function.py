@@ -39,30 +39,28 @@ def polymonSym(inputValue, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
         + b0*x^(-1) + b1 * x^(-2) + b2 * x^(-3) + b3 * x^(-4) + ... + b(n-1) * a^(-n))
     где a0 - an, b0 - b(n-1) - значения ген бота
-    Если кол-во ген нечетно, то используются len(gens)-1 ген
+    Если кол-во ген четно, то используются len(gens)-1 ген
     x - входное значение
     y - выходное значение"""
 
     if len(gens) == 0:
         return 0.0
 
-    if len(gens) % 2 != 0:
-        length = int((len(gens) - 1) / 2)
+    if len(gens) % 2 == 0:
+        length_a = int(len(gens) / 2)
     else:
-        length = int(len(gens) / 2)
+        length_a = int((len(gens) + 1) / 2)
 
-    a_array = gens[:length]
-    b_array = gens[length:(length * 2)]
+    length_b = length_a - 1
 
-    # value = gens[0]
-    # for ind in range(1, len(gens), 1):
-    #     value = value + gens[ind] * np.power(inputValue, ind)
+    a_array = gens[:length_a]
+    b_array = gens[length_a:length_a + length_b]
 
     # Оптимизированный алгоритм (через векторы и numpy)
     # Возводим входное значение (inputValue) поочередно в степени b_array
     # результат - вектор степеней ([x^b0, x^b1, x^b2, x^b3, ...] где x - это inputValue
-    a_powers = np.power(inputValue, np.arange(length), dtype=np.float)
-    b_powers = np.power(inputValue, np.arange(-length, 0)[::-1], dtype=np.float)
+    a_powers = np.power(inputValue, np.arange(length_a), dtype=np.float)
+    b_powers = np.power(inputValue, np.arange(-length_b, 0)[::-1], dtype=np.float)
     # Вектор степеней поэелементно умножаем на значение каждого гена и суммируем все значения
     # gens - это вектор [a0, a1, a2, a3, ...] умножаем его по вектор степеней, получаем вектор:
     # [a0*x^0, a1*x^1, a2*x^2, a3*x^3, ...]
