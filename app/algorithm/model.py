@@ -120,6 +120,7 @@ class Population:
 
         estimations = self._collectEstimations(trainMatrix, numberOfBest)
         bestBotEstimation = estimations[0]
+        self._addLastError(bestBotEstimation.getError())
 
         bestBots = list(map(lambda estim: estim.getBot(), estimations))
 
