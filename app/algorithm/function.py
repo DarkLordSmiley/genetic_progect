@@ -35,7 +35,7 @@ def polymon(inputValue, gens):
     return value
 
 
-def polymonSym(inputValue, gens):
+def polymonSym(inputValues, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
         + b0*x^(-1) + b1 * x^(-2) + b2 * x^(-3) + b3 * x^(-4) + ... + b(n-1) * a^(-n))
     где a0 - an, b0 - b(n-1) - значения ген бота
@@ -59,14 +59,20 @@ def polymonSym(inputValue, gens):
     # Оптимизированный алгоритм (через векторы и numpy)
     # Возводим входное значение (inputValue) поочередно в степени b_array
     # результат - вектор степеней ([x^b0, x^b1, x^b2, x^b3, ...] где x - это inputValue
-    a_powers = np.power(inputValue, np.arange(length_a), dtype=np.float)
-    b_powers = np.power(inputValue, np.arange(-length_b, 0)[::-1], dtype=np.float)
+    inputs = np.array(inputValues)
+    inMatrix = inputs[np.newaxis, :].T
+    a_powers = inMatrix ** np.arange(length_a)
+    b_powers = inMatrix ** np.arange(-length_b, 0)[::-1]
+    return np.sum(a_powers * a_array, axis=1) + np.sum(b_powers * b_array, axis=1)
+
+    #a_powers = np.power(inputValues, np.arange(length_a), dtype=np.float)
+    #b_powers = np.power(inputValues, np.arange(-length_b, 0)[::-1], dtype=np.float)
     # Вектор степеней поэелементно умножаем на значение каждого гена и суммируем все значения
     # gens - это вектор [a0, a1, a2, a3, ...] умножаем его по вектор степеней, получаем вектор:
     # [a0*x^0, a1*x^1, a2*x^2, a3*x^3, ...]
     # и суммируем: value = a0*x^0 + a1*x^1 + a2*x^2 + a3*x^3, ...
-    value = np.sum(np.multiply(a_powers, a_array)) + np.sum(np.multiply(b_powers, b_array))
-    return value
+    # value = np.sum(np.multiply(a_powers, a_array)) + np.sum(np.multiply(b_powers, b_array))
+    # return value
 
 def power(inputValue, gens):
     """Solve функция вида: y = a0 + a1*x^b0 + a2*x^b1 + a3*x^b2 + ... + an*x^b(n-1)

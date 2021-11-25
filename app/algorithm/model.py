@@ -6,6 +6,9 @@ from functools import partial
 import heapq
 from sortedcontainers import SortedList
 
+import time
+current_millis = lambda: int(round(time.time() * 1000))
+
 log = logging.getLogger("model")
 
 
@@ -47,7 +50,8 @@ class Bot:
         Вычисляем значение solve функции на основе значений генов этого
         экземпляра бота
         """
-        return list(map(lambda val: self._solveFunction(val, self._gens), inputs))
+        return self._solveFunction(inputs, self._gens)
+        # return list(map(lambda val: self._solveFunction(val, self._gens), inputs))
 
     def getGens(self):
         return self._gens
@@ -67,12 +71,12 @@ class Bot:
 
         return Bot(newGens, self._solveFunction)
 
-    def mutate(self):
+    def mutate(self, weight = 1):
         """
         Мутируем (изменяем случайным образом) случайный ген
         """
         targetGenIndex = random.randint(0, len(self._gens) - 1)
-        change = (random.random() * 2 - 1)
+        change = (random.random() * 2 - 1) * weight
         self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change
 
     def getSolveFunction(self):
@@ -103,6 +107,7 @@ class Population:
         self._costFunction = costFunction
         self.bots = bots
         self._generation = 0
+        self._lastErrors = []
 
     def getGeneration(self):
         return self._generation
@@ -122,12 +127,16 @@ class Population:
         for i in range(0, numberOfBest):
             self.bots[i] = bestBots[i]
 
+        weight = self._getMutationWeight()
+        if weight > 1:
+            print(f"Increase mutation weight: {weight}")
+
         # Создаем новое поколение из лучших представителей текущего
         for i in range(numberOfBest, len(self.bots)):
             parent1 = bestBots[random.randint(0, numberOfBest - 1)]
             parent2 = bestBots[random.randint(0, numberOfBest - 1)]
             child = parent1.reproduce(parent2)
-            child.mutate()
+            child.mutate(weight)
             self.bots[i] = child
 
         # Увеличиваем generation
@@ -136,6 +145,27 @@ class Population:
         # Возвращаем ошибки лучшего бота текущей генерации
         return bestBotEstimation
 
+    def _getMutationWeight(self):
+        if len(self._lastErrors) <= 1:
+           return 1
+        lastError = self._lastErrors[-1]
+        if not self._isErrorsDeviationSmall() or lastError < 1:
+            return 1
+
+        if lastError < 10:
+            return 2
+        elif lastError < 100:
+            return 3
+        else:
+            return 4
+
+    def _addLastError(self, error):
+        self._lastErrors.append(error)
+        self._lastErrors = self._lastErrors[-5:]
+
+    def _isErrorsDeviationSmall(self):
+        return np.std(self._lastErrors) < 0.01
+
     def _collectEstimations(self, trainMatrix, numberOfBest):
         """
         Собираем лучших ботов с наименьшими ошибками
@@ -143,8 +173,10 @@ class Population:
 
         # seems not thread safe
         pool = Pool(4)
+        dt = current_millis();
         estims = pool.map(partial(self._collectEstimation, trainMatrix = trainMatrix), self.bots)
         smallestEstims = heapq.nsmallest(numberOfBest, estims, key=lambda estim: estim.getError())
+        print(f"duration {current_millis() - dt}ms")
         return sorted(smallestEstims, key=lambda estim: estim.getError())
 
         # estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
