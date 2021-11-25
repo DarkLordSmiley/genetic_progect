@@ -71,13 +71,18 @@ class Bot:
 
         return Bot(newGens, self._solveFunction)
 
-    def mutate(self, weight = 1):
+    def mutate(self, numberOfGens = 1):
         """
         Мутируем (изменяем случайным образом) случайный ген
         """
-        targetGenIndex = random.randint(0, len(self._gens) - 1)
-        change = (random.random() * 2 - 1) * weight
-        self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change
+        for i in range(0, numberOfGens):
+            targetGenIndex = random.randint(0, len(self._gens) - 1)
+            currentValue = self._gens[targetGenIndex]
+            if currentValue == 0:
+                self._gens[targetGenIndex] = np.random.uniform(-100.0, 100.0)
+            else:
+                change = (random.random() * 2 - 1)
+                self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change
 
     def getSolveFunction(self):
         return self._solveFunction
@@ -148,7 +153,7 @@ class Population:
 
     def _getMutationWeight(self):
         if len(self._lastErrors) <= 1:
-           return 1
+            return 1
         lastError = self._lastErrors[-1]
         if not self._isErrorsDeviationSmall() or lastError < 1:
             return 1
@@ -173,10 +178,11 @@ class Population:
         """
 
         # seems not thread safe
-        pool = Pool(4)
-        dt = current_millis();
+        pool = Pool(cpu_count())
+        dt = current_millis()
         estims = pool.map(partial(self._collectEstimation, trainMatrix = trainMatrix), self.bots)
         smallestEstims = heapq.nsmallest(numberOfBest, estims, key=lambda estim: estim.getError())
+        pool.terminate()
         print(f"duration {current_millis() - dt}ms")
         return sorted(smallestEstims, key=lambda estim: estim.getError())
 

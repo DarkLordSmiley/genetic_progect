@@ -41,7 +41,9 @@ def polymonSym(inputValues, gens):
     где a0 - an, b0 - b(n-1) - значения ген бота
     Если кол-во ген четно, то используются len(gens)-1 ген
     x - входное значение
-    y - выходное значение"""
+    y - выходное значение
+    Вычисляет выходные значения для всех переданных входных значений.
+    Используется vectorization для ускорения вычислений"""
 
     if len(gens) == 0:
         return 0.0
@@ -56,15 +58,15 @@ def polymonSym(inputValues, gens):
     a_array = gens[:length_a]
     b_array = gens[length_a:length_a + length_b]
 
-    # Оптимизированный алгоритм (через векторы и numpy)
-    # Возводим входное значение (inputValue) поочередно в степени b_array
-    # результат - вектор степеней ([x^b0, x^b1, x^b2, x^b3, ...] где x - это inputValue
     inputs = np.array(inputValues)
     inMatrix = inputs[np.newaxis, :].T
     a_powers = inMatrix ** np.arange(length_a)
     b_powers = inMatrix ** np.arange(-length_b, 0)[::-1]
     return np.sum(a_powers * a_array, axis=1) + np.sum(b_powers * b_array, axis=1)
 
+    # Оптимизированный алгоритм (через векторы и numpy)
+    # Возводим входное значение (inputValue) поочередно в степени b_array
+    # результат - вектор степеней ([x^b0, x^b1, x^b2, x^b3, ...] где x - это inputValue
     #a_powers = np.power(inputValues, np.arange(length_a), dtype=np.float)
     #b_powers = np.power(inputValues, np.arange(-length_b, 0)[::-1], dtype=np.float)
     # Вектор степеней поэелементно умножаем на значение каждого гена и суммируем все значения
