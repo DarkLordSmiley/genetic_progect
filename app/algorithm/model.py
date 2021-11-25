@@ -4,7 +4,6 @@ import logging
 from multiprocessing import cpu_count, Pool
 from functools import partial
 import heapq
-from sortedcontainers import SortedList
 
 import time
 current_millis = lambda: int(round(time.time() * 1000))
@@ -81,7 +80,7 @@ class Bot:
             if currentValue == 0:
                 self._gens[targetGenIndex] = np.random.uniform(-100.0, 100.0)
             else:
-                change = (random.random() * 2 - 1)
+                change = (random.random() * 4 - 2)
                 self._gens[targetGenIndex] = self._gens[targetGenIndex] + self._gens[targetGenIndex] * change
 
     def getSolveFunction(self):
