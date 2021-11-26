@@ -154,15 +154,17 @@ class Population:
         if len(self._lastErrors) <= 1:
             return 1
         lastError = self._lastErrors[-1]
-        if not self._isErrorsDeviationSmall() or lastError < 1:
+        if not self._isErrorsDeviationSmall() or lastError < 0.1:
             return 1
 
-        if lastError < 10:
+        if lastError < 1:
             return 2
-        elif lastError < 100:
+        if lastError < 10:
             return 3
-        else:
+        elif lastError < 100:
             return 4
+        else:
+            return 5
 
     def _addLastError(self, error):
         self._lastErrors.append(error)
