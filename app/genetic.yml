@@ -1,6 +1,8 @@
 configuration:
   data:
-    train: test_310_ext.csv
+    train: test.csv
+    #train: test_310_ext.csv
+    #train: test_310.csv
     # Количество тренировочных данных, которые будут использоваться в финальном тестировании,
     # но не будут использоваться при тренировке
     testPercent: 10
