@@ -13,7 +13,8 @@ configuration:
     enabled:
       - polynom
       - polymonSym
+      - polynomL
       - power
       - sincos
     numberOfEpochs: 200
-    chromosomeSize: 5
+    chromosomeSize: 9

@@ -1,5 +1,6 @@
 import numpy
 import numpy as np
+import logging
 import algorithm.model as model
 from graphics import draw as draw
 
@@ -78,38 +79,40 @@ def polymonSym(inputValues, gens):
 
 def polymonL(inputValues, gens):
     """Solve функция полиномиального вида:
-    y = a0 + a1*(x1 + b1) + a2*(x2 + b2)^2 + a3*(x3+b3)^3 + ... + an*(xn+bn)^n
-           + c1*(x1 + d1)^(-1) + c2*(x2 + d2)^(-2) + c3*(x3+d3)^(-3) + ... + cn*(xn+dn)^(-n)
+    y = a0 + a1*(x + b1) + a2*(x + b2)^2 + a3*(x+b3)^3 + ... + an*(x+bn)^n
+           + c1*(x + d1)^(-1) + c2*(x + d2)^(-2) + c3*(x+d3)^(-3) + ... + cn*(x+dn)^(-n)
 
     где a0 - an, b1 - bn, c1 - cn, d1 - dn - значения ген бота
     Соответственно минимальное кол-во ген = 5
     распределение в хромосоме: [a0, a1, ..., an, b1, ..., bn, c1, ..., cn, d1, ..., dn]
     соотвественно len(gens)-1 % 4 должно = 0
     Если кол-во ген четно, то используются len(gens)-1 ген
-    x1 - xn - входные значения
-    y1 - yn - выходные значения
+    x - входные значения
+    y - выходные значения
     Вычисляет выходные значения для всех переданных входных значений.
     Используется vectorization для ускорения вычислений"""
 
-    // ToDo!
     if len(gens) == 0:
         return 0.0
 
-    if len(gens) % 2 == 0:
-        length_a = int(len(gens) / 2)
-    else:
-        length_a = int((len(gens) + 1) / 2)
+    if (len(gens) - 1) % 4 != 0:
+        raise Exception("Gens number is not polynomL compliant. The (number-1) must be devided by 4")
 
-    length_b = length_a - 1
-
-    a_array = gens[:length_a]
-    b_array = gens[length_a:length_a + length_b]
+    length = int((len(gens) - 1) / 4)
+    a0 = gens[0]
+    a_array = gens[1:length + 1]
+    b_array = gens[length + 1 : length * 2 + 1]
+    c_array = gens[length * 2 + 1 : length * 3 + 1]
+    d_array = gens[length * 3 + 1 : length * 4 + 1]
 
     inputs = np.array(inputValues)
     inMatrix = inputs[np.newaxis, :].T
-    a_powers = inMatrix ** np.arange(length_a)
-    b_powers = inMatrix ** np.arange(-length_b, 0)[::-1]
-    return np.sum(a_powers * a_array, axis=1) + np.sum(b_powers * b_array, axis=1)
+    x_b_sums = inMatrix + b_array
+    x_d_sums = inMatrix + d_array
+    a_powers = x_b_sums ** np.arange(1, length + 1)
+    c_powers = x_d_sums ** np.arange(-length, 0)[::-1]
+
+    return np.sum(a_powers * a_array, axis=1) + np.sum(c_powers * c_array, axis=1)
 
     # Оптимизированный алгоритм (через векторы и numpy)
     # Возводим входное значение (inputValue) поочередно в степени b_array
