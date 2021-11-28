@@ -1,6 +1,6 @@
 import yaml 
 import os.path as path
-import algorithm.function as alg
+import algorithm.function as fun
 
 class WorldConfiguration:
     def __new__(cls, fileName):
@@ -29,14 +29,9 @@ class WorldConfiguration:
         if bestAmountToReproduce >= size:
             raise Exception(f"Param bestAmountToReproduce must be less than population size {size}")
 
-    def getSolveFunctions(self):
-        functions = []
-        for fun in self.config['configuration']['population']['enabled']:
-            if (fun == 'polynom'):
-                functions.append(alg.polymon)
-            elif (fun == 'sincos'):
-                functions.append(alg.sinCos)
-        return functions
+    def getSolveFunction(self):
+        functionName = self.config['configuration']['population']['solveFunction']
+        return getattr(fun, functionName)
 
     def getBestAmountToReproduce(self):
         value = self.config['configuration']['population']['bestAmountToReproduce']

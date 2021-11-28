@@ -11,7 +11,7 @@ def cost(ethalonY, botOutput):
     return abs(botOutput - ethalonY)
 
 
-def polymon(inputValue, gens):
+def polynom(inputValues, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
     где a0 - an - значения ген бота,
     x - входное значение
@@ -27,16 +27,21 @@ def polymon(inputValue, gens):
     # Оптимизированный алгоритм (через векторы и numpy)
     # Возводим входное значение (inputValue) поочередно в степени 0, 1, 2, 3 ... len(gens)
     # результат - вектор степеней ([x^0, x^1, x^2, x^3, ...] где x - это inputValue
-    powers = np.power(inputValue, np.arange(len(gens)), dtype=np.float)
+    inputs = np.array(inputValues)
+    inMatrix = inputs[np.newaxis, :].T
+    a_powers = inMatrix ** np.arange(len(gens))
     # Вектор степеней поэелементно умножаем на значение каждого гена и суммируем все значения
     # gens - это вектор [a0, a1, a2, a3, ...] умножаем его по вектор степеней, получаем вектор:
     # [a0*x^0, a1*x^1, a2*x^2, a3*x^3, ...]
     # и суммируем: value = a0*x^0 + a1*x^1 + a2*x^2 + a3*x^3, ...
-    value = numpy.sum(np.multiply(powers, gens))
-    return value
+    return np.sum(a_powers * gens, axis=1)
+
+    # powers = np.power(inputValue, np.arange(len(gens)), dtype=np.float)
+    # value = numpy.sum(np.multiply(powers, gens))
+    # return value
 
 
-def polymonSym(inputValues, gens):
+def polynomSym(inputValues, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
         + b0*x^(-1) + b1 * x^(-2) + b2 * x^(-3) + b3 * x^(-4) + ... + b(n-1) * a^(-n))
     где a0 - an, b0 - b(n-1) - значения ген бота
@@ -77,7 +82,7 @@ def polymonSym(inputValues, gens):
     # value = np.sum(np.multiply(a_powers, a_array)) + np.sum(np.multiply(b_powers, b_array))
     # return value
 
-def polymonL(inputValues, gens):
+def polynomL(inputValues, gens):
     """Solve функция полиномиального вида:
     y = a0 + a1*(x + b1) + a2*(x + b2)^2 + a3*(x+b3)^3 + ... + an*(x+bn)^n
            + c1*(x + d1)^(-1) + c2*(x + d2)^(-2) + c3*(x+d3)^(-3) + ... + cn*(x+dn)^(-n)

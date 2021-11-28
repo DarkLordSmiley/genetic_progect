@@ -25,7 +25,7 @@ print(data)
 # 3. preparing world, bots, epochs etc
 context = model.PopulationContext()\
     .costFunction(fun.cost)\
-    .botSolveFunction(fun.polymonL)\
+    .botSolveFunction(wc.getSolveFunction())\
     .botsNumberInPopulation(wc.getSize())\
     .botsChromosomeSize(wc.getChromosomeSize())\
     .epochsNumber(wc.getNumberOfEpochs())\

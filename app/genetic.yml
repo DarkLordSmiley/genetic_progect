@@ -12,11 +12,10 @@ configuration:
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
     # Кол-во должно быть меньше чем размер популяции
     bestAmountToReproduce: 15
-    enabled:
-      - polynom
-      - polymonSym
-      - polynomL
-      - power
-      - sincos
+    solveFunction: polynom
+#    solveFunction: polynomSym
+#    solveFunction: polynomL
+#    solveFunction: power
+#    solveFunction: sincos
     numberOfEpochs: 200
     chromosomeSize: 9
