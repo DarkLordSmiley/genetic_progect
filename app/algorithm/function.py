@@ -117,7 +117,7 @@ def polynomL(inputValues, gens):
     a_powers = x_b_sums ** np.arange(1, length + 1)
     c_powers = x_d_sums ** np.arange(-length, 0)[::-1]
 
-    return np.sum(a_powers * a_array, axis=1) + np.sum(c_powers * c_array, axis=1)
+    return a0 + np.sum(a_powers * a_array, axis=1) + np.sum(c_powers * c_array, axis=1)
 
     # Оптимизированный алгоритм (через векторы и numpy)
     # Возводим входное значение (inputValue) поочередно в степени b_array

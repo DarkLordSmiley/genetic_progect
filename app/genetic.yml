@@ -1,8 +1,10 @@
 configuration:
   data:
     #train: test.csv
-    train: test_310_ext.csv
+    #train: test_310_ext.csv
     #train: test_310.csv
+    #train: ../docs/examples/page306/test.csv
+    train: ../docs/examples/page306/testExtended.csv
     # Количество тренировочных данных, которые будут использоваться в финальном тестировании,
     # но не будут использоваться при тренировке
     testPercent: 10
@@ -12,9 +14,9 @@ configuration:
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
     # Кол-во должно быть меньше чем размер популяции
     bestAmountToReproduce: 15
-    solveFunction: polynom
+#    solveFunction: polynom
 #    solveFunction: polynomSym
-#    solveFunction: polynomL
+    solveFunction: polynomL
 #    solveFunction: power
 #    solveFunction: sincos
     numberOfEpochs: 200

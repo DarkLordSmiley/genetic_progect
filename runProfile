@@ -1,0 +1,6 @@
+#!/bin/bash
+
+PYTHONPATH = ./app
+cd ./app
+
+python3 -m cProfile genetic.py
