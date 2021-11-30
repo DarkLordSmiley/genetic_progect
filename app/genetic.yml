@@ -4,7 +4,9 @@ configuration:
     #train: test_310_ext.csv
     #train: test_310.csv
     #train: ../docs/examples/page306/test.csv
-    train: ../docs/examples/page306/testExtended.csv
+    #train: ../docs/examples/page306/testExtended.csv
+    #train: ../docs/examples/page299/test.csv
+    train: ../docs/examples/page299/testExtended.csv
     # Количество тренировочных данных, которые будут использоваться в финальном тестировании,
     # но не будут использоваться при тренировке
     testPercent: 10
