@@ -1,4 +1,5 @@
 import numpy as np
+import math
 import random
 import logging
 from multiprocessing import cpu_count, Pool
@@ -73,7 +74,10 @@ class Bot:
         """
         Мутируем (изменяем случайным образом) случайный ген
         """
-        for i in range(0, numberOfGens):
+        nGens = 1
+        if numberOfGens > 1:
+            nGens = numberOfGens
+        for i in range(0, nGens):
             targetGenIndex = random.randint(0, len(self._gens) - 1)
             currentValue = self._gens[targetGenIndex]
             if currentValue == 0:
@@ -103,7 +107,7 @@ class Population:
     стоимости.
     """
 
-    def __init__(self, costFunction, bots):
+    def __init__(self, costFunction, bots, chromosomeSize):
         """
         Конструктор с cost функцией и коллекцией ботов.
         """
@@ -111,6 +115,7 @@ class Population:
         self.bots = bots
         self._generation = 0
         self._lastErrors = []
+        self._chromosomeSize = chromosomeSize
 
     def getGeneration(self):
         return self._generation
@@ -157,13 +162,17 @@ class Population:
             return 1
 
         if lastError < 1:
-            return 2
+            #25%
+            return math.ceil(self._chromosomeSize * 0.25)
         if lastError < 10:
-            return 3
+            #50%
+            return math.ceil(self._chromosomeSize * 0.5)
         elif lastError < 100:
-            return 4
+            #75%
+            return math.ceil(self._chromosomeSize * 0.75)
         else:
-            return 5
+            #100%
+            return self._chromosomeSize
 
     def _addLastError(self, error):
         self._lastErrors.append(error)
@@ -264,7 +273,7 @@ def generatePopulation(costFunction, botSolveFunction, numberOfBots, botChromoso
     for b in range(0, numberOfBots):
         bots.append(Bot.create(botSolveFunction, botChromosomeSize))
 
-    return Population(costFunction, bots)
+    return Population(costFunction, bots, botChromosomeSize)
 
 
 def runPopulation(context: PopulationContext, drawFun):
