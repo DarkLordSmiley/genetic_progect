@@ -1,6 +1,9 @@
 import yaml 
 import os.path as path
 import algorithm.function as fun
+import logging
+
+log = logging.getLogger("config")
 
 class WorldConfiguration:
     def __new__(cls, fileName):
@@ -13,7 +16,7 @@ class WorldConfiguration:
         Reads the genetic configuration yaml file into internal config field.
         Also performs a validation upon the loaded configuration
         """
-        print("WC INIT!!!")
+        log.debug("WC INIT!!!")
         with open(fileName) as file:
             geneticConf = yaml.load(file, Loader=yaml.FullLoader)
 

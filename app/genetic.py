@@ -18,9 +18,9 @@ log.debug("Read the configuration of world emulation:")
 wc = WorldConfiguration("genetic.yml")
 
 # 2. reading input data
-log.debug("Read the input data. Data information:")
+log.info("Read the input data. Data information:")
 data = csvUtil.readArrayData(wc.getTestData())
-print(data)
+log.info(data)
 
 # 3. preparing world, bots, epochs etc
 context = model.PopulationContext()\
@@ -39,7 +39,7 @@ bestBotEstimation = model.runPopulation(context, lambda estimation, epoch: fun.d
 bestBot = bestBotEstimation.getBot()
 
 # 5. print out the best result
-print(f"Best result: gens: {bestBot.getGens()}")
+log.info(f"Best result: gens: {bestBot.getGens()}")
 log.info("Emulation is finished")
 
 

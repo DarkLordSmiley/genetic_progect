@@ -10,7 +10,6 @@ current_millis = lambda: int(round(time.time() * 1000))
 
 log = logging.getLogger("model")
 
-
 class Bot:
     """
    Бот - это организм, содержащий хромосому, т.е. набор генов для решения задачи.
@@ -133,7 +132,7 @@ class Population:
 
         weight = self._getMutationWeight()
         if weight > 1:
-            print(f"Increase mutation weight: {weight}")
+            log.info(f"Increase mutation weight: {weight}")
 
         # Создаем новое поколение из лучших представителей текущего
         for i in range(numberOfBest, len(self.bots)):
@@ -183,7 +182,7 @@ class Population:
         estims = pool.map(partial(self._collectEstimation, trainMatrix = trainMatrix), self.bots)
         smallestEstims = heapq.nsmallest(numberOfBest, estims, key=lambda estim: estim.getError())
         pool.terminate()
-        print(f"duration {current_millis() - dt}ms")
+        log.info(f" -> epoch computation duration {current_millis() - dt}ms")
         return sorted(smallestEstims, key=lambda estim: estim.getError())
 
         # estims = list(map(lambda bot: Estimation(bot, trainMatrix, self._costFunction), self.bots))
@@ -277,7 +276,7 @@ def runPopulation(context: PopulationContext, drawFun):
     log.info("Launch world...")
     for e in range(0, context.epochsNumber):
         bestBotEstimation = population.selectBestAndGenerate(context.data, context.botsNumberToReproduce)
-        print(f"Epoch: {e}, error: {bestBotEstimation.getError()}")
+        log.info(f"Epoch: {e}, error: {bestBotEstimation.getError()}")
 
         if drawFun:
             drawFun(bestBotEstimation, e)

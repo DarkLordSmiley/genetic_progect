@@ -1,5 +1,8 @@
 import csv
 from numpy import loadtxt
+import logging
+
+log = logging.getLogger("util")
 
 def readData(fileName):
     """
@@ -14,7 +17,7 @@ def _readDataFromFileObj(fileObj):
     """
     reader = csv.DictReader(fileObj, delimiter=',')
     for line in reader:
-        print("x=", float(line["x"]), ", y=", float(line["y"])),
+        log.info("x=", float(line["x"]), ", y=", float(line["y"])),
 
 def readArrayData(fileName, skipRows = 1):
     """

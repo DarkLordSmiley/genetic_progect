@@ -441,3 +441,110 @@
 [2021-11-30 17:41:37,537] [INFO] - Prepared bots, population
 [2021-11-30 17:41:37,537] [INFO] - Launch world...
 [2021-11-30 18:11:37,240] [INFO] - Emulation is finished
+[2021-12-07 12:38:47,941] [INFO] - Logging system is configured
+[2021-12-07 12:38:48,144] [INFO] - Start genetic world emulation...
+[2021-12-07 12:38:48,149] [INFO] - Prepared context for population
+[2021-12-07 12:38:48,149] [INFO] - Start world emulation...
+[2021-12-07 12:38:48,332] [INFO] - Prepared bots, population
+[2021-12-07 12:38:48,332] [INFO] - Launch world...
+[2021-12-07 12:48:06,178] [INFO] - Logging system is configured
+[2021-12-07 12:48:06,257] [INFO] - Start genetic world emulation...
+[2021-12-07 12:48:06,262] [INFO] - Read the input data. Data information:
+[2021-12-07 12:48:26,095] [INFO] - Logging system is configured
+[2021-12-07 12:48:26,184] [INFO] - Start genetic world emulation...
+[2021-12-07 12:48:26,191] [INFO] - Read the input data. Data information:
+[2021-12-07 12:48:26,193] [INFO] - [[-6.00000000e+00  2.77777778e-02]
+ [-5.50000000e+00  3.30578512e-02]
+ [-5.00000000e+00  4.00000000e-02]
+ [-4.50000000e+00  4.93827160e-02]
+ [-4.00000000e+00  6.25000000e-02]
+ [-3.50000000e+00  8.16326531e-02]
+ [-3.00000000e+00  1.11111111e-01]
+ [-2.50000000e+00  1.60000000e-01]
+ [-2.00000000e+00  2.50000000e-01]
+ [-1.50000000e+00  4.44444444e-01]
+ [-1.00000000e+00  1.00000000e+00]
+ [-5.00000000e-01  4.00000000e+00]
+ [-2.50000000e-01  1.60000000e+01]
+ [-1.00000000e-01  1.00000000e+02]
+ [ 1.00000000e-01  1.00000000e+02]
+ [ 2.50000000e-01  1.60000000e+01]
+ [ 5.00000000e-01  4.00000000e+00]
+ [ 1.00000000e+00  1.00000000e+00]
+ [ 1.50000000e+00  4.44444444e-01]
+ [ 2.00000000e+00  2.50000000e-01]
+ [ 2.50000000e+00  1.60000000e-01]
+ [ 3.00000000e+00  1.11111111e-01]
+ [ 3.50000000e+00  8.16326531e-02]
+ [ 4.00000000e+00  6.25000000e-02]
+ [ 4.50000000e+00  4.93827160e-02]
+ [ 5.00000000e+00  4.00000000e-02]
+ [ 5.50000000e+00  3.30578512e-02]
+ [ 6.00000000e+00  2.77777778e-02]]
+[2021-12-07 12:48:26,197] [INFO] - Prepared context for population
+[2021-12-07 12:48:26,198] [INFO] - Start world emulation...
+[2021-12-07 12:48:26,363] [INFO] - Prepared bots, population
+[2021-12-07 12:48:26,363] [INFO] - Launch world...
+[2021-12-07 12:48:31,881] [INFO] -  -> epoch computation duration 5497ms
+[2021-12-07 12:48:33,014] [INFO] - Epoch: 0, error: 35.86619408810315
+[2021-12-07 12:48:59,524] [INFO] -  -> epoch computation duration 26354ms
+[2021-12-07 12:49:00,606] [INFO] - Epoch: 1, error: 9.018224821533776
+[2021-12-07 12:49:06,434] [INFO] -  -> epoch computation duration 5727ms
+[2021-12-07 12:49:07,517] [INFO] - Epoch: 2, error: 8.609266202546538
+[2021-12-07 12:49:13,211] [INFO] -  -> epoch computation duration 5574ms
+[2021-12-07 12:49:14,323] [INFO] - Epoch: 3, error: 8.607138697060709
+[2021-12-07 12:49:19,974] [INFO] -  -> epoch computation duration 5525ms
+[2021-12-07 12:49:21,052] [INFO] - Epoch: 4, error: 8.600972752654954
+[2021-12-07 12:49:26,737] [INFO] -  -> epoch computation duration 5558ms
+[2021-12-07 12:49:27,824] [INFO] - Epoch: 5, error: 8.596841801868282
+[2021-12-07 12:49:33,743] [INFO] -  -> epoch computation duration 5887ms
+[2021-12-07 12:49:33,785] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:49:34,926] [INFO] - Epoch: 6, error: 8.592587616516564
+[2021-12-07 12:49:44,896] [INFO] -  -> epoch computation duration 9940ms
+[2021-12-07 12:49:44,940] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:49:46,089] [INFO] - Epoch: 7, error: 8.592587616516564
+[2021-12-07 12:49:56,686] [INFO] -  -> epoch computation duration 10564ms
+[2021-12-07 12:49:56,728] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:49:57,913] [INFO] - Epoch: 8, error: 8.592304612946846
+[2021-12-07 12:50:08,250] [INFO] -  -> epoch computation duration 10301ms
+[2021-12-07 12:50:08,294] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:50:09,456] [INFO] - Epoch: 9, error: 8.591284478616172
+[2021-12-07 12:50:19,492] [INFO] -  -> epoch computation duration 9993ms
+[2021-12-07 12:50:19,538] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:50:20,692] [INFO] - Epoch: 10, error: 8.591284478616172
+[2021-12-07 12:50:30,839] [INFO] -  -> epoch computation duration 10008ms
+[2021-12-07 12:50:30,883] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:50:32,038] [INFO] - Epoch: 11, error: 8.591284478616172
+[2021-12-07 12:50:42,211] [INFO] -  -> epoch computation duration 10139ms
+[2021-12-07 12:50:42,254] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:50:43,415] [INFO] - Epoch: 12, error: 8.590755892917075
+[2021-12-07 12:50:53,508] [INFO] -  -> epoch computation duration 10061ms
+[2021-12-07 12:50:53,551] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:50:54,715] [INFO] - Epoch: 13, error: 8.590607120801169
+[2021-12-07 12:51:04,899] [INFO] -  -> epoch computation duration 10153ms
+[2021-12-07 12:51:04,943] [INFO] - Increase mutation weight: 3
+[2021-12-07 12:51:06,094] [INFO] - Epoch: 14, error: 8.590499759511651
+[2021-12-07 12:51:16,167] [INFO] -  -> epoch computation duration 10036ms
+[2021-12-07 12:51:17,242] [INFO] - Epoch: 15, error: 5.497901450243754
+[2021-12-07 12:51:22,934] [INFO] -  -> epoch computation duration 5653ms
+[2021-12-07 12:51:24,026] [INFO] - Epoch: 16, error: 0.672169453073645
+[2021-12-07 12:51:29,618] [INFO] -  -> epoch computation duration 5554ms
+[2021-12-07 12:51:30,690] [INFO] - Epoch: 17, error: 0.2871323578273472
+[2021-12-07 12:51:36,295] [INFO] -  -> epoch computation duration 5566ms
+[2021-12-07 12:51:37,374] [INFO] - Epoch: 18, error: 0.20132878679983518
+[2021-12-07 12:51:43,009] [INFO] -  -> epoch computation duration 5596ms
+[2021-12-07 12:51:44,088] [INFO] - Epoch: 19, error: 0.1359486317768587
+[2021-12-07 12:51:49,728] [INFO] -  -> epoch computation duration 5604ms
+[2021-12-07 12:51:50,795] [INFO] - Epoch: 20, error: 0.11627548284246848
+[2021-12-07 12:51:56,574] [INFO] -  -> epoch computation duration 5618ms
+[2021-12-07 12:51:57,659] [INFO] - Epoch: 21, error: 0.11214608755209157
+[2021-12-07 12:52:03,350] [INFO] -  -> epoch computation duration 5651ms
+[2021-12-07 12:52:04,440] [INFO] - Epoch: 22, error: 0.10032344643205514
+[2021-12-07 12:52:10,716] [INFO] -  -> epoch computation duration 6237ms
+[2021-12-07 12:52:11,825] [INFO] - Epoch: 23, error: 0.05767008117046225
+[2021-12-07 12:52:17,719] [INFO] -  -> epoch computation duration 5853ms
+[2021-12-07 12:52:18,828] [INFO] - Epoch: 24, error: 0.04775976738335636
+[2021-12-07 12:52:24,789] [INFO] -  -> epoch computation duration 5925ms
+[2021-12-07 12:52:25,890] [INFO] - Epoch: 25, error: 0.043626409261985875
+[2021-12-07 12:52:31,830] [INFO] -  -> epoch computation duration 5901ms
+[2021-12-07 12:52:32,957] [INFO] - Epoch: 26, error: 0.043319147138814316
