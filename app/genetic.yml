@@ -1,25 +1,38 @@
 configuration:
   data:
     #train: test.csv
+    #train: test_4_5x2.csv
+    #train: test_x-1.csv
     #train: test_310_ext.csv
     #train: test_310.csv
+    train: test_3-2_x_1_2.csv
     #train: ../docs/examples/page306/test.csv
     #train: ../docs/examples/page306/testExtended.csv
     #train: ../docs/examples/page299/test.csv
-    train: ../docs/examples/page299/testExtended.csv
+    #train: ../docs/examples/page299/testExtended.csv
     # Количество тренировочных данных, которые будут использоваться в финальном тестировании,
     # но не будут использоваться при тренировке
     testPercent: 10
   population:
     # Размер полуляции - кол-во ботов в полуляции
-    size: 20000
+    size: 50000
     # Кол-во лучших ботов, которые будут участвовать в генерации следующего поколения
     # Кол-во должно быть меньше чем размер популяции
     bestAmountToReproduce: 15
+    # Полином виде a0 + a1x + a2x^2 + a3x^3 + ...
 #    solveFunction: polynom
+#    chromosomeSize: 3
+
+    # Полином виде a0 + a1x + a2x^2 + ... + an*x^n + ... + b1x^(-1) + b2x^(-2) + ... + bn*x^(-n)
+    # Размер хромосомы должен высчитываться по формуле n * 2 + 1, где n - старшая степень
 #    solveFunction: polynomSym
+#    chromosomeSize: 5
+
+    # Полином вида a0 + a1(x+b1) + a2(x+b2)^2 + ... + c1(x+d1)^(-1) + c2(x+d2)(-2) + ...
+    # Размер хромосомы должен высчитываться по формуле n * 4 + 1, где n - старшая степень
     solveFunction: polynomL
+    chromosomeSize: 9
+
 #    solveFunction: power
 #    solveFunction: sincos
-    numberOfEpochs: 200
-    chromosomeSize: 9
+    numberOfEpochs: 100
