@@ -548,3 +548,2691 @@
 [2021-12-07 12:52:25,890] [INFO] - Epoch: 25, error: 0.043626409261985875
 [2021-12-07 12:52:31,830] [INFO] -  -> epoch computation duration 5901ms
 [2021-12-07 12:52:32,957] [INFO] - Epoch: 26, error: 0.043319147138814316
+[2021-12-07 12:52:39,177] [INFO] -  -> epoch computation duration 6181ms
+[2021-12-07 12:52:40,341] [INFO] - Epoch: 27, error: 0.04321679868703422
+[2021-12-07 12:53:32,001] [INFO] - Logging system is configured
+[2021-12-07 12:53:32,088] [INFO] - Start genetic world emulation...
+[2021-12-07 12:53:32,092] [INFO] - Read the input data. Data information:
+[2021-12-07 12:53:32,093] [INFO] - [[-5.00000e+01 -1.19750e+03]
+ [-4.00000e+01 -7.57500e+02]
+ [-3.00000e+01 -4.17500e+02]
+ [-2.00000e+01 -1.77500e+02]
+ [-1.40000e+01 -8.15000e+01]
+ [-1.20000e+01 -5.75000e+01]
+ [-1.00000e+01 -3.75000e+01]
+ [-8.00000e+00 -2.15000e+01]
+ [-6.00000e+00 -9.50000e+00]
+ [-4.00000e+00 -1.50000e+00]
+ [-2.00000e+00  2.50000e+00]
+ [-1.00000e+00  3.00000e+00]
+ [-5.00000e-01  2.87500e+00]
+ [-2.50000e-01  2.71875e+00]
+ [-1.00000e-01  2.59500e+00]
+ [ 0.00000e+00  2.50000e+00]
+ [ 1.00000e-01  2.39500e+00]
+ [ 2.50000e-01  2.21875e+00]
+ [ 5.00000e-01  1.87500e+00]
+ [ 1.00000e+00  1.00000e+00]
+ [ 2.00000e+00 -1.50000e+00]
+ [ 4.00000e+00 -9.50000e+00]
+ [ 6.00000e+00 -2.15000e+01]
+ [ 8.00000e+00 -3.75000e+01]
+ [ 1.00000e+01 -5.75000e+01]
+ [ 1.20000e+01 -8.15000e+01]
+ [ 1.40000e+01 -1.09500e+02]
+ [ 2.00000e+01 -2.17500e+02]
+ [ 3.00000e+01 -4.77500e+02]
+ [ 4.00000e+01 -8.37500e+02]
+ [ 5.00000e+01 -1.29750e+03]]
+[2021-12-07 12:53:32,095] [INFO] - Prepared context for population
+[2021-12-07 12:53:32,096] [INFO] - Start world emulation...
+[2021-12-07 12:53:32,479] [INFO] - Prepared bots, population
+[2021-12-07 12:53:32,479] [INFO] - Launch world...
+[2021-12-07 12:53:46,215] [INFO] -  -> epoch computation duration 13713ms
+[2021-12-07 12:53:49,033] [INFO] - Epoch: 0, error: 79.66185924419703
+[2021-12-07 12:54:55,133] [INFO] -  -> epoch computation duration 65924ms
+[2021-12-07 12:54:57,891] [INFO] - Epoch: 1, error: 9.55355965163983
+[2021-12-07 12:55:11,706] [INFO] -  -> epoch computation duration 13670ms
+[2021-12-07 12:55:14,443] [INFO] - Epoch: 2, error: 7.498638652615227
+[2021-12-07 12:55:29,033] [INFO] -  -> epoch computation duration 14445ms
+[2021-12-07 12:55:31,892] [INFO] - Epoch: 3, error: 1.9106932251710156
+[2021-12-07 12:55:45,928] [INFO] -  -> epoch computation duration 13899ms
+[2021-12-07 12:55:48,616] [INFO] - Epoch: 4, error: 1.2226349141670991
+[2021-12-07 12:56:02,651] [INFO] -  -> epoch computation duration 13881ms
+[2021-12-07 12:56:05,376] [INFO] - Epoch: 5, error: 0.6676511750215121
+[2021-12-07 12:56:19,424] [INFO] -  -> epoch computation duration 14008ms
+[2021-12-07 12:56:22,118] [INFO] - Epoch: 6, error: 0.22411771913718972
+[2021-12-07 12:56:36,099] [INFO] -  -> epoch computation duration 13939ms
+[2021-12-07 12:56:38,888] [INFO] - Epoch: 7, error: 0.11948405172114099
+[2021-12-07 12:56:52,891] [INFO] -  -> epoch computation duration 13949ms
+[2021-12-07 12:56:55,592] [INFO] - Epoch: 8, error: 0.043806052179471824
+[2021-12-07 12:57:09,545] [INFO] -  -> epoch computation duration 13915ms
+[2021-12-07 12:57:12,284] [INFO] - Epoch: 9, error: 0.029406147406181877
+[2021-12-07 12:57:26,633] [INFO] -  -> epoch computation duration 14306ms
+[2021-12-07 12:57:29,509] [INFO] - Epoch: 10, error: 0.025697401534946204
+[2021-12-07 12:57:44,496] [INFO] -  -> epoch computation duration 14816ms
+[2021-12-07 12:57:47,274] [INFO] - Epoch: 11, error: 0.025267982564775866
+[2021-12-07 12:58:01,523] [INFO] -  -> epoch computation duration 14207ms
+[2021-12-07 12:58:04,335] [INFO] - Epoch: 12, error: 0.024291775859873892
+[2021-12-07 12:58:18,684] [INFO] -  -> epoch computation duration 14307ms
+[2021-12-07 12:58:21,380] [INFO] - Epoch: 13, error: 0.02371409457453759
+[2021-12-07 12:58:35,726] [INFO] -  -> epoch computation duration 14293ms
+[2021-12-07 12:58:38,429] [INFO] - Epoch: 14, error: 0.022503590870518075
+[2021-12-07 12:58:53,018] [INFO] -  -> epoch computation duration 14536ms
+[2021-12-07 12:58:55,648] [INFO] - Epoch: 15, error: 0.02189278202662353
+[2021-12-07 12:59:10,299] [INFO] -  -> epoch computation duration 14602ms
+[2021-12-07 12:59:12,962] [INFO] - Epoch: 16, error: 0.02189278202662353
+[2021-12-07 12:59:26,800] [INFO] -  -> epoch computation duration 13796ms
+[2021-12-07 12:59:29,481] [INFO] - Epoch: 17, error: 0.02189278202662353
+[2021-12-07 12:59:43,572] [INFO] -  -> epoch computation duration 14048ms
+[2021-12-07 12:59:46,225] [INFO] - Epoch: 18, error: 0.02176861059959443
+[2021-12-07 12:59:59,901] [INFO] -  -> epoch computation duration 13632ms
+[2021-12-07 13:00:02,628] [INFO] - Epoch: 19, error: 0.021744374476164872
+[2021-12-09 14:52:35,325] [INFO] - Logging system is configured
+[2021-12-09 14:52:35,605] [INFO] - Start genetic world emulation...
+[2021-12-09 14:52:35,610] [INFO] - Read the input data. Data information:
+[2021-12-09 14:52:35,611] [INFO] - [[0.00e+00 0.00e+00]
+ [1.00e-02 1.00e-01]
+ [6.25e-02 2.50e-01]
+ [2.50e-01 5.00e-01]
+ [1.00e+00 1.00e+00]
+ [4.00e+00 2.00e+00]
+ [9.00e+00 3.00e+00]
+ [1.60e+01 4.00e+00]
+ [2.50e+01 5.00e+00]
+ [3.60e+01 6.00e+00]
+ [4.90e+01 7.00e+00]
+ [6.40e+01 8.00e+00]]
+[2021-12-09 14:52:35,613] [INFO] - Prepared context for population
+[2021-12-09 14:52:35,613] [INFO] - Start world emulation...
+[2021-12-09 14:52:35,802] [INFO] - Prepared bots, population
+[2021-12-09 14:52:35,802] [INFO] - Launch world...
+[2021-12-09 14:52:40,586] [INFO] -  -> epoch computation duration 4751ms
+[2021-12-09 14:52:41,800] [INFO] - Epoch: 0, error: 108.35987460996999
+[2021-12-09 14:53:06,416] [INFO] -  -> epoch computation duration 24438ms
+[2021-12-09 14:53:07,636] [INFO] - Epoch: 1, error: 16.591862995157815
+[2021-12-09 14:53:12,583] [INFO] -  -> epoch computation duration 4849ms
+[2021-12-09 14:53:13,790] [INFO] - Epoch: 2, error: 2.9733713452868606
+[2021-12-09 14:53:18,796] [INFO] -  -> epoch computation duration 4896ms
+[2021-12-09 14:53:20,005] [INFO] - Epoch: 3, error: 0.7480429989079468
+[2021-12-09 14:53:24,969] [INFO] -  -> epoch computation duration 4856ms
+[2021-12-09 14:53:26,164] [INFO] - Epoch: 4, error: 0.499078708699959
+[2021-12-09 14:53:31,024] [INFO] -  -> epoch computation duration 4739ms
+[2021-12-09 14:53:32,222] [INFO] - Epoch: 5, error: 0.26973005292294394
+[2021-12-09 14:53:37,066] [INFO] -  -> epoch computation duration 4803ms
+[2021-12-09 14:53:38,274] [INFO] - Epoch: 6, error: 0.17072460825357436
+[2021-12-09 14:53:43,088] [INFO] -  -> epoch computation duration 4773ms
+[2021-12-09 14:53:44,329] [INFO] - Epoch: 7, error: 0.1066532273841448
+[2021-12-09 14:53:49,206] [INFO] -  -> epoch computation duration 4838ms
+[2021-12-09 14:53:50,420] [INFO] - Epoch: 8, error: 0.10036439433360733
+[2021-12-09 14:53:55,180] [INFO] -  -> epoch computation duration 4719ms
+[2021-12-09 14:53:56,391] [INFO] - Epoch: 9, error: 0.09921845984229061
+[2021-12-09 14:54:01,299] [INFO] -  -> epoch computation duration 4867ms
+[2021-12-09 14:54:02,508] [INFO] - Epoch: 10, error: 0.09757278133237812
+[2021-12-09 14:54:07,462] [INFO] -  -> epoch computation duration 4832ms
+[2021-12-09 14:54:08,667] [INFO] - Epoch: 11, error: 0.09750974384909845
+[2021-12-09 14:54:13,454] [INFO] -  -> epoch computation duration 4747ms
+[2021-12-09 14:54:14,654] [INFO] - Epoch: 12, error: 0.09750974384909845
+[2021-12-09 14:54:19,299] [INFO] -  -> epoch computation duration 4608ms
+[2021-12-09 14:54:20,504] [INFO] - Epoch: 13, error: 0.09714883362483924
+[2021-12-09 14:54:25,349] [INFO] -  -> epoch computation duration 4806ms
+[2021-12-09 14:54:26,551] [INFO] - Epoch: 14, error: 0.09694040699173012
+[2021-12-09 14:54:31,344] [INFO] -  -> epoch computation duration 4756ms
+[2021-12-09 14:54:32,548] [INFO] - Epoch: 15, error: 0.09677239224718755
+[2021-12-09 14:54:37,493] [INFO] -  -> epoch computation duration 4906ms
+[2021-12-09 14:54:38,705] [INFO] - Epoch: 16, error: 0.09677239224718755
+[2021-12-09 14:54:43,453] [INFO] -  -> epoch computation duration 4709ms
+[2021-12-09 14:54:44,656] [INFO] - Epoch: 17, error: 0.09677239224718755
+[2021-12-09 14:54:49,473] [INFO] -  -> epoch computation duration 4777ms
+[2021-12-09 14:54:50,702] [INFO] - Epoch: 18, error: 0.09661909413258422
+[2021-12-09 14:54:55,622] [INFO] -  -> epoch computation duration 4877ms
+[2021-12-09 14:54:56,897] [INFO] - Epoch: 19, error: 0.09661154571047552
+[2021-12-09 14:55:01,931] [INFO] -  -> epoch computation duration 4993ms
+[2021-12-09 14:55:03,141] [INFO] - Epoch: 20, error: 0.09661154571047552
+[2021-12-09 14:55:08,189] [INFO] -  -> epoch computation duration 4894ms
+[2021-12-09 14:55:09,404] [INFO] - Epoch: 21, error: 0.096569810916094
+[2021-12-09 14:55:14,446] [INFO] -  -> epoch computation duration 5001ms
+[2021-12-09 14:55:15,641] [INFO] - Epoch: 22, error: 0.09650285046669493
+[2021-12-09 14:55:20,632] [INFO] -  -> epoch computation duration 4954ms
+[2021-12-09 14:55:21,908] [INFO] - Epoch: 23, error: 0.09649991571298548
+[2021-12-09 14:55:26,964] [INFO] -  -> epoch computation duration 5019ms
+[2021-12-09 14:55:28,175] [INFO] - Epoch: 24, error: 0.09647702621020011
+[2021-12-09 14:55:33,108] [INFO] -  -> epoch computation duration 4894ms
+[2021-12-09 14:55:34,309] [INFO] - Epoch: 25, error: 0.09647702621020011
+[2021-12-09 14:55:39,160] [INFO] -  -> epoch computation duration 4813ms
+[2021-12-09 14:55:40,390] [INFO] - Epoch: 26, error: 0.09647702621020011
+[2021-12-09 14:55:45,400] [INFO] -  -> epoch computation duration 4970ms
+[2021-12-09 14:55:46,644] [INFO] - Epoch: 27, error: 0.09647221115456324
+[2021-12-09 14:55:51,659] [INFO] -  -> epoch computation duration 4971ms
+[2021-12-09 14:55:52,862] [INFO] - Epoch: 28, error: 0.09646706884333008
+[2021-12-09 14:55:57,929] [INFO] -  -> epoch computation duration 5027ms
+[2021-12-09 14:55:59,238] [INFO] - Epoch: 29, error: 0.09646706884333008
+[2021-12-09 14:56:03,991] [INFO] -  -> epoch computation duration 4715ms
+[2021-12-09 14:56:05,225] [INFO] - Epoch: 30, error: 0.09646706884333008
+[2021-12-09 14:56:10,226] [INFO] -  -> epoch computation duration 4856ms
+[2021-12-09 14:56:11,452] [INFO] - Epoch: 31, error: 0.09646706884333008
+[2021-12-09 14:56:16,491] [INFO] -  -> epoch computation duration 4999ms
+[2021-12-09 14:56:17,769] [INFO] - Epoch: 32, error: 0.09646706884333008
+[2021-12-09 14:56:22,959] [INFO] -  -> epoch computation duration 5145ms
+[2021-12-09 14:56:24,219] [INFO] - Epoch: 33, error: 0.09646706884333008
+[2021-12-09 14:56:32,502] [INFO] - Logging system is configured
+[2021-12-09 14:56:32,717] [INFO] - Start genetic world emulation...
+[2021-12-09 14:56:32,720] [INFO] - Read the input data. Data information:
+[2021-12-09 14:56:32,721] [INFO] - [[0.000e+00 0.000e+00]
+ [2.500e-03 5.000e-02]
+ [1.000e-02 1.000e-01]
+ [6.250e-02 2.500e-01]
+ [2.500e-01 5.000e-01]
+ [5.625e-01 7.500e-01]
+ [1.000e+00 1.000e+00]
+ [4.000e+00 2.000e+00]
+ [9.000e+00 3.000e+00]
+ [1.600e+01 4.000e+00]
+ [2.500e+01 5.000e+00]
+ [3.600e+01 6.000e+00]
+ [4.900e+01 7.000e+00]
+ [6.400e+01 8.000e+00]
+ [8.100e+01 9.000e+00]
+ [1.000e+02 1.000e+01]
+ [1.210e+02 1.100e+01]
+ [1.440e+02 1.200e+01]
+ [1.690e+02 1.300e+01]
+ [1.960e+02 1.400e+01]]
+[2021-12-09 14:56:32,722] [INFO] - Prepared context for population
+[2021-12-09 14:56:32,722] [INFO] - Start world emulation...
+[2021-12-09 14:56:32,896] [INFO] - Prepared bots, population
+[2021-12-09 14:56:32,896] [INFO] - Launch world...
+[2021-12-09 14:56:38,002] [INFO] -  -> epoch computation duration 5074ms
+[2021-12-09 14:56:39,191] [INFO] - Epoch: 0, error: 437.53322581924806
+[2021-12-09 14:57:03,418] [INFO] -  -> epoch computation duration 24071ms
+[2021-12-09 14:57:04,629] [INFO] - Epoch: 1, error: 9.85814547590508
+[2021-12-09 14:57:09,795] [INFO] -  -> epoch computation duration 5059ms
+[2021-12-09 14:57:10,987] [INFO] - Epoch: 2, error: 5.896939728153949
+[2021-12-09 14:57:16,085] [INFO] -  -> epoch computation duration 4966ms
+[2021-12-09 14:57:17,291] [INFO] - Epoch: 3, error: 4.839919097093393
+[2021-12-09 14:57:22,532] [INFO] -  -> epoch computation duration 5080ms
+[2021-12-09 14:57:23,786] [INFO] - Epoch: 4, error: 3.6656687576321465
+[2021-12-09 14:57:28,900] [INFO] -  -> epoch computation duration 4978ms
+[2021-12-09 14:57:30,084] [INFO] - Epoch: 5, error: 3.177987692118587
+[2021-12-09 14:57:35,085] [INFO] -  -> epoch computation duration 4956ms
+[2021-12-09 14:57:36,269] [INFO] - Epoch: 6, error: 2.8727817098602166
+[2021-12-09 14:57:41,251] [INFO] -  -> epoch computation duration 4939ms
+[2021-12-09 14:57:42,417] [INFO] - Epoch: 7, error: 2.6961177113586317
+[2021-12-09 14:57:47,434] [INFO] -  -> epoch computation duration 4976ms
+[2021-12-09 14:57:48,605] [INFO] - Epoch: 8, error: 2.32017830678395
+[2021-12-09 14:57:53,598] [INFO] -  -> epoch computation duration 4951ms
+[2021-12-09 14:57:54,830] [INFO] - Epoch: 9, error: 2.225773458425467
+[2021-12-09 14:57:59,934] [INFO] -  -> epoch computation duration 5062ms
+[2021-12-09 14:58:01,134] [INFO] - Epoch: 10, error: 2.101279910842351
+[2021-12-09 14:58:06,189] [INFO] -  -> epoch computation duration 4911ms
+[2021-12-09 14:58:07,374] [INFO] - Epoch: 11, error: 2.047953192236405
+[2021-12-09 14:58:12,188] [INFO] -  -> epoch computation duration 4771ms
+[2021-12-09 14:58:13,375] [INFO] - Epoch: 12, error: 2.034521218424253
+[2021-12-09 14:58:18,420] [INFO] -  -> epoch computation duration 5001ms
+[2021-12-09 14:58:19,589] [INFO] - Epoch: 13, error: 2.0310303774512053
+[2021-12-09 14:58:24,550] [INFO] -  -> epoch computation duration 4918ms
+[2021-12-09 14:58:25,755] [INFO] - Epoch: 14, error: 2.021781401026627
+[2021-12-09 14:58:30,734] [INFO] -  -> epoch computation duration 4934ms
+[2021-12-09 14:58:31,898] [INFO] - Epoch: 15, error: 2.01498215411642
+[2021-12-09 14:58:36,882] [INFO] -  -> epoch computation duration 4940ms
+[2021-12-09 14:58:36,924] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:58:38,225] [INFO] - Epoch: 16, error: 2.012228401196108
+[2021-12-09 14:58:50,717] [INFO] -  -> epoch computation duration 12451ms
+[2021-12-09 14:58:50,760] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:58:52,080] [INFO] - Epoch: 17, error: 2.012228401196108
+[2021-12-09 14:59:04,386] [INFO] -  -> epoch computation duration 12259ms
+[2021-12-09 14:59:04,429] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:59:05,762] [INFO] - Epoch: 18, error: 2.012228401196108
+[2021-12-09 14:59:18,481] [INFO] -  -> epoch computation duration 12632ms
+[2021-12-09 14:59:18,525] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:59:20,013] [INFO] - Epoch: 19, error: 2.0022795666130513
+[2021-12-09 14:59:32,609] [INFO] -  -> epoch computation duration 12551ms
+[2021-12-09 14:59:32,655] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:59:34,034] [INFO] - Epoch: 20, error: 2.0022795666130513
+[2021-12-09 14:59:46,806] [INFO] -  -> epoch computation duration 12619ms
+[2021-12-09 14:59:46,855] [INFO] - Increase mutation weight: 5
+[2021-12-09 14:59:48,263] [INFO] - Epoch: 21, error: 2.0022795666130513
+[2021-12-09 15:00:01,908] [INFO] -  -> epoch computation duration 13593ms
+[2021-12-09 15:00:01,962] [INFO] - Increase mutation weight: 5
+[2021-12-09 15:00:03,443] [INFO] - Epoch: 22, error: 2.0022795666130513
+[2021-12-09 15:00:17,212] [INFO] -  -> epoch computation duration 13717ms
+[2021-12-09 15:00:17,256] [INFO] - Increase mutation weight: 5
+[2021-12-09 15:00:18,624] [INFO] - Epoch: 23, error: 2.0022795666130513
+[2021-12-09 15:00:31,792] [INFO] -  -> epoch computation duration 13116ms
+[2021-12-09 15:00:31,838] [INFO] - Increase mutation weight: 5
+[2021-12-09 15:00:33,161] [INFO] - Epoch: 24, error: 2.0022795666130513
+[2021-12-09 15:00:45,663] [INFO] -  -> epoch computation duration 12454ms
+[2021-12-09 15:00:46,860] [INFO] - Epoch: 25, error: 1.90006483421934
+[2021-12-09 15:00:51,978] [INFO] -  -> epoch computation duration 5069ms
+[2021-12-09 15:00:53,175] [INFO] - Epoch: 26, error: 1.7485068619986612
+[2021-12-09 15:00:58,131] [INFO] -  -> epoch computation duration 4904ms
+[2021-12-09 15:00:59,383] [INFO] - Epoch: 27, error: 1.7097006043247096
+[2021-12-09 15:01:04,433] [INFO] -  -> epoch computation duration 5003ms
+[2021-12-09 15:01:05,624] [INFO] - Epoch: 28, error: 1.7097006043247096
+[2021-12-09 15:01:10,606] [INFO] -  -> epoch computation duration 4937ms
+[2021-12-09 15:01:11,804] [INFO] - Epoch: 29, error: 1.7057644623513124
+[2021-12-09 15:01:16,877] [INFO] -  -> epoch computation duration 5027ms
+[2021-12-09 15:01:18,040] [INFO] - Epoch: 30, error: 1.6957706842841662
+[2021-12-09 15:01:23,192] [INFO] -  -> epoch computation duration 5008ms
+[2021-12-09 15:01:23,234] [INFO] - Increase mutation weight: 5
+[2021-12-09 15:01:24,579] [INFO] - Epoch: 31, error: 1.6957706842841662
+[2021-12-09 15:01:37,078] [INFO] -  -> epoch computation duration 12452ms
+[2021-12-09 15:01:37,121] [INFO] - Increase mutation weight: 5
+[2021-12-09 15:01:38,446] [INFO] - Epoch: 32, error: 1.6957706842841662
+[2021-12-09 15:01:50,659] [INFO] -  -> epoch computation duration 12165ms
+[2021-12-09 15:01:51,847] [INFO] - Epoch: 33, error: 1.0972671317244704
+[2021-12-09 15:01:56,851] [INFO] -  -> epoch computation duration 4957ms
+[2021-12-09 15:01:58,030] [INFO] - Epoch: 34, error: 0.8654444755493259
+[2021-12-09 15:02:03,039] [INFO] -  -> epoch computation duration 4961ms
+[2021-12-09 15:02:04,233] [INFO] - Epoch: 35, error: 0.804767042956481
+[2021-12-09 15:02:09,363] [INFO] -  -> epoch computation duration 5084ms
+[2021-12-09 15:02:10,565] [INFO] - Epoch: 36, error: 0.7765262866868687
+[2021-12-09 15:02:15,571] [INFO] -  -> epoch computation duration 4957ms
+[2021-12-09 15:02:16,755] [INFO] - Epoch: 37, error: 0.7620526602930434
+[2021-12-09 15:02:21,759] [INFO] -  -> epoch computation duration 4957ms
+[2021-12-09 15:02:22,924] [INFO] - Epoch: 38, error: 0.7286516491342268
+[2021-12-09 15:02:27,944] [INFO] -  -> epoch computation duration 4976ms
+[2021-12-09 15:02:29,139] [INFO] - Epoch: 39, error: 0.7194876614812103
+[2021-12-09 15:02:34,403] [INFO] -  -> epoch computation duration 5217ms
+[2021-12-09 15:02:35,611] [INFO] - Epoch: 40, error: 0.7171165699880115
+[2021-12-09 15:02:40,779] [INFO] -  -> epoch computation duration 5021ms
+[2021-12-09 15:02:41,966] [INFO] - Epoch: 41, error: 0.714774845488817
+[2021-12-09 15:02:46,914] [INFO] -  -> epoch computation duration 4900ms
+[2021-12-09 15:02:46,956] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:02:48,191] [INFO] - Epoch: 42, error: 0.7130806535178116
+[2021-12-09 15:02:57,325] [INFO] -  -> epoch computation duration 9084ms
+[2021-12-09 15:02:57,367] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:02:58,609] [INFO] - Epoch: 43, error: 0.7130806535178116
+[2021-12-09 15:03:07,810] [INFO] -  -> epoch computation duration 9150ms
+[2021-12-09 15:03:07,852] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:03:09,117] [INFO] - Epoch: 44, error: 0.7130806535178116
+[2021-12-09 15:03:18,280] [INFO] -  -> epoch computation duration 9117ms
+[2021-12-09 15:03:18,326] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:03:19,594] [INFO] - Epoch: 45, error: 0.7130806535178116
+[2021-12-09 15:03:28,801] [INFO] -  -> epoch computation duration 9158ms
+[2021-12-09 15:03:28,843] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:03:30,069] [INFO] - Epoch: 46, error: 0.7130806535178116
+[2021-12-09 15:03:39,354] [INFO] -  -> epoch computation duration 9238ms
+[2021-12-09 15:03:39,395] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:03:40,619] [INFO] - Epoch: 47, error: 0.7130806535178116
+[2021-12-09 15:03:49,854] [INFO] -  -> epoch computation duration 9189ms
+[2021-12-09 15:03:49,895] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:03:51,127] [INFO] - Epoch: 48, error: 0.7130806535178116
+[2021-12-09 15:04:00,203] [INFO] -  -> epoch computation duration 9030ms
+[2021-12-09 15:04:00,247] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:01,495] [INFO] - Epoch: 49, error: 0.7130806535178116
+[2021-12-09 15:04:10,851] [INFO] -  -> epoch computation duration 9306ms
+[2021-12-09 15:04:10,892] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:12,139] [INFO] - Epoch: 50, error: 0.7130806535178116
+[2021-12-09 15:04:21,380] [INFO] -  -> epoch computation duration 9084ms
+[2021-12-09 15:04:21,426] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:22,677] [INFO] - Epoch: 51, error: 0.7130806535178116
+[2021-12-09 15:04:32,032] [INFO] -  -> epoch computation duration 9307ms
+[2021-12-09 15:04:32,102] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:33,445] [INFO] - Epoch: 52, error: 0.7130806535178116
+[2021-12-09 15:04:43,535] [INFO] -  -> epoch computation duration 10039ms
+[2021-12-09 15:04:43,584] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:44,847] [INFO] - Epoch: 53, error: 0.7130806535178116
+[2021-12-09 15:04:54,279] [INFO] -  -> epoch computation duration 9381ms
+[2021-12-09 15:04:54,322] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:04:55,577] [INFO] - Epoch: 54, error: 0.7130806535178116
+[2021-12-09 15:05:05,211] [INFO] -  -> epoch computation duration 9585ms
+[2021-12-09 15:05:05,254] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:05:06,502] [INFO] - Epoch: 55, error: 0.7130806535178116
+[2021-12-09 15:05:15,831] [INFO] -  -> epoch computation duration 9282ms
+[2021-12-09 15:05:15,878] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:05:17,116] [INFO] - Epoch: 56, error: 0.7130806535178116
+[2021-12-09 15:05:26,412] [INFO] -  -> epoch computation duration 9246ms
+[2021-12-09 15:05:26,455] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:05:27,716] [INFO] - Epoch: 57, error: 0.7130806535178116
+[2021-12-09 15:05:39,391] [INFO] -  -> epoch computation duration 11626ms
+[2021-12-09 15:05:39,438] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:05:40,772] [INFO] - Epoch: 58, error: 0.7130806535178116
+[2021-12-09 15:05:50,324] [INFO] -  -> epoch computation duration 9504ms
+[2021-12-09 15:05:50,367] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:05:51,652] [INFO] - Epoch: 59, error: 0.7124488804175176
+[2021-12-09 15:06:01,464] [INFO] -  -> epoch computation duration 9761ms
+[2021-12-09 15:06:01,509] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:06:02,745] [INFO] - Epoch: 60, error: 0.7101658195203344
+[2021-12-09 15:06:12,205] [INFO] -  -> epoch computation duration 9279ms
+[2021-12-09 15:06:13,397] [INFO] - Epoch: 61, error: 0.6692250303439684
+[2021-12-09 15:06:18,336] [INFO] -  -> epoch computation duration 4889ms
+[2021-12-09 15:06:19,550] [INFO] - Epoch: 62, error: 0.6692250303439684
+[2021-12-09 15:06:24,396] [INFO] -  -> epoch computation duration 4801ms
+[2021-12-09 15:06:25,591] [INFO] - Epoch: 63, error: 0.6613374413626889
+[2021-12-09 15:06:30,836] [INFO] -  -> epoch computation duration 5196ms
+[2021-12-09 15:06:32,161] [INFO] - Epoch: 64, error: 0.6592087749392639
+[2021-12-09 15:06:38,054] [INFO] -  -> epoch computation duration 5830ms
+[2021-12-09 15:06:38,093] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:06:39,436] [INFO] - Epoch: 65, error: 0.6559224677431923
+[2021-12-09 15:06:49,672] [INFO] -  -> epoch computation duration 10184ms
+[2021-12-09 15:06:49,712] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:06:50,991] [INFO] - Epoch: 66, error: 0.6559224677431923
+[2021-12-09 15:07:02,421] [INFO] -  -> epoch computation duration 11379ms
+[2021-12-09 15:07:02,480] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:03,919] [INFO] - Epoch: 67, error: 0.6559224677431923
+[2021-12-09 15:07:13,393] [INFO] -  -> epoch computation duration 9423ms
+[2021-12-09 15:07:13,435] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:14,731] [INFO] - Epoch: 68, error: 0.6559224677431923
+[2021-12-09 15:07:24,447] [INFO] -  -> epoch computation duration 9664ms
+[2021-12-09 15:07:24,485] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:25,696] [INFO] - Epoch: 69, error: 0.6559224677431923
+[2021-12-09 15:07:35,100] [INFO] -  -> epoch computation duration 9353ms
+[2021-12-09 15:07:35,144] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:36,438] [INFO] - Epoch: 70, error: 0.6559224677431923
+[2021-12-09 15:07:45,834] [INFO] -  -> epoch computation duration 9213ms
+[2021-12-09 15:07:45,875] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:47,096] [INFO] - Epoch: 71, error: 0.6559224677431923
+[2021-12-09 15:07:56,246] [INFO] -  -> epoch computation duration 9069ms
+[2021-12-09 15:07:56,287] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:07:57,541] [INFO] - Epoch: 72, error: 0.6559224677431923
+[2021-12-09 15:08:06,722] [INFO] -  -> epoch computation duration 9134ms
+[2021-12-09 15:08:06,762] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:08:07,992] [INFO] - Epoch: 73, error: 0.6559224677431923
+[2021-12-09 15:08:17,058] [INFO] -  -> epoch computation duration 9018ms
+[2021-12-09 15:08:17,101] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:08:18,363] [INFO] - Epoch: 74, error: 0.6559224677431923
+[2021-12-09 15:08:27,410] [INFO] -  -> epoch computation duration 8995ms
+[2021-12-09 15:08:27,464] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:08:28,705] [INFO] - Epoch: 75, error: 0.6559224677431923
+[2021-12-09 15:08:38,242] [INFO] -  -> epoch computation duration 9489ms
+[2021-12-09 15:08:38,288] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:08:39,560] [INFO] - Epoch: 76, error: 0.6559224677431923
+[2021-12-09 15:08:49,151] [INFO] -  -> epoch computation duration 9543ms
+[2021-12-09 15:08:49,199] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:08:50,521] [INFO] - Epoch: 77, error: 0.6559224677431923
+[2021-12-09 15:09:00,071] [INFO] -  -> epoch computation duration 9496ms
+[2021-12-09 15:09:00,111] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:01,344] [INFO] - Epoch: 78, error: 0.6547886068135784
+[2021-12-09 15:09:10,527] [INFO] -  -> epoch computation duration 9135ms
+[2021-12-09 15:09:10,566] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:11,810] [INFO] - Epoch: 79, error: 0.6547886068135784
+[2021-12-09 15:09:21,013] [INFO] -  -> epoch computation duration 9157ms
+[2021-12-09 15:09:21,056] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:22,282] [INFO] - Epoch: 80, error: 0.6547886068135784
+[2021-12-09 15:09:31,456] [INFO] -  -> epoch computation duration 8980ms
+[2021-12-09 15:09:31,501] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:32,744] [INFO] - Epoch: 81, error: 0.6547886068135784
+[2021-12-09 15:09:41,843] [INFO] -  -> epoch computation duration 9049ms
+[2021-12-09 15:09:41,885] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:43,118] [INFO] - Epoch: 82, error: 0.6547886068135784
+[2021-12-09 15:09:52,341] [INFO] -  -> epoch computation duration 9174ms
+[2021-12-09 15:09:52,383] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:09:53,627] [INFO] - Epoch: 83, error: 0.6547886068135784
+[2021-12-09 15:10:02,942] [INFO] -  -> epoch computation duration 9267ms
+[2021-12-09 15:10:02,986] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:10:04,363] [INFO] - Epoch: 84, error: 0.6547886068135784
+[2021-12-09 15:10:14,156] [INFO] -  -> epoch computation duration 9741ms
+[2021-12-09 15:10:14,205] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:10:15,609] [INFO] - Epoch: 85, error: 0.6547886068135784
+[2021-12-09 15:10:26,799] [INFO] -  -> epoch computation duration 11142ms
+[2021-12-09 15:10:26,885] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:10:28,976] [INFO] - Epoch: 86, error: 0.6543006683280346
+[2021-12-09 15:10:39,257] [INFO] -  -> epoch computation duration 10218ms
+[2021-12-09 15:10:39,304] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:10:40,551] [INFO] - Epoch: 87, error: 0.6543006683280346
+[2021-12-09 15:10:50,124] [INFO] -  -> epoch computation duration 9526ms
+[2021-12-09 15:10:50,169] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:10:51,410] [INFO] - Epoch: 88, error: 0.6543006683280346
+[2021-12-09 15:11:00,439] [INFO] -  -> epoch computation duration 8981ms
+[2021-12-09 15:11:00,480] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:01,719] [INFO] - Epoch: 89, error: 0.6543006683280346
+[2021-12-09 15:11:10,828] [INFO] -  -> epoch computation duration 9061ms
+[2021-12-09 15:11:10,869] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:12,088] [INFO] - Epoch: 90, error: 0.6543006683280346
+[2021-12-09 15:11:21,344] [INFO] -  -> epoch computation duration 9062ms
+[2021-12-09 15:11:21,394] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:22,674] [INFO] - Epoch: 91, error: 0.6543006683280346
+[2021-12-09 15:11:31,974] [INFO] -  -> epoch computation duration 9250ms
+[2021-12-09 15:11:32,018] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:33,276] [INFO] - Epoch: 92, error: 0.6543006683280346
+[2021-12-09 15:11:42,392] [INFO] -  -> epoch computation duration 9069ms
+[2021-12-09 15:11:42,434] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:43,655] [INFO] - Epoch: 93, error: 0.6543006683280346
+[2021-12-09 15:11:52,738] [INFO] -  -> epoch computation duration 9035ms
+[2021-12-09 15:11:52,783] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:11:53,999] [INFO] - Epoch: 94, error: 0.6543006683280346
+[2021-12-09 15:12:03,084] [INFO] -  -> epoch computation duration 9038ms
+[2021-12-09 15:12:03,129] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:12:04,356] [INFO] - Epoch: 95, error: 0.6543006683280346
+[2021-12-09 15:12:13,601] [INFO] -  -> epoch computation duration 9197ms
+[2021-12-09 15:12:13,645] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:12:14,852] [INFO] - Epoch: 96, error: 0.6543006683280346
+[2021-12-09 15:12:24,129] [INFO] -  -> epoch computation duration 9227ms
+[2021-12-09 15:12:24,171] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:12:25,409] [INFO] - Epoch: 97, error: 0.6543006683280346
+[2021-12-09 15:12:34,614] [INFO] -  -> epoch computation duration 9157ms
+[2021-12-09 15:12:34,657] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:12:35,903] [INFO] - Epoch: 98, error: 0.6543006683280346
+[2021-12-09 15:12:45,133] [INFO] -  -> epoch computation duration 9183ms
+[2021-12-09 15:12:45,176] [INFO] - Increase mutation weight: 3
+[2021-12-09 15:12:46,423] [INFO] - Epoch: 99, error: 0.6543006683280346
+[2021-12-09 15:12:46,429] [INFO] - Best result: gens: [-9.623382873516963, 0.33960806613004646, -0.0008060357392848645, -18.319423083751214, 41.69469148704214, 1900.8883843349029, 35.09967709944986, 107.70097107978019, -20.461316298979547]
+[2021-12-09 15:12:46,430] [INFO] - Emulation is finished
+[2021-12-09 15:14:46,012] [INFO] - Logging system is configured
+[2021-12-09 15:14:46,267] [INFO] - Start genetic world emulation...
+[2021-12-09 15:14:46,270] [INFO] - Read the input data. Data information:
+[2021-12-09 15:14:46,271] [INFO] - [[0.000e+00 0.000e+00]
+ [2.500e-03 5.000e-02]
+ [1.000e-02 1.000e-01]
+ [6.250e-02 2.500e-01]
+ [2.500e-01 5.000e-01]
+ [5.625e-01 7.500e-01]
+ [1.000e+00 1.000e+00]
+ [4.000e+00 2.000e+00]
+ [9.000e+00 3.000e+00]
+ [1.600e+01 4.000e+00]
+ [2.500e+01 5.000e+00]
+ [3.600e+01 6.000e+00]
+ [4.900e+01 7.000e+00]
+ [6.400e+01 8.000e+00]
+ [8.100e+01 9.000e+00]
+ [1.000e+02 1.000e+01]
+ [1.210e+02 1.100e+01]
+ [1.440e+02 1.200e+01]
+ [1.690e+02 1.300e+01]
+ [1.960e+02 1.400e+01]]
+[2021-12-09 15:14:46,273] [INFO] - Prepared context for population
+[2021-12-09 15:14:46,273] [INFO] - Start world emulation...
+[2021-12-09 15:14:46,533] [INFO] - Prepared bots, population
+[2021-12-09 15:14:46,533] [INFO] - Launch world...
+[2021-12-09 15:14:54,164] [INFO] -  -> epoch computation duration 7600ms
+[2021-12-09 15:14:56,016] [INFO] - Epoch: 0, error: 64973.818072593436
+[2021-12-09 15:15:45,353] [INFO] -  -> epoch computation duration 49163ms
+[2021-12-09 15:15:47,201] [INFO] - Epoch: 1, error: 1614.9825771195249
+[2021-12-09 15:15:54,658] [INFO] -  -> epoch computation duration 7344ms
+[2021-12-09 15:15:56,442] [INFO] - Epoch: 2, error: 231.61863883526038
+[2021-12-09 15:16:04,048] [INFO] -  -> epoch computation duration 7482ms
+[2021-12-09 15:16:05,821] [INFO] - Epoch: 3, error: 196.1033774475938
+[2021-12-09 15:16:13,368] [INFO] -  -> epoch computation duration 7426ms
+[2021-12-09 15:16:15,161] [INFO] - Epoch: 4, error: 165.93514446539407
+[2021-12-09 15:16:22,649] [INFO] -  -> epoch computation duration 7359ms
+[2021-12-09 15:16:24,466] [INFO] - Epoch: 5, error: 127.65105088298587
+[2021-12-09 15:16:31,944] [INFO] -  -> epoch computation duration 7428ms
+[2021-12-09 15:16:33,753] [INFO] - Epoch: 6, error: 110.87471018703886
+[2021-12-09 15:16:41,468] [INFO] -  -> epoch computation duration 7657ms
+[2021-12-09 15:16:43,274] [INFO] - Epoch: 7, error: 103.6148546874703
+[2021-12-09 15:16:51,589] [INFO] -  -> epoch computation duration 8264ms
+[2021-12-09 15:16:53,382] [INFO] - Epoch: 8, error: 100.35622200002291
+[2021-12-09 15:17:00,839] [INFO] -  -> epoch computation duration 7404ms
+[2021-12-09 15:17:02,646] [INFO] - Epoch: 9, error: 99.55837113495441
+[2021-12-09 15:17:10,294] [INFO] -  -> epoch computation duration 7598ms
+[2021-12-09 15:17:12,271] [INFO] - Epoch: 10, error: 98.82593453655184
+[2021-12-09 15:17:20,072] [INFO] -  -> epoch computation duration 7655ms
+[2021-12-09 15:17:21,862] [INFO] - Epoch: 11, error: 98.79223690409259
+[2021-12-09 15:17:29,385] [INFO] -  -> epoch computation duration 7470ms
+[2021-12-09 15:17:31,266] [INFO] - Epoch: 12, error: 98.66405809566939
+[2021-12-09 15:17:38,837] [INFO] -  -> epoch computation duration 7517ms
+[2021-12-09 15:17:40,622] [INFO] - Epoch: 13, error: 98.65454700835755
+[2021-12-09 15:17:48,449] [INFO] -  -> epoch computation duration 7774ms
+[2021-12-09 15:17:50,217] [INFO] - Epoch: 14, error: 98.63735661702157
+[2021-12-09 15:17:57,808] [INFO] -  -> epoch computation duration 7537ms
+[2021-12-09 15:17:59,591] [INFO] - Epoch: 15, error: 98.63121795385152
+[2021-12-09 15:18:07,527] [INFO] -  -> epoch computation duration 7882ms
+[2021-12-09 15:18:09,298] [INFO] - Epoch: 16, error: 98.62590598596289
+[2021-12-09 15:18:17,196] [INFO] -  -> epoch computation duration 7845ms
+[2021-12-09 15:18:19,066] [INFO] - Epoch: 17, error: 98.61561862895144
+[2021-12-09 15:18:27,306] [INFO] -  -> epoch computation duration 8186ms
+[2021-12-09 15:18:29,164] [INFO] - Epoch: 18, error: 98.5541403529762
+[2021-12-09 15:18:37,753] [INFO] -  -> epoch computation duration 8533ms
+[2021-12-09 15:18:39,607] [INFO] - Epoch: 19, error: 98.46118389888936
+[2021-12-09 15:18:47,344] [INFO] -  -> epoch computation duration 7684ms
+[2021-12-09 15:18:49,179] [INFO] - Epoch: 20, error: 98.44302429988598
+[2021-12-09 15:18:57,039] [INFO] -  -> epoch computation duration 7712ms
+[2021-12-09 15:18:58,928] [INFO] - Epoch: 21, error: 98.40726265688836
+[2021-12-09 15:19:06,574] [INFO] -  -> epoch computation duration 7590ms
+[2021-12-09 15:19:08,413] [INFO] - Epoch: 22, error: 98.39561645537998
+[2021-12-09 15:19:16,074] [INFO] -  -> epoch computation duration 7609ms
+[2021-12-09 15:19:17,880] [INFO] - Epoch: 23, error: 98.39448761249626
+[2021-12-09 15:19:25,395] [INFO] -  -> epoch computation duration 7460ms
+[2021-12-09 15:19:27,212] [INFO] - Epoch: 24, error: 98.39448761249615
+[2021-12-09 15:19:34,886] [INFO] -  -> epoch computation duration 7623ms
+[2021-12-09 15:19:34,954] [INFO] - Increase mutation weight: 10
+[2021-12-09 15:19:37,231] [INFO] - Epoch: 25, error: 98.39448761249615
+[2021-12-09 15:20:07,178] [INFO] -  -> epoch computation duration 29893ms
+[2021-12-09 15:20:08,992] [INFO] - Epoch: 26, error: 37.44875386467703
+[2021-12-09 15:20:16,476] [INFO] -  -> epoch computation duration 7422ms
+[2021-12-09 15:20:18,286] [INFO] - Epoch: 27, error: 18.772781999596575
+[2021-12-09 15:20:25,729] [INFO] -  -> epoch computation duration 7380ms
+[2021-12-09 15:20:27,552] [INFO] - Epoch: 28, error: 11.204803099714344
+[2021-12-09 15:20:35,197] [INFO] -  -> epoch computation duration 7590ms
+[2021-12-09 15:20:37,025] [INFO] - Epoch: 29, error: 7.6694207001308214
+[2021-12-09 15:20:44,496] [INFO] -  -> epoch computation duration 7412ms
+[2021-12-09 15:20:46,295] [INFO] - Epoch: 30, error: 6.978133352508752
+[2021-12-09 15:20:53,855] [INFO] -  -> epoch computation duration 7400ms
+[2021-12-09 15:20:55,657] [INFO] - Epoch: 31, error: 6.582692015178043
+[2021-12-09 15:21:03,565] [INFO] -  -> epoch computation duration 7849ms
+[2021-12-09 15:21:05,478] [INFO] - Epoch: 32, error: 6.292305467386446
+[2021-12-09 15:21:17,073] [INFO] -  -> epoch computation duration 11533ms
+[2021-12-09 15:21:19,060] [INFO] - Epoch: 33, error: 6.180774549033346
+[2021-12-09 15:21:27,043] [INFO] -  -> epoch computation duration 7926ms
+[2021-12-09 15:21:28,861] [INFO] - Epoch: 34, error: 6.0270689234940775
+[2021-12-09 15:21:36,493] [INFO] -  -> epoch computation duration 7573ms
+[2021-12-09 15:21:38,288] [INFO] - Epoch: 35, error: 5.999482513795907
+[2021-12-09 15:21:46,011] [INFO] -  -> epoch computation duration 7664ms
+[2021-12-09 15:21:47,881] [INFO] - Epoch: 36, error: 5.995931938183766
+[2021-12-09 15:21:55,476] [INFO] -  -> epoch computation duration 7535ms
+[2021-12-09 15:21:57,311] [INFO] - Epoch: 37, error: 5.98709791344395
+[2021-12-09 15:22:04,985] [INFO] -  -> epoch computation duration 7615ms
+[2021-12-09 15:22:06,782] [INFO] - Epoch: 38, error: 5.986510668835454
+[2021-12-09 15:22:14,650] [INFO] -  -> epoch computation duration 7810ms
+[2021-12-09 15:22:14,712] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:22:16,861] [INFO] - Epoch: 39, error: 5.982290405918593
+[2021-12-09 15:22:41,057] [INFO] -  -> epoch computation duration 24138ms
+[2021-12-09 15:22:41,131] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:22:43,328] [INFO] - Epoch: 40, error: 5.982290405918593
+[2021-12-09 15:23:07,757] [INFO] -  -> epoch computation duration 24246ms
+[2021-12-09 15:23:09,608] [INFO] - Epoch: 41, error: 5.887367336072883
+[2021-12-09 15:23:18,381] [INFO] -  -> epoch computation duration 8709ms
+[2021-12-09 15:23:20,284] [INFO] - Epoch: 42, error: 4.599254048684072
+[2021-12-09 15:23:28,844] [INFO] -  -> epoch computation duration 8501ms
+[2021-12-09 15:23:30,793] [INFO] - Epoch: 43, error: 3.1965786815957817
+[2021-12-09 15:23:38,917] [INFO] -  -> epoch computation duration 8061ms
+[2021-12-09 15:23:40,822] [INFO] - Epoch: 44, error: 2.215551053548857
+[2021-12-09 15:23:50,172] [INFO] -  -> epoch computation duration 9287ms
+[2021-12-09 15:23:52,079] [INFO] - Epoch: 45, error: 1.859705789136483
+[2021-12-09 15:24:00,228] [INFO] -  -> epoch computation duration 8086ms
+[2021-12-09 15:24:02,024] [INFO] - Epoch: 46, error: 1.5503086362503153
+[2021-12-09 15:24:09,654] [INFO] -  -> epoch computation duration 7570ms
+[2021-12-09 15:24:11,462] [INFO] - Epoch: 47, error: 1.4397965979603695
+[2021-12-09 15:24:19,301] [INFO] -  -> epoch computation duration 7780ms
+[2021-12-09 15:24:21,212] [INFO] - Epoch: 48, error: 1.3972766379111934
+[2021-12-09 15:24:29,550] [INFO] -  -> epoch computation duration 8269ms
+[2021-12-09 15:24:31,373] [INFO] - Epoch: 49, error: 1.3759761128629848
+[2021-12-09 15:24:40,870] [INFO] -  -> epoch computation duration 9437ms
+[2021-12-09 15:24:43,591] [INFO] - Epoch: 50, error: 1.3673507447103526
+[2021-12-09 15:24:57,969] [INFO] -  -> epoch computation duration 14105ms
+[2021-12-09 15:25:00,673] [INFO] - Epoch: 51, error: 1.3617367763011041
+[2021-12-09 15:25:13,572] [INFO] -  -> epoch computation duration 12825ms
+[2021-12-09 15:25:15,384] [INFO] - Epoch: 52, error: 1.3568915797762555
+[2021-12-09 15:25:23,139] [INFO] -  -> epoch computation duration 7695ms
+[2021-12-09 15:25:23,204] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:25:25,330] [INFO] - Epoch: 53, error: 1.3541271377165696
+[2021-12-09 15:25:50,500] [INFO] -  -> epoch computation duration 25111ms
+[2021-12-09 15:25:50,574] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:25:52,794] [INFO] - Epoch: 54, error: 1.3541271377165696
+[2021-12-09 15:26:16,636] [INFO] -  -> epoch computation duration 23770ms
+[2021-12-09 15:26:16,709] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:26:18,902] [INFO] - Epoch: 55, error: 1.3541271377165696
+[2021-12-09 15:26:42,623] [INFO] -  -> epoch computation duration 23655ms
+[2021-12-09 15:26:42,705] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:26:44,867] [INFO] - Epoch: 56, error: 1.3541271377165696
+[2021-12-09 15:27:10,355] [INFO] -  -> epoch computation duration 25423ms
+[2021-12-09 15:27:10,431] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:27:12,595] [INFO] - Epoch: 57, error: 1.3541271377165696
+[2021-12-09 15:27:37,690] [INFO] -  -> epoch computation duration 25029ms
+[2021-12-09 15:27:37,770] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:27:40,033] [INFO] - Epoch: 58, error: 1.3541271377165696
+[2021-12-09 15:28:04,436] [INFO] -  -> epoch computation duration 24338ms
+[2021-12-09 15:28:04,524] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:28:06,707] [INFO] - Epoch: 59, error: 1.3541271377165696
+[2021-12-09 15:28:31,338] [INFO] -  -> epoch computation duration 24565ms
+[2021-12-09 15:28:31,413] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:28:33,598] [INFO] - Epoch: 60, error: 1.3541271377165696
+[2021-12-09 15:28:57,531] [INFO] -  -> epoch computation duration 23739ms
+[2021-12-09 15:28:57,599] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:28:59,739] [INFO] - Epoch: 61, error: 1.3541271377165696
+[2021-12-09 15:29:24,793] [INFO] -  -> epoch computation duration 24989ms
+[2021-12-09 15:29:24,861] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:29:27,057] [INFO] - Epoch: 62, error: 1.3541271377165696
+[2021-12-09 15:29:51,584] [INFO] -  -> epoch computation duration 24463ms
+[2021-12-09 15:29:51,680] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:29:53,919] [INFO] - Epoch: 63, error: 1.3541271377165696
+[2021-12-09 15:30:18,938] [INFO] -  -> epoch computation duration 24951ms
+[2021-12-09 15:30:19,010] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:30:21,143] [INFO] - Epoch: 64, error: 1.3541271377165696
+[2021-12-09 15:30:45,830] [INFO] -  -> epoch computation duration 24621ms
+[2021-12-09 15:30:45,900] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:30:48,051] [INFO] - Epoch: 65, error: 1.3541271377165696
+[2021-12-09 15:31:12,534] [INFO] -  -> epoch computation duration 24416ms
+[2021-12-09 15:31:12,603] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:31:14,777] [INFO] - Epoch: 66, error: 1.3541271377165696
+[2021-12-09 15:31:39,305] [INFO] -  -> epoch computation duration 24454ms
+[2021-12-09 15:31:39,376] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:31:41,540] [INFO] - Epoch: 67, error: 1.3541271377165696
+[2021-12-09 15:32:05,972] [INFO] -  -> epoch computation duration 24369ms
+[2021-12-09 15:32:06,041] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:32:08,221] [INFO] - Epoch: 68, error: 1.3541271377165696
+[2021-12-09 15:32:32,279] [INFO] -  -> epoch computation duration 23987ms
+[2021-12-09 15:32:32,347] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:32:34,469] [INFO] - Epoch: 69, error: 1.3541271377165696
+[2021-12-09 15:32:58,334] [INFO] -  -> epoch computation duration 23798ms
+[2021-12-09 15:32:58,404] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:33:00,548] [INFO] - Epoch: 70, error: 1.3541271377165696
+[2021-12-09 15:33:25,174] [INFO] -  -> epoch computation duration 24412ms
+[2021-12-09 15:33:25,242] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:33:27,438] [INFO] - Epoch: 71, error: 1.3541271377165696
+[2021-12-09 15:33:51,744] [INFO] -  -> epoch computation duration 24242ms
+[2021-12-09 15:33:51,816] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:33:54,011] [INFO] - Epoch: 72, error: 1.3541271377165696
+[2021-12-09 15:34:19,327] [INFO] -  -> epoch computation duration 25252ms
+[2021-12-09 15:34:19,403] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:34:21,571] [INFO] - Epoch: 73, error: 1.3541271377165696
+[2021-12-09 15:34:45,847] [INFO] -  -> epoch computation duration 24207ms
+[2021-12-09 15:34:45,917] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:34:48,074] [INFO] - Epoch: 74, error: 1.3541271377165696
+[2021-12-09 15:35:13,090] [INFO] -  -> epoch computation duration 24951ms
+[2021-12-09 15:35:13,194] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:35:15,574] [INFO] - Epoch: 75, error: 1.3541271377165696
+[2021-12-09 15:35:41,282] [INFO] -  -> epoch computation duration 25626ms
+[2021-12-09 15:35:41,358] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:35:43,612] [INFO] - Epoch: 76, error: 1.3541271377165696
+[2021-12-09 15:36:09,683] [INFO] -  -> epoch computation duration 26003ms
+[2021-12-09 15:36:09,752] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:36:11,923] [INFO] - Epoch: 77, error: 1.3541271377165696
+[2021-12-09 15:36:37,610] [INFO] -  -> epoch computation duration 25623ms
+[2021-12-09 15:36:37,695] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:36:39,876] [INFO] - Epoch: 78, error: 1.3541271377165696
+[2021-12-09 15:37:06,737] [INFO] -  -> epoch computation duration 26793ms
+[2021-12-09 15:37:06,823] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:37:09,021] [INFO] - Epoch: 79, error: 1.3541271377165696
+[2021-12-09 15:37:34,014] [INFO] -  -> epoch computation duration 24928ms
+[2021-12-09 15:37:34,087] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:37:36,279] [INFO] - Epoch: 80, error: 1.3541271377165696
+[2021-12-09 15:38:01,238] [INFO] -  -> epoch computation duration 24718ms
+[2021-12-09 15:38:01,312] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:38:03,488] [INFO] - Epoch: 81, error: 1.3541271377165696
+[2021-12-09 15:38:28,014] [INFO] -  -> epoch computation duration 24458ms
+[2021-12-09 15:38:28,102] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:38:30,364] [INFO] - Epoch: 82, error: 1.3541271377165696
+[2021-12-09 15:38:54,682] [INFO] -  -> epoch computation duration 24252ms
+[2021-12-09 15:38:54,759] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:38:56,955] [INFO] - Epoch: 83, error: 1.3541271377165696
+[2021-12-09 15:39:21,661] [INFO] -  -> epoch computation duration 24641ms
+[2021-12-09 15:39:21,740] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:39:23,930] [INFO] - Epoch: 84, error: 1.3541271377165696
+[2021-12-09 15:39:48,355] [INFO] -  -> epoch computation duration 24361ms
+[2021-12-09 15:39:48,435] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:39:50,699] [INFO] - Epoch: 85, error: 1.3541271377165696
+[2021-12-09 15:40:15,549] [INFO] -  -> epoch computation duration 24781ms
+[2021-12-09 15:40:15,623] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:40:17,771] [INFO] - Epoch: 86, error: 1.3541271377165696
+[2021-12-09 15:40:42,136] [INFO] -  -> epoch computation duration 24298ms
+[2021-12-09 15:40:42,212] [INFO] - Increase mutation weight: 7
+[2021-12-09 15:40:44,430] [INFO] - Epoch: 87, error: 1.3541271377165696
+[2021-12-09 15:41:08,621] [INFO] -  -> epoch computation duration 24126ms
+[2021-12-09 15:41:10,448] [INFO] - Epoch: 88, error: 1.0655580732244696
+[2021-12-09 15:41:18,270] [INFO] -  -> epoch computation duration 7758ms
+[2021-12-09 15:41:20,090] [INFO] - Epoch: 89, error: 0.9728353683534111
+[2021-12-09 15:41:28,021] [INFO] -  -> epoch computation duration 7867ms
+[2021-12-09 15:41:29,831] [INFO] - Epoch: 90, error: 0.8339995886406827
+[2021-12-09 15:41:37,900] [INFO] -  -> epoch computation duration 7862ms
+[2021-12-09 15:41:39,716] [INFO] - Epoch: 91, error: 0.6986884995436247
+[2021-12-09 15:41:47,438] [INFO] -  -> epoch computation duration 7658ms
+[2021-12-09 15:41:49,251] [INFO] - Epoch: 92, error: 0.6044082340366126
+[2021-12-09 15:41:57,077] [INFO] -  -> epoch computation duration 7763ms
+[2021-12-09 15:41:58,922] [INFO] - Epoch: 93, error: 0.5493766287093937
+[2021-12-09 15:42:06,611] [INFO] -  -> epoch computation duration 7624ms
+[2021-12-09 15:42:08,426] [INFO] - Epoch: 94, error: 0.5016299837973892
+[2021-12-09 15:42:16,112] [INFO] -  -> epoch computation duration 7623ms
+[2021-12-09 15:42:17,917] [INFO] - Epoch: 95, error: 0.48125557826554816
+[2021-12-09 15:42:25,643] [INFO] -  -> epoch computation duration 7655ms
+[2021-12-09 15:42:27,440] [INFO] - Epoch: 96, error: 0.47795500255266676
+[2021-12-09 15:42:35,187] [INFO] -  -> epoch computation duration 7686ms
+[2021-12-09 15:42:37,028] [INFO] - Epoch: 97, error: 0.47123425882147807
+[2021-12-09 15:42:44,753] [INFO] -  -> epoch computation duration 7660ms
+[2021-12-09 15:42:46,574] [INFO] - Epoch: 98, error: 0.4683613024350441
+[2021-12-09 15:42:54,271] [INFO] -  -> epoch computation duration 7634ms
+[2021-12-09 15:42:54,335] [INFO] - Increase mutation weight: 4
+[2021-12-09 15:42:56,274] [INFO] - Epoch: 99, error: 0.46340537407905896
+[2021-12-09 15:42:56,284] [INFO] - Best result: gens: [2.3655717863698476, 0.033774148667842584, -0.0031178449100736066, 6.116724156479494e-06, -6.905462323530983, -25.569289416025768, 54.22108194170146, 22.078437630335376, -52.96356583736018, -6.770027401061138, -45.950763868147, -68.19130089453277, -48.087271533390144]
+[2021-12-09 15:42:56,285] [INFO] - Emulation is finished
+[2021-12-09 15:45:07,883] [INFO] - Logging system is configured
+[2021-12-09 15:45:08,087] [INFO] - Start genetic world emulation...
+[2021-12-09 15:45:08,090] [INFO] - Read the input data. Data information:
+[2021-12-09 15:45:08,091] [INFO] - [[0.000e+00 0.000e+00]
+ [2.500e-03 5.000e-02]
+ [1.000e-02 1.000e-01]
+ [6.250e-02 2.500e-01]
+ [2.500e-01 5.000e-01]
+ [5.625e-01 7.500e-01]
+ [1.000e+00 1.000e+00]
+ [4.000e+00 2.000e+00]
+ [9.000e+00 3.000e+00]
+ [1.600e+01 4.000e+00]
+ [2.500e+01 5.000e+00]
+ [3.600e+01 6.000e+00]
+ [4.900e+01 7.000e+00]
+ [6.400e+01 8.000e+00]
+ [8.100e+01 9.000e+00]
+ [1.000e+02 1.000e+01]
+ [1.210e+02 1.100e+01]
+ [1.440e+02 1.200e+01]
+ [1.690e+02 1.300e+01]
+ [1.960e+02 1.400e+01]]
+[2021-12-09 15:45:08,092] [INFO] - Prepared context for population
+[2021-12-09 15:45:08,092] [INFO] - Start world emulation...
+[2021-12-09 15:45:08,470] [INFO] - Prepared bots, population
+[2021-12-09 15:45:08,470] [INFO] - Launch world...
+[2021-12-09 15:45:20,179] [INFO] -  -> epoch computation duration 11676ms
+[2021-12-09 15:45:22,826] [INFO] - Epoch: 0, error: 56214.38370409295
+[2021-12-09 15:46:33,980] [INFO] -  -> epoch computation duration 70959ms
+[2021-12-09 15:46:36,552] [INFO] - Epoch: 1, error: 2371.492222230732
+[2021-12-09 15:46:46,956] [INFO] -  -> epoch computation duration 10279ms
+[2021-12-09 15:46:49,558] [INFO] - Epoch: 2, error: 1031.5836057312656
+[2021-12-09 15:46:59,595] [INFO] -  -> epoch computation duration 9892ms
+[2021-12-09 15:47:02,062] [INFO] - Epoch: 3, error: 450.60223618104044
+[2021-12-09 15:47:12,165] [INFO] -  -> epoch computation duration 9956ms
+[2021-12-09 15:47:14,675] [INFO] - Epoch: 4, error: 428.86552440236545
+[2021-12-09 15:47:24,490] [INFO] -  -> epoch computation duration 9669ms
+[2021-12-09 15:47:26,978] [INFO] - Epoch: 5, error: 399.81440009269016
+[2021-12-09 15:47:37,561] [INFO] -  -> epoch computation duration 10527ms
+[2021-12-09 15:47:40,065] [INFO] - Epoch: 6, error: 337.27233459955096
+[2021-12-09 15:47:50,071] [INFO] -  -> epoch computation duration 9947ms
+[2021-12-09 15:47:52,684] [INFO] - Epoch: 7, error: 293.3524745165306
+[2021-12-09 15:48:03,106] [INFO] -  -> epoch computation duration 10363ms
+[2021-12-09 15:48:05,666] [INFO] - Epoch: 8, error: 288.4121640074771
+[2021-12-09 15:48:15,845] [INFO] -  -> epoch computation duration 10123ms
+[2021-12-09 15:48:18,362] [INFO] - Epoch: 9, error: 285.2309717066741
+[2021-12-09 15:48:28,631] [INFO] -  -> epoch computation duration 10213ms
+[2021-12-09 15:48:31,151] [INFO] - Epoch: 10, error: 283.8542437367205
+[2021-12-09 15:48:41,956] [INFO] -  -> epoch computation duration 10644ms
+[2021-12-09 15:48:44,473] [INFO] - Epoch: 11, error: 283.59901028013877
+[2021-12-09 15:48:54,827] [INFO] -  -> epoch computation duration 10297ms
+[2021-12-09 15:48:57,461] [INFO] - Epoch: 12, error: 283.47303425944784
+[2021-12-09 15:49:08,446] [INFO] -  -> epoch computation duration 10907ms
+[2021-12-09 15:49:11,567] [INFO] - Epoch: 13, error: 283.4068640025653
+[2021-12-09 15:49:22,269] [INFO] -  -> epoch computation duration 10581ms
+[2021-12-09 15:49:25,031] [INFO] - Epoch: 14, error: 283.3787656865981
+[2021-12-09 15:49:39,872] [INFO] -  -> epoch computation duration 14781ms
+[2021-12-09 15:49:42,900] [INFO] - Epoch: 15, error: 283.2701122371297
+[2021-12-09 15:49:55,477] [INFO] -  -> epoch computation duration 12509ms
+[2021-12-09 15:49:58,357] [INFO] - Epoch: 16, error: 283.25039335991517
+[2021-12-09 15:50:10,491] [INFO] -  -> epoch computation duration 12072ms
+[2021-12-09 15:50:13,217] [INFO] - Epoch: 17, error: 283.25039335991517
+[2021-12-09 15:50:26,498] [INFO] -  -> epoch computation duration 13213ms
+[2021-12-09 15:50:29,445] [INFO] - Epoch: 18, error: 283.2410708302675
+[2021-12-09 15:50:42,234] [INFO] -  -> epoch computation duration 12731ms
+[2021-12-09 15:50:45,085] [INFO] - Epoch: 19, error: 283.2410708302675
+[2021-12-09 15:50:56,952] [INFO] -  -> epoch computation duration 11802ms
+[2021-12-09 15:50:57,049] [INFO] - Increase mutation weight: 13
+[2021-12-09 15:51:01,256] [INFO] - Epoch: 20, error: 283.23809554430215
+[2021-12-09 15:51:51,786] [INFO] -  -> epoch computation duration 50370ms
+[2021-12-09 15:51:51,902] [INFO] - Increase mutation weight: 13
+[2021-12-09 15:51:55,608] [INFO] - Epoch: 21, error: 283.23809554430215
+[2021-12-09 15:52:54,333] [INFO] -  -> epoch computation duration 58652ms
+[2021-12-09 15:52:54,453] [INFO] - Increase mutation weight: 13
+[2021-12-09 15:52:59,130] [INFO] - Epoch: 22, error: 283.23809554430215
+[2021-12-09 15:53:52,708] [INFO] -  -> epoch computation duration 53469ms
+[2021-12-09 15:53:55,432] [INFO] - Epoch: 23, error: 272.4006180670343
+[2021-12-09 15:54:08,172] [INFO] -  -> epoch computation duration 12664ms
+[2021-12-09 15:54:10,974] [INFO] - Epoch: 24, error: 95.05018009030381
+[2021-12-09 15:54:23,889] [INFO] -  -> epoch computation duration 12838ms
+[2021-12-09 15:54:27,365] [INFO] - Epoch: 25, error: 35.34906188936576
+[2021-12-09 15:54:38,202] [INFO] -  -> epoch computation duration 10770ms
+[2021-12-09 15:54:40,973] [INFO] - Epoch: 26, error: 23.539660564957966
+[2021-12-09 15:54:53,916] [INFO] -  -> epoch computation duration 12870ms
+[2021-12-09 15:54:57,250] [INFO] - Epoch: 27, error: 21.854160119785195
+[2021-12-09 15:55:08,888] [INFO] -  -> epoch computation duration 11568ms
+[2021-12-09 15:55:11,825] [INFO] - Epoch: 28, error: 13.774283890592477
+[2021-12-09 15:55:24,252] [INFO] -  -> epoch computation duration 12353ms
+[2021-12-09 15:55:27,267] [INFO] - Epoch: 29, error: 12.346927443310191
+[2021-12-09 15:55:39,856] [INFO] -  -> epoch computation duration 12524ms
+[2021-12-09 15:55:43,170] [INFO] - Epoch: 30, error: 11.930675487212465
+[2021-12-09 15:55:55,331] [INFO] -  -> epoch computation duration 11947ms
+[2021-12-09 15:55:58,085] [INFO] - Epoch: 31, error: 11.862560495521723
+[2021-12-09 15:56:11,338] [INFO] -  -> epoch computation duration 13182ms
+[2021-12-09 15:56:14,073] [INFO] - Epoch: 32, error: 11.778510373039124
+[2021-12-09 15:56:25,652] [INFO] -  -> epoch computation duration 11506ms
+[2021-12-09 15:56:28,717] [INFO] - Epoch: 33, error: 11.700338806633571
+[2021-12-09 15:56:40,923] [INFO] -  -> epoch computation duration 12131ms
+[2021-12-09 15:56:44,130] [INFO] - Epoch: 34, error: 11.67484372056598
+[2021-12-09 15:56:57,540] [INFO] -  -> epoch computation duration 13330ms
+[2021-12-09 15:57:00,409] [INFO] - Epoch: 35, error: 11.65198707981362
+[2021-12-09 15:57:12,244] [INFO] -  -> epoch computation duration 11770ms
+[2021-12-09 15:57:15,092] [INFO] - Epoch: 36, error: 11.636600486025397
+[2021-12-09 15:57:25,921] [INFO] -  -> epoch computation duration 10750ms
+[2021-12-09 15:57:28,586] [INFO] - Epoch: 37, error: 11.627075119887767
+[2021-12-09 15:57:39,893] [INFO] -  -> epoch computation duration 11237ms
+[2021-12-09 15:57:42,732] [INFO] - Epoch: 38, error: 11.610481397359768
+[2021-12-09 15:57:54,650] [INFO] -  -> epoch computation duration 11845ms
+[2021-12-09 15:57:57,485] [INFO] - Epoch: 39, error: 11.600041623707117
+[2021-12-09 15:58:08,393] [INFO] -  -> epoch computation duration 10839ms
+[2021-12-09 15:58:10,962] [INFO] - Epoch: 40, error: 11.588653739611308
+[2021-12-09 15:58:21,915] [INFO] -  -> epoch computation duration 10761ms
+[2021-12-09 15:58:24,514] [INFO] - Epoch: 41, error: 11.584088275691641
+[2021-12-09 15:58:35,317] [INFO] -  -> epoch computation duration 10734ms
+[2021-12-09 15:58:38,018] [INFO] - Epoch: 42, error: 11.577840572786517
+[2021-12-09 15:58:49,124] [INFO] -  -> epoch computation duration 11033ms
+[2021-12-09 15:58:51,746] [INFO] - Epoch: 43, error: 11.569684370101418
+[2021-12-09 15:59:02,405] [INFO] -  -> epoch computation duration 10594ms
+[2021-12-09 15:59:02,490] [INFO] - Increase mutation weight: 10
+[2021-12-09 15:59:05,769] [INFO] - Epoch: 44, error: 11.564997406958337
+[2021-12-09 15:59:47,309] [INFO] -  -> epoch computation duration 41473ms
+[2021-12-09 15:59:47,409] [INFO] - Increase mutation weight: 10
+[2021-12-09 15:59:50,681] [INFO] - Epoch: 45, error: 11.564997406958337
+[2021-12-09 16:00:32,443] [INFO] -  -> epoch computation duration 41694ms
+[2021-12-09 16:00:32,543] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:00:35,785] [INFO] - Epoch: 46, error: 11.564997406958337
+[2021-12-09 16:01:17,136] [INFO] -  -> epoch computation duration 41283ms
+[2021-12-09 16:01:17,254] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:01:20,525] [INFO] - Epoch: 47, error: 11.564997406958337
+[2021-12-09 16:02:01,839] [INFO] -  -> epoch computation duration 41245ms
+[2021-12-09 16:02:01,938] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:02:05,199] [INFO] - Epoch: 48, error: 11.564997406958337
+[2021-12-09 16:02:46,629] [INFO] -  -> epoch computation duration 41357ms
+[2021-12-09 16:02:46,727] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:02:49,972] [INFO] - Epoch: 49, error: 11.564997406958337
+[2021-12-09 16:03:31,546] [INFO] -  -> epoch computation duration 41503ms
+[2021-12-09 16:03:31,651] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:03:34,933] [INFO] - Epoch: 50, error: 11.564997406958337
+[2021-12-09 16:04:17,795] [INFO] -  -> epoch computation duration 42674ms
+[2021-12-09 16:04:17,899] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:04:21,286] [INFO] - Epoch: 51, error: 11.564997406958337
+[2021-12-09 16:05:04,377] [INFO] -  -> epoch computation duration 43017ms
+[2021-12-09 16:05:04,485] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:05:07,990] [INFO] - Epoch: 52, error: 11.564997406958337
+[2021-12-09 16:05:51,463] [INFO] -  -> epoch computation duration 43400ms
+[2021-12-09 16:05:51,568] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:05:55,161] [INFO] - Epoch: 53, error: 11.564997406958337
+[2021-12-09 16:06:40,910] [INFO] -  -> epoch computation duration 45655ms
+[2021-12-09 16:06:41,014] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:06:44,348] [INFO] - Epoch: 54, error: 11.564997406958337
+[2021-12-09 16:07:26,439] [INFO] -  -> epoch computation duration 42013ms
+[2021-12-09 16:07:26,545] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:07:30,075] [INFO] - Epoch: 55, error: 11.564997406958337
+[2021-12-09 16:08:11,995] [INFO] -  -> epoch computation duration 41840ms
+[2021-12-09 16:08:12,095] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:08:15,542] [INFO] - Epoch: 56, error: 11.564997406958337
+[2021-12-09 16:08:58,497] [INFO] -  -> epoch computation duration 42874ms
+[2021-12-09 16:08:58,621] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:09:01,974] [INFO] - Epoch: 57, error: 11.564997406958337
+[2021-12-09 16:09:43,991] [INFO] -  -> epoch computation duration 41942ms
+[2021-12-09 16:09:44,105] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:09:47,456] [INFO] - Epoch: 58, error: 11.564997406958337
+[2021-12-09 16:10:29,924] [INFO] -  -> epoch computation duration 42398ms
+[2021-12-09 16:10:30,026] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:10:33,398] [INFO] - Epoch: 59, error: 11.564997406958337
+[2021-12-09 16:11:16,972] [INFO] -  -> epoch computation duration 43503ms
+[2021-12-09 16:11:17,087] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:11:20,471] [INFO] - Epoch: 60, error: 11.564997406958337
+[2021-12-09 16:12:03,985] [INFO] -  -> epoch computation duration 43322ms
+[2021-12-09 16:12:04,092] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:12:07,395] [INFO] - Epoch: 61, error: 11.564997406958337
+[2021-12-09 16:12:53,478] [INFO] -  -> epoch computation duration 46001ms
+[2021-12-09 16:12:53,633] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:12:57,112] [INFO] - Epoch: 62, error: 11.564997406958337
+[2021-12-09 16:13:42,184] [INFO] -  -> epoch computation duration 44996ms
+[2021-12-09 16:13:42,293] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:13:45,986] [INFO] - Epoch: 63, error: 11.564997406958337
+[2021-12-09 16:14:31,037] [INFO] -  -> epoch computation duration 44974ms
+[2021-12-09 16:14:31,148] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:14:35,375] [INFO] - Epoch: 64, error: 11.564997406958337
+[2021-12-09 16:15:41,392] [INFO] -  -> epoch computation duration 65944ms
+[2021-12-09 16:15:41,931] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:15:53,411] [INFO] - Epoch: 65, error: 11.564997406958337
+[2021-12-09 16:17:41,035] [INFO] -  -> epoch computation duration 107347ms
+[2021-12-09 16:17:41,454] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:17:52,311] [INFO] - Epoch: 66, error: 11.564997406958337
+[2021-12-09 16:19:31,158] [INFO] -  -> epoch computation duration 98612ms
+[2021-12-09 16:19:31,344] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:19:35,843] [INFO] - Epoch: 67, error: 11.564997406958337
+[2021-12-09 16:21:27,128] [INFO] -  -> epoch computation duration 111189ms
+[2021-12-09 16:21:27,587] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:21:39,922] [INFO] - Epoch: 68, error: 11.564997406958337
+[2021-12-09 16:24:21,542] [INFO] -  -> epoch computation duration 161324ms
+[2021-12-09 16:24:21,681] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:24:25,990] [INFO] - Epoch: 69, error: 11.564997406958337
+[2021-12-09 16:25:44,415] [INFO] -  -> epoch computation duration 78329ms
+[2021-12-09 16:25:44,576] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:25:49,044] [INFO] - Epoch: 70, error: 11.564997406958337
+[2021-12-09 16:26:54,334] [INFO] -  -> epoch computation duration 64985ms
+[2021-12-09 16:26:54,457] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:26:57,989] [INFO] - Epoch: 71, error: 11.564997406958337
+[2021-12-09 16:27:43,670] [INFO] -  -> epoch computation duration 45595ms
+[2021-12-09 16:27:43,780] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:27:47,109] [INFO] - Epoch: 72, error: 11.564997406958337
+[2021-12-09 16:28:30,429] [INFO] -  -> epoch computation duration 43243ms
+[2021-12-09 16:28:30,543] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:28:34,224] [INFO] - Epoch: 73, error: 11.564997406958337
+[2021-12-09 16:29:18,397] [INFO] -  -> epoch computation duration 44100ms
+[2021-12-09 16:29:18,498] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:29:21,886] [INFO] - Epoch: 74, error: 11.564997406958337
+[2021-12-09 16:30:06,387] [INFO] -  -> epoch computation duration 44424ms
+[2021-12-09 16:30:06,494] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:30:09,931] [INFO] - Epoch: 75, error: 11.564997406958337
+[2021-12-09 16:30:52,864] [INFO] -  -> epoch computation duration 42858ms
+[2021-12-09 16:30:52,968] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:30:56,416] [INFO] - Epoch: 76, error: 11.564997406958337
+[2021-12-09 16:31:39,859] [INFO] -  -> epoch computation duration 43366ms
+[2021-12-09 16:31:39,967] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:31:43,320] [INFO] - Epoch: 77, error: 11.564997406958337
+[2021-12-09 16:32:27,628] [INFO] -  -> epoch computation duration 44232ms
+[2021-12-09 16:32:27,740] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:32:31,242] [INFO] - Epoch: 78, error: 11.564997406958337
+[2021-12-09 16:33:15,741] [INFO] -  -> epoch computation duration 44421ms
+[2021-12-09 16:33:15,847] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:33:19,343] [INFO] - Epoch: 79, error: 11.564997406958337
+[2021-12-09 16:34:03,178] [INFO] -  -> epoch computation duration 43755ms
+[2021-12-09 16:34:03,292] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:34:06,803] [INFO] - Epoch: 80, error: 11.564997406958337
+[2021-12-09 16:34:52,050] [INFO] -  -> epoch computation duration 45015ms
+[2021-12-09 16:34:52,163] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:34:55,556] [INFO] - Epoch: 81, error: 11.564997406958337
+[2021-12-09 16:35:40,125] [INFO] -  -> epoch computation duration 44491ms
+[2021-12-09 16:35:40,256] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:35:43,949] [INFO] - Epoch: 82, error: 11.564997406958337
+[2021-12-09 16:36:30,198] [INFO] -  -> epoch computation duration 46160ms
+[2021-12-09 16:36:30,317] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:36:33,842] [INFO] - Epoch: 83, error: 11.564997406958337
+[2021-12-09 16:37:19,065] [INFO] -  -> epoch computation duration 45146ms
+[2021-12-09 16:37:19,177] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:37:22,775] [INFO] - Epoch: 84, error: 11.564997406958337
+[2021-12-09 16:38:08,970] [INFO] -  -> epoch computation duration 46117ms
+[2021-12-09 16:38:09,083] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:38:12,630] [INFO] - Epoch: 85, error: 11.564997406958337
+[2021-12-09 16:38:55,167] [INFO] -  -> epoch computation duration 42461ms
+[2021-12-09 16:38:55,278] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:38:58,600] [INFO] - Epoch: 86, error: 11.564997406958337
+[2021-12-09 16:39:40,568] [INFO] -  -> epoch computation duration 41894ms
+[2021-12-09 16:39:40,677] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:39:43,992] [INFO] - Epoch: 87, error: 11.564997406958337
+[2021-12-09 16:40:25,983] [INFO] -  -> epoch computation duration 41919ms
+[2021-12-09 16:40:26,093] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:40:29,408] [INFO] - Epoch: 88, error: 11.564997406958337
+[2021-12-09 16:41:11,239] [INFO] -  -> epoch computation duration 41758ms
+[2021-12-09 16:41:11,345] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:41:14,730] [INFO] - Epoch: 89, error: 11.564997406958337
+[2021-12-09 16:41:56,348] [INFO] -  -> epoch computation duration 41549ms
+[2021-12-09 16:41:56,471] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:41:59,773] [INFO] - Epoch: 90, error: 11.564997406958337
+[2021-12-09 16:42:41,712] [INFO] -  -> epoch computation duration 41675ms
+[2021-12-09 16:42:41,818] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:42:45,088] [INFO] - Epoch: 91, error: 11.564997406958337
+[2021-12-09 16:43:26,577] [INFO] -  -> epoch computation duration 41416ms
+[2021-12-09 16:43:26,687] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:43:29,992] [INFO] - Epoch: 92, error: 11.564997406958337
+[2021-12-09 16:44:11,529] [INFO] -  -> epoch computation duration 41463ms
+[2021-12-09 16:44:11,643] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:44:15,014] [INFO] - Epoch: 93, error: 11.564997406958337
+[2021-12-09 16:44:56,621] [INFO] -  -> epoch computation duration 41537ms
+[2021-12-09 16:44:56,723] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:45:00,017] [INFO] - Epoch: 94, error: 11.564997406958337
+[2021-12-09 16:45:41,860] [INFO] -  -> epoch computation duration 41764ms
+[2021-12-09 16:45:41,959] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:45:45,247] [INFO] - Epoch: 95, error: 11.564997406958337
+[2021-12-09 16:46:26,591] [INFO] -  -> epoch computation duration 41271ms
+[2021-12-09 16:46:26,693] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:46:30,031] [INFO] - Epoch: 96, error: 11.564997406958337
+[2021-12-09 16:47:11,725] [INFO] -  -> epoch computation duration 41622ms
+[2021-12-09 16:47:11,825] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:47:15,117] [INFO] - Epoch: 97, error: 11.564997406958337
+[2021-12-09 16:47:57,089] [INFO] -  -> epoch computation duration 41899ms
+[2021-12-09 16:47:57,205] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:48:00,561] [INFO] - Epoch: 98, error: 11.564997406958337
+[2021-12-09 16:48:42,365] [INFO] -  -> epoch computation duration 41725ms
+[2021-12-09 16:48:42,464] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:48:45,838] [INFO] - Epoch: 99, error: 11.564997406958337
+[2021-12-09 16:49:27,839] [INFO] -  -> epoch computation duration 41925ms
+[2021-12-09 16:49:27,940] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:49:31,258] [INFO] - Epoch: 100, error: 11.564997406958337
+[2021-12-09 16:50:13,292] [INFO] -  -> epoch computation duration 41734ms
+[2021-12-09 16:50:13,392] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:50:16,690] [INFO] - Epoch: 101, error: 11.564997406958337
+[2021-12-09 16:50:58,418] [INFO] -  -> epoch computation duration 41654ms
+[2021-12-09 16:50:58,529] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:51:01,811] [INFO] - Epoch: 102, error: 11.564997406958337
+[2021-12-09 16:51:43,516] [INFO] -  -> epoch computation duration 41632ms
+[2021-12-09 16:51:43,632] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:51:46,930] [INFO] - Epoch: 103, error: 11.564997406958337
+[2021-12-09 16:52:28,884] [INFO] -  -> epoch computation duration 41878ms
+[2021-12-09 16:52:28,984] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:52:32,325] [INFO] - Epoch: 104, error: 11.564997406958337
+[2021-12-09 16:53:14,358] [INFO] -  -> epoch computation duration 41958ms
+[2021-12-09 16:53:14,456] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:53:17,807] [INFO] - Epoch: 105, error: 11.564997406958337
+[2021-12-09 16:53:59,486] [INFO] -  -> epoch computation duration 41607ms
+[2021-12-09 16:53:59,630] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:54:03,020] [INFO] - Epoch: 106, error: 11.564997406958337
+[2021-12-09 16:54:44,920] [INFO] -  -> epoch computation duration 41828ms
+[2021-12-09 16:54:45,035] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:54:48,354] [INFO] - Epoch: 107, error: 11.564997406958337
+[2021-12-09 16:55:30,248] [INFO] -  -> epoch computation duration 41821ms
+[2021-12-09 16:55:30,348] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:55:33,646] [INFO] - Epoch: 108, error: 11.564997406958337
+[2021-12-09 16:56:15,393] [INFO] -  -> epoch computation duration 41671ms
+[2021-12-09 16:56:15,493] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:56:18,789] [INFO] - Epoch: 109, error: 11.564997406958337
+[2021-12-09 16:57:00,599] [INFO] -  -> epoch computation duration 41737ms
+[2021-12-09 16:57:00,705] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:57:04,032] [INFO] - Epoch: 110, error: 11.564997406958337
+[2021-12-09 16:57:45,964] [INFO] -  -> epoch computation duration 41689ms
+[2021-12-09 16:57:46,070] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:57:49,383] [INFO] - Epoch: 111, error: 11.564997406958337
+[2021-12-09 16:58:31,428] [INFO] -  -> epoch computation duration 41972ms
+[2021-12-09 16:58:31,534] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:58:34,923] [INFO] - Epoch: 112, error: 11.564997406958337
+[2021-12-09 16:59:16,756] [INFO] -  -> epoch computation duration 41759ms
+[2021-12-09 16:59:16,876] [INFO] - Increase mutation weight: 10
+[2021-12-09 16:59:20,210] [INFO] - Epoch: 113, error: 11.564997406958337
+[2021-12-09 17:00:02,084] [INFO] -  -> epoch computation duration 41798ms
+[2021-12-09 17:00:02,197] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:00:05,602] [INFO] - Epoch: 114, error: 11.564997406958337
+[2021-12-09 17:00:49,086] [INFO] -  -> epoch computation duration 43406ms
+[2021-12-09 17:00:49,220] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:00:53,197] [INFO] - Epoch: 115, error: 11.564997406958337
+[2021-12-09 17:01:38,759] [INFO] -  -> epoch computation duration 45470ms
+[2021-12-09 17:01:38,893] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:01:42,351] [INFO] - Epoch: 116, error: 11.564997406958337
+[2021-12-09 17:02:26,949] [INFO] -  -> epoch computation duration 44519ms
+[2021-12-09 17:02:27,067] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:02:30,562] [INFO] - Epoch: 117, error: 11.564997406958337
+[2021-12-09 17:03:18,572] [INFO] -  -> epoch computation duration 47926ms
+[2021-12-09 17:03:18,696] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:03:22,141] [INFO] - Epoch: 118, error: 11.564997406958337
+[2021-12-09 17:04:10,207] [INFO] -  -> epoch computation duration 47985ms
+[2021-12-09 17:04:10,362] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:04:13,738] [INFO] - Epoch: 119, error: 11.564997406958337
+[2021-12-09 17:05:05,309] [INFO] -  -> epoch computation duration 51498ms
+[2021-12-09 17:05:05,429] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:05:09,105] [INFO] - Epoch: 120, error: 11.564997406958337
+[2021-12-09 17:05:56,445] [INFO] -  -> epoch computation duration 47035ms
+[2021-12-09 17:05:56,557] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:06:00,167] [INFO] - Epoch: 121, error: 11.564997406958337
+[2021-12-09 17:06:49,581] [INFO] -  -> epoch computation duration 49329ms
+[2021-12-09 17:06:49,710] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:06:53,850] [INFO] - Epoch: 122, error: 11.564997406958337
+[2021-12-09 17:07:41,380] [INFO] -  -> epoch computation duration 47407ms
+[2021-12-09 17:07:41,497] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:07:45,042] [INFO] - Epoch: 123, error: 11.564997406958337
+[2021-12-09 17:08:31,157] [INFO] -  -> epoch computation duration 46035ms
+[2021-12-09 17:08:31,269] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:08:34,781] [INFO] - Epoch: 124, error: 11.564997406958337
+[2021-12-09 17:09:21,029] [INFO] -  -> epoch computation duration 46168ms
+[2021-12-09 17:09:21,177] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:09:25,102] [INFO] - Epoch: 125, error: 11.564997406958337
+[2021-12-09 17:10:16,308] [INFO] -  -> epoch computation duration 51116ms
+[2021-12-09 17:10:16,465] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:10:20,262] [INFO] - Epoch: 126, error: 11.564997406958337
+[2021-12-09 17:11:11,043] [INFO] -  -> epoch computation duration 50700ms
+[2021-12-09 17:11:11,155] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:11:14,496] [INFO] - Epoch: 127, error: 11.564997406958337
+[2021-12-09 17:12:02,607] [INFO] -  -> epoch computation duration 48041ms
+[2021-12-09 17:12:02,708] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:12:05,995] [INFO] - Epoch: 128, error: 11.564997406958337
+[2021-12-09 17:12:49,116] [INFO] -  -> epoch computation duration 43046ms
+[2021-12-09 17:12:49,289] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:12:53,005] [INFO] - Epoch: 129, error: 11.564997406958337
+[2021-12-09 17:13:36,474] [INFO] -  -> epoch computation duration 43386ms
+[2021-12-09 17:13:36,583] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:13:40,033] [INFO] - Epoch: 130, error: 11.564997406958337
+[2021-12-09 17:14:24,842] [INFO] -  -> epoch computation duration 44506ms
+[2021-12-09 17:14:24,948] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:14:28,794] [INFO] - Epoch: 131, error: 11.564997406958337
+[2021-12-09 17:15:12,721] [INFO] -  -> epoch computation duration 43827ms
+[2021-12-09 17:15:12,821] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:15:16,224] [INFO] - Epoch: 132, error: 11.564997406958337
+[2021-12-09 17:15:59,239] [INFO] -  -> epoch computation duration 42942ms
+[2021-12-09 17:15:59,337] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:16:02,685] [INFO] - Epoch: 133, error: 11.564997406958337
+[2021-12-09 17:16:45,750] [INFO] -  -> epoch computation duration 42987ms
+[2021-12-09 17:16:45,847] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:16:49,219] [INFO] - Epoch: 134, error: 11.564997406958337
+[2021-12-09 17:17:33,646] [INFO] -  -> epoch computation duration 44348ms
+[2021-12-09 17:17:33,748] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:17:37,164] [INFO] - Epoch: 135, error: 11.564997406958337
+[2021-12-09 17:18:19,899] [INFO] -  -> epoch computation duration 42657ms
+[2021-12-09 17:18:20,030] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:18:23,404] [INFO] - Epoch: 136, error: 11.564997406958337
+[2021-12-09 17:19:06,424] [INFO] -  -> epoch computation duration 42947ms
+[2021-12-09 17:19:06,537] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:19:09,900] [INFO] - Epoch: 137, error: 11.564997406958337
+[2021-12-09 17:19:53,427] [INFO] -  -> epoch computation duration 43454ms
+[2021-12-09 17:19:53,528] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:19:56,875] [INFO] - Epoch: 138, error: 11.564997406958337
+[2021-12-09 17:20:39,832] [INFO] -  -> epoch computation duration 42883ms
+[2021-12-09 17:20:39,938] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:20:43,288] [INFO] - Epoch: 139, error: 11.564997406958337
+[2021-12-09 17:21:24,892] [INFO] -  -> epoch computation duration 41528ms
+[2021-12-09 17:21:24,994] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:21:28,316] [INFO] - Epoch: 140, error: 11.564997406958337
+[2021-12-09 17:22:13,048] [INFO] -  -> epoch computation duration 44441ms
+[2021-12-09 17:22:13,155] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:22:16,460] [INFO] - Epoch: 141, error: 11.564997406958337
+[2021-12-09 17:22:58,912] [INFO] -  -> epoch computation duration 42381ms
+[2021-12-09 17:22:59,019] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:23:02,317] [INFO] - Epoch: 142, error: 11.564997406958337
+[2021-12-09 17:23:45,898] [INFO] -  -> epoch computation duration 43510ms
+[2021-12-09 17:23:46,008] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:23:49,428] [INFO] - Epoch: 143, error: 11.564997406958337
+[2021-12-09 17:24:33,233] [INFO] -  -> epoch computation duration 43733ms
+[2021-12-09 17:24:33,348] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:24:36,628] [INFO] - Epoch: 144, error: 11.564997406958337
+[2021-12-09 17:25:20,394] [INFO] -  -> epoch computation duration 43695ms
+[2021-12-09 17:25:20,507] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:25:24,048] [INFO] - Epoch: 145, error: 11.564997406958337
+[2021-12-09 17:26:07,989] [INFO] -  -> epoch computation duration 43865ms
+[2021-12-09 17:26:08,103] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:26:11,505] [INFO] - Epoch: 146, error: 11.564997406958337
+[2021-12-09 17:26:55,816] [INFO] -  -> epoch computation duration 44229ms
+[2021-12-09 17:26:55,943] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:26:59,555] [INFO] - Epoch: 147, error: 11.564997406958337
+[2021-12-09 17:27:42,456] [INFO] -  -> epoch computation duration 42824ms
+[2021-12-09 17:27:42,566] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:27:45,912] [INFO] - Epoch: 148, error: 11.564997406958337
+[2021-12-09 17:28:28,235] [INFO] -  -> epoch computation duration 42238ms
+[2021-12-09 17:28:28,343] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:28:31,625] [INFO] - Epoch: 149, error: 11.564997406958337
+[2021-12-09 17:29:14,548] [INFO] -  -> epoch computation duration 42852ms
+[2021-12-09 17:29:14,659] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:29:18,006] [INFO] - Epoch: 150, error: 11.564997406958337
+[2021-12-09 17:30:00,668] [INFO] -  -> epoch computation duration 42280ms
+[2021-12-09 17:30:00,794] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:30:04,088] [INFO] - Epoch: 151, error: 11.564997406958337
+[2021-12-09 17:30:46,172] [INFO] -  -> epoch computation duration 42013ms
+[2021-12-09 17:30:46,277] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:30:49,577] [INFO] - Epoch: 152, error: 11.564997406958337
+[2021-12-09 17:31:51,597] [INFO] -  -> epoch computation duration 61946ms
+[2021-12-09 17:31:51,827] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:32:00,082] [INFO] - Epoch: 153, error: 11.564997406958337
+[2021-12-09 17:33:55,326] [INFO] -  -> epoch computation duration 114956ms
+[2021-12-09 17:33:55,499] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:34:00,746] [INFO] - Epoch: 154, error: 11.564997406958337
+[2021-12-09 17:36:06,273] [INFO] -  -> epoch computation duration 125418ms
+[2021-12-09 17:36:06,421] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:36:11,366] [INFO] - Epoch: 155, error: 11.564997406958337
+[2021-12-09 17:37:44,100] [INFO] -  -> epoch computation duration 92618ms
+[2021-12-09 17:37:44,450] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:37:51,519] [INFO] - Epoch: 156, error: 11.564997406958337
+[2021-12-09 17:39:59,763] [INFO] -  -> epoch computation duration 128062ms
+[2021-12-09 17:39:59,958] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:40:04,593] [INFO] - Epoch: 157, error: 11.564997406958337
+[2021-12-09 17:41:50,651] [INFO] -  -> epoch computation duration 105951ms
+[2021-12-09 17:41:50,911] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:41:56,474] [INFO] - Epoch: 158, error: 11.564997406958337
+[2021-12-09 17:43:42,717] [INFO] -  -> epoch computation duration 106149ms
+[2021-12-09 17:43:42,895] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:43:47,259] [INFO] - Epoch: 159, error: 11.564997406958337
+[2021-12-09 17:46:07,101] [INFO] -  -> epoch computation duration 139750ms
+[2021-12-09 17:46:07,293] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:46:11,740] [INFO] - Epoch: 160, error: 11.564997406958337
+[2021-12-09 17:48:07,682] [INFO] -  -> epoch computation duration 115468ms
+[2021-12-09 17:48:07,858] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:48:13,371] [INFO] - Epoch: 161, error: 11.564997406958337
+[2021-12-09 17:49:53,620] [INFO] -  -> epoch computation duration 100028ms
+[2021-12-09 17:49:54,052] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:50:09,339] [INFO] - Epoch: 162, error: 11.564997406958337
+[2021-12-09 17:51:44,220] [INFO] -  -> epoch computation duration 94516ms
+[2021-12-09 17:51:44,558] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:51:57,053] [INFO] - Epoch: 163, error: 11.564997406958337
+[2021-12-09 17:53:41,311] [INFO] -  -> epoch computation duration 104023ms
+[2021-12-09 17:53:41,664] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:53:48,992] [INFO] - Epoch: 164, error: 11.564997406958337
+[2021-12-09 17:56:10,789] [INFO] -  -> epoch computation duration 141558ms
+[2021-12-09 17:56:10,923] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:56:15,055] [INFO] - Epoch: 165, error: 11.564997406958337
+[2021-12-09 17:57:47,971] [INFO] -  -> epoch computation duration 92821ms
+[2021-12-09 17:57:48,237] [INFO] - Increase mutation weight: 10
+[2021-12-09 17:57:56,736] [INFO] - Epoch: 166, error: 11.564997406958337
+[2021-12-09 17:59:56,082] [INFO] -  -> epoch computation duration 119206ms
+[2021-12-09 17:59:56,687] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:00:01,647] [INFO] - Epoch: 167, error: 11.564997406958337
+[2021-12-09 18:01:45,066] [INFO] -  -> epoch computation duration 103321ms
+[2021-12-09 18:01:45,180] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:01:49,039] [INFO] - Epoch: 168, error: 11.564997406958337
+[2021-12-09 18:02:37,187] [INFO] -  -> epoch computation duration 48075ms
+[2021-12-09 18:02:37,318] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:02:40,778] [INFO] - Epoch: 169, error: 11.564997406958337
+[2021-12-09 18:03:36,146] [INFO] -  -> epoch computation duration 55294ms
+[2021-12-09 18:03:36,314] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:03:40,206] [INFO] - Epoch: 170, error: 11.564997406958337
+[2021-12-09 18:04:35,306] [INFO] -  -> epoch computation duration 54545ms
+[2021-12-09 18:04:35,446] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:04:39,331] [INFO] - Epoch: 171, error: 11.564997406958337
+[2021-12-09 18:05:32,208] [INFO] -  -> epoch computation duration 52788ms
+[2021-12-09 18:05:32,356] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:05:36,158] [INFO] - Epoch: 172, error: 11.564997406958337
+[2021-12-09 18:06:21,221] [INFO] -  -> epoch computation duration 44978ms
+[2021-12-09 18:06:21,349] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:06:24,716] [INFO] - Epoch: 173, error: 11.564997406958337
+[2021-12-09 18:07:08,458] [INFO] -  -> epoch computation duration 43640ms
+[2021-12-09 18:07:08,571] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:07:11,930] [INFO] - Epoch: 174, error: 11.564997406958337
+[2021-12-09 18:07:55,263] [INFO] -  -> epoch computation duration 43260ms
+[2021-12-09 18:07:55,392] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:07:58,692] [INFO] - Epoch: 175, error: 11.564997406958337
+[2021-12-09 18:08:41,913] [INFO] -  -> epoch computation duration 43150ms
+[2021-12-09 18:08:42,022] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:08:45,372] [INFO] - Epoch: 176, error: 11.564997406958337
+[2021-12-09 18:09:28,481] [INFO] -  -> epoch computation duration 43030ms
+[2021-12-09 18:09:28,595] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:09:31,966] [INFO] - Epoch: 177, error: 11.564997406958337
+[2021-12-09 18:10:13,907] [INFO] -  -> epoch computation duration 41860ms
+[2021-12-09 18:10:14,015] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:10:17,321] [INFO] - Epoch: 178, error: 11.564997406958337
+[2021-12-09 18:11:22,914] [INFO] - Logging system is configured
+[2021-12-09 18:11:23,217] [INFO] - Start genetic world emulation...
+[2021-12-09 18:11:23,222] [INFO] - Read the input data. Data information:
+[2021-12-09 18:11:23,223] [INFO] - [[0.000e+00 0.000e+00]
+ [2.500e-03 5.000e-02]
+ [1.000e-02 1.000e-01]
+ [6.250e-02 2.500e-01]
+ [2.500e-01 5.000e-01]
+ [5.625e-01 7.500e-01]
+ [1.000e+00 1.000e+00]
+ [4.000e+00 2.000e+00]
+ [9.000e+00 3.000e+00]
+ [1.600e+01 4.000e+00]
+ [2.500e+01 5.000e+00]
+ [3.600e+01 6.000e+00]
+ [4.900e+01 7.000e+00]
+ [6.400e+01 8.000e+00]
+ [8.100e+01 9.000e+00]
+ [1.000e+02 1.000e+01]
+ [1.210e+02 1.100e+01]
+ [1.440e+02 1.200e+01]
+ [1.690e+02 1.300e+01]
+ [1.960e+02 1.400e+01]]
+[2021-12-09 18:11:23,226] [INFO] - Prepared context for population
+[2021-12-09 18:11:23,226] [INFO] - Start world emulation...
+[2021-12-09 18:11:23,611] [INFO] - Prepared bots, population
+[2021-12-09 18:11:23,611] [INFO] - Launch world...
+[2021-12-09 18:11:34,236] [INFO] -  -> epoch computation duration 10592ms
+[2021-12-09 18:11:36,790] [INFO] - Epoch: 0, error: 27018.919708725607
+[2021-12-09 18:12:52,834] [INFO] -  -> epoch computation duration 75836ms
+[2021-12-09 18:12:55,447] [INFO] - Epoch: 1, error: 3885.7753550636967
+[2021-12-09 18:13:06,602] [INFO] -  -> epoch computation duration 11030ms
+[2021-12-09 18:13:09,149] [INFO] - Epoch: 2, error: 1103.3722549906972
+[2021-12-09 18:13:20,069] [INFO] -  -> epoch computation duration 10778ms
+[2021-12-09 18:13:22,551] [INFO] - Epoch: 3, error: 599.1879625533475
+[2021-12-09 18:13:33,585] [INFO] -  -> epoch computation duration 10877ms
+[2021-12-09 18:13:36,082] [INFO] - Epoch: 4, error: 476.00901095026086
+[2021-12-09 18:13:47,016] [INFO] -  -> epoch computation duration 10785ms
+[2021-12-09 18:13:49,537] [INFO] - Epoch: 5, error: 398.615294718309
+[2021-12-09 18:14:00,628] [INFO] -  -> epoch computation duration 11031ms
+[2021-12-09 18:14:03,137] [INFO] - Epoch: 6, error: 372.25219754973233
+[2021-12-09 18:14:14,583] [INFO] -  -> epoch computation duration 11389ms
+[2021-12-09 18:14:17,076] [INFO] - Epoch: 7, error: 344.9964895856549
+[2021-12-09 18:14:28,175] [INFO] -  -> epoch computation duration 11037ms
+[2021-12-09 18:14:30,679] [INFO] - Epoch: 8, error: 318.1314802967948
+[2021-12-09 18:14:41,687] [INFO] -  -> epoch computation duration 10946ms
+[2021-12-09 18:14:44,203] [INFO] - Epoch: 9, error: 300.1011255000631
+[2021-12-09 18:14:55,085] [INFO] -  -> epoch computation duration 10822ms
+[2021-12-09 18:14:57,598] [INFO] - Epoch: 10, error: 284.6953065938834
+[2021-12-09 18:15:08,525] [INFO] -  -> epoch computation duration 10773ms
+[2021-12-09 18:15:11,075] [INFO] - Epoch: 11, error: 261.5498910380485
+[2021-12-09 18:15:22,244] [INFO] -  -> epoch computation duration 11108ms
+[2021-12-09 18:15:24,785] [INFO] - Epoch: 12, error: 246.94666489064304
+[2021-12-09 18:15:35,914] [INFO] -  -> epoch computation duration 11068ms
+[2021-12-09 18:15:38,424] [INFO] - Epoch: 13, error: 242.50838698484094
+[2021-12-09 18:15:49,300] [INFO] -  -> epoch computation duration 10815ms
+[2021-12-09 18:15:51,767] [INFO] - Epoch: 14, error: 233.3538570012313
+[2021-12-09 18:16:02,626] [INFO] -  -> epoch computation duration 10800ms
+[2021-12-09 18:16:05,092] [INFO] - Epoch: 15, error: 225.0096440881472
+[2021-12-09 18:16:16,017] [INFO] -  -> epoch computation duration 10859ms
+[2021-12-09 18:16:18,574] [INFO] - Epoch: 16, error: 217.1527532403839
+[2021-12-09 18:16:29,580] [INFO] -  -> epoch computation duration 10945ms
+[2021-12-09 18:16:32,082] [INFO] - Epoch: 17, error: 215.07779024711326
+[2021-12-09 18:16:42,998] [INFO] -  -> epoch computation duration 10854ms
+[2021-12-09 18:16:45,531] [INFO] - Epoch: 18, error: 213.38090673936557
+[2021-12-09 18:16:56,510] [INFO] -  -> epoch computation duration 10918ms
+[2021-12-09 18:16:59,008] [INFO] - Epoch: 19, error: 212.5461563412279
+[2021-12-09 18:17:09,816] [INFO] -  -> epoch computation duration 10751ms
+[2021-12-09 18:17:12,317] [INFO] - Epoch: 20, error: 211.92740512558674
+[2021-12-09 18:17:23,247] [INFO] -  -> epoch computation duration 10758ms
+[2021-12-09 18:17:25,751] [INFO] - Epoch: 21, error: 211.7658355272427
+[2021-12-09 18:17:36,573] [INFO] -  -> epoch computation duration 10761ms
+[2021-12-09 18:17:39,070] [INFO] - Epoch: 22, error: 211.69994974426558
+[2021-12-09 18:17:49,989] [INFO] -  -> epoch computation duration 10859ms
+[2021-12-09 18:17:52,545] [INFO] - Epoch: 23, error: 211.68492294431735
+[2021-12-09 18:18:03,624] [INFO] -  -> epoch computation duration 11012ms
+[2021-12-09 18:18:06,196] [INFO] - Epoch: 24, error: 210.2320822460152
+[2021-12-09 18:18:17,052] [INFO] -  -> epoch computation duration 10795ms
+[2021-12-09 18:18:19,568] [INFO] - Epoch: 25, error: 209.47492298046217
+[2021-12-09 18:18:30,580] [INFO] -  -> epoch computation duration 10949ms
+[2021-12-09 18:18:33,166] [INFO] - Epoch: 26, error: 209.27996228478088
+[2021-12-09 18:18:43,957] [INFO] -  -> epoch computation duration 10730ms
+[2021-12-09 18:18:46,463] [INFO] - Epoch: 27, error: 209.1009054707127
+[2021-12-09 18:18:57,633] [INFO] -  -> epoch computation duration 11110ms
+[2021-12-09 18:19:00,145] [INFO] - Epoch: 28, error: 209.08393088899896
+[2021-12-09 18:19:11,839] [INFO] -  -> epoch computation duration 11629ms
+[2021-12-09 18:19:14,398] [INFO] - Epoch: 29, error: 209.06670497906288
+[2021-12-09 18:19:25,449] [INFO] -  -> epoch computation duration 10986ms
+[2021-12-09 18:19:27,937] [INFO] - Epoch: 30, error: 209.02544981881633
+[2021-12-09 18:19:38,704] [INFO] -  -> epoch computation duration 10585ms
+[2021-12-09 18:19:41,167] [INFO] - Epoch: 31, error: 209.0201960271711
+[2021-12-09 18:19:51,973] [INFO] -  -> epoch computation duration 10746ms
+[2021-12-09 18:19:54,481] [INFO] - Epoch: 32, error: 209.0118813426709
+[2021-12-09 18:20:05,308] [INFO] -  -> epoch computation duration 10769ms
+[2021-12-09 18:20:07,794] [INFO] - Epoch: 33, error: 209.0118813426709
+[2021-12-09 18:20:18,780] [INFO] -  -> epoch computation duration 10926ms
+[2021-12-09 18:20:18,871] [INFO] - Increase mutation weight: 13
+[2021-12-09 18:20:22,247] [INFO] - Epoch: 34, error: 209.01080583201752
+[2021-12-09 18:21:16,303] [INFO] -  -> epoch computation duration 53997ms
+[2021-12-09 18:21:19,205] [INFO] - Epoch: 35, error: 92.38200365213791
+[2021-12-09 18:21:31,090] [INFO] -  -> epoch computation duration 11815ms
+[2021-12-09 18:21:33,685] [INFO] - Epoch: 36, error: 64.74328827970301
+[2021-12-09 18:21:45,130] [INFO] -  -> epoch computation duration 11378ms
+[2021-12-09 18:21:47,717] [INFO] - Epoch: 37, error: 38.596425398958644
+[2021-12-09 18:22:00,423] [INFO] -  -> epoch computation duration 12639ms
+[2021-12-09 18:22:03,278] [INFO] - Epoch: 38, error: 32.87757640320266
+[2021-12-09 18:22:14,583] [INFO] -  -> epoch computation duration 11237ms
+[2021-12-09 18:22:17,231] [INFO] - Epoch: 39, error: 27.781492200092366
+[2021-12-09 18:22:28,854] [INFO] -  -> epoch computation duration 11562ms
+[2021-12-09 18:22:31,445] [INFO] - Epoch: 40, error: 25.46090070203521
+[2021-12-09 18:22:42,643] [INFO] -  -> epoch computation duration 11014ms
+[2021-12-09 18:22:45,181] [INFO] - Epoch: 41, error: 22.66534581551235
+[2021-12-09 18:22:56,830] [INFO] -  -> epoch computation duration 11586ms
+[2021-12-09 18:22:59,456] [INFO] - Epoch: 42, error: 21.514153362129413
+[2021-12-09 18:23:13,083] [INFO] -  -> epoch computation duration 13565ms
+[2021-12-09 18:23:15,690] [INFO] - Epoch: 43, error: 19.923065853932886
+[2021-12-09 18:23:27,252] [INFO] -  -> epoch computation duration 11502ms
+[2021-12-09 18:23:29,893] [INFO] - Epoch: 44, error: 19.105030226670014
+[2021-12-09 18:23:41,009] [INFO] -  -> epoch computation duration 11054ms
+[2021-12-09 18:23:43,679] [INFO] - Epoch: 45, error: 18.66943184290941
+[2021-12-09 18:23:54,849] [INFO] -  -> epoch computation duration 11106ms
+[2021-12-09 18:23:57,403] [INFO] - Epoch: 46, error: 17.632091244614355
+[2021-12-09 18:24:09,040] [INFO] -  -> epoch computation duration 11573ms
+[2021-12-09 18:24:12,075] [INFO] - Epoch: 47, error: 16.02624784553864
+[2021-12-09 18:24:24,028] [INFO] -  -> epoch computation duration 11890ms
+[2021-12-09 18:24:26,538] [INFO] - Epoch: 48, error: 13.637327729741207
+[2021-12-09 18:24:37,599] [INFO] -  -> epoch computation duration 10995ms
+[2021-12-09 18:24:40,093] [INFO] - Epoch: 49, error: 13.354514075073064
+[2021-12-09 18:24:53,665] [INFO] -  -> epoch computation duration 13510ms
+[2021-12-09 18:24:56,503] [INFO] - Epoch: 50, error: 13.072174530372004
+[2021-12-09 18:25:07,925] [INFO] -  -> epoch computation duration 11239ms
+[2021-12-09 18:25:10,580] [INFO] - Epoch: 51, error: 12.541954509195497
+[2021-12-09 18:25:23,222] [INFO] -  -> epoch computation duration 12576ms
+[2021-12-09 18:25:25,980] [INFO] - Epoch: 52, error: 12.40881895392504
+[2021-12-09 18:25:37,644] [INFO] -  -> epoch computation duration 11600ms
+[2021-12-09 18:25:40,233] [INFO] - Epoch: 53, error: 12.24760980912355
+[2021-12-09 18:25:52,008] [INFO] -  -> epoch computation duration 11714ms
+[2021-12-09 18:25:54,565] [INFO] - Epoch: 54, error: 11.955037031936305
+[2021-12-09 18:26:06,298] [INFO] -  -> epoch computation duration 11670ms
+[2021-12-09 18:26:08,858] [INFO] - Epoch: 55, error: 11.727265481381341
+[2021-12-09 18:26:20,523] [INFO] -  -> epoch computation duration 11602ms
+[2021-12-09 18:26:23,056] [INFO] - Epoch: 56, error: 11.223681833324315
+[2021-12-09 18:26:35,836] [INFO] -  -> epoch computation duration 12714ms
+[2021-12-09 18:26:38,816] [INFO] - Epoch: 57, error: 11.140315017552206
+[2021-12-09 18:26:51,148] [INFO] -  -> epoch computation duration 12267ms
+[2021-12-09 18:26:53,959] [INFO] - Epoch: 58, error: 10.925672698333168
+[2021-12-09 18:27:05,698] [INFO] -  -> epoch computation duration 11671ms
+[2021-12-09 18:27:08,385] [INFO] - Epoch: 59, error: 10.746106406619916
+[2021-12-09 18:27:20,281] [INFO] -  -> epoch computation duration 11831ms
+[2021-12-09 18:27:22,880] [INFO] - Epoch: 60, error: 10.708785740001398
+[2021-12-09 18:27:34,669] [INFO] -  -> epoch computation duration 11588ms
+[2021-12-09 18:27:37,281] [INFO] - Epoch: 61, error: 10.677369430368978
+[2021-12-09 18:27:49,166] [INFO] -  -> epoch computation duration 11824ms
+[2021-12-09 18:27:51,875] [INFO] - Epoch: 62, error: 10.631340970634707
+[2021-12-09 18:28:03,457] [INFO] -  -> epoch computation duration 11512ms
+[2021-12-09 18:28:06,045] [INFO] - Epoch: 63, error: 10.61269287502346
+[2021-12-09 18:28:17,469] [INFO] -  -> epoch computation duration 11362ms
+[2021-12-09 18:28:20,081] [INFO] - Epoch: 64, error: 10.603664887696903
+[2021-12-09 18:28:31,666] [INFO] -  -> epoch computation duration 11521ms
+[2021-12-09 18:28:34,251] [INFO] - Epoch: 65, error: 10.599343342763637
+[2021-12-09 18:28:45,722] [INFO] -  -> epoch computation duration 11407ms
+[2021-12-09 18:28:48,317] [INFO] - Epoch: 66, error: 10.599275038123361
+[2021-12-09 18:29:01,187] [INFO] -  -> epoch computation duration 12805ms
+[2021-12-09 18:29:01,316] [INFO] - Increase mutation weight: 10
+[2021-12-09 18:29:04,813] [INFO] - Epoch: 67, error: 10.598849732418078
+[2021-12-09 18:29:49,069] [INFO] -  -> epoch computation duration 44196ms
+[2021-12-09 18:29:51,660] [INFO] - Epoch: 68, error: 5.861487307670727
+[2021-12-09 18:30:02,952] [INFO] -  -> epoch computation duration 11225ms
+[2021-12-09 18:30:05,592] [INFO] - Epoch: 69, error: 4.947831342086398
+[2021-12-09 18:30:17,075] [INFO] -  -> epoch computation duration 11419ms
+[2021-12-09 18:30:19,819] [INFO] - Epoch: 70, error: 3.222309578026158
+[2021-12-09 18:30:31,696] [INFO] -  -> epoch computation duration 11668ms
+[2021-12-09 18:30:34,313] [INFO] - Epoch: 71, error: 3.094066016985402
+[2021-12-09 18:30:46,472] [INFO] -  -> epoch computation duration 12093ms
+[2021-12-09 18:30:49,081] [INFO] - Epoch: 72, error: 2.7825963186008384
+[2021-12-09 18:31:04,761] [INFO] -  -> epoch computation duration 15616ms
+[2021-12-09 18:31:08,489] [INFO] - Epoch: 73, error: 2.620091823668227
+[2021-12-09 18:31:32,040] [INFO] -  -> epoch computation duration 23467ms
+[2021-12-09 18:31:36,126] [INFO] - Epoch: 74, error: 2.4106731825083214
+[2021-12-09 18:31:57,543] [INFO] -  -> epoch computation duration 21326ms
+[2021-12-09 18:32:01,347] [INFO] - Epoch: 75, error: 2.3301565196030913
+[2021-12-09 18:32:19,007] [INFO] -  -> epoch computation duration 17565ms
+[2021-12-09 18:32:21,641] [INFO] - Epoch: 76, error: 2.297873424547418
+[2021-12-09 18:32:33,275] [INFO] -  -> epoch computation duration 11572ms
+[2021-12-09 18:32:35,928] [INFO] - Epoch: 77, error: 2.2956902323762756
+[2021-12-09 18:32:46,994] [INFO] -  -> epoch computation duration 10998ms
+[2021-12-09 18:32:49,558] [INFO] - Epoch: 78, error: 2.287755541687434
+[2021-12-09 18:33:00,778] [INFO] -  -> epoch computation duration 11157ms
+[2021-12-09 18:33:03,361] [INFO] - Epoch: 79, error: 2.2837596417933543
+[2021-12-09 18:33:15,492] [INFO] -  -> epoch computation duration 12068ms
+[2021-12-09 18:33:15,599] [INFO] - Increase mutation weight: 7
+[2021-12-09 18:33:18,766] [INFO] - Epoch: 80, error: 2.2807919228763027
+[2021-12-09 18:33:54,988] [INFO] -  -> epoch computation duration 35837ms
+[2021-12-09 18:33:55,093] [INFO] - Increase mutation weight: 7
+[2021-12-09 18:33:58,066] [INFO] - Epoch: 81, error: 2.2807919228763027
+[2021-12-09 18:34:33,824] [INFO] -  -> epoch computation duration 35694ms
+[2021-12-09 18:34:36,350] [INFO] - Epoch: 82, error: 2.1162045318278557
+[2021-12-09 18:34:47,160] [INFO] -  -> epoch computation duration 10741ms
+[2021-12-09 18:34:49,661] [INFO] - Epoch: 83, error: 1.8254866405370813
+[2021-12-09 18:35:00,901] [INFO] -  -> epoch computation duration 11172ms
+[2021-12-09 18:35:03,424] [INFO] - Epoch: 84, error: 1.3853002826725165
+[2021-12-09 18:35:14,346] [INFO] -  -> epoch computation duration 10856ms
+[2021-12-09 18:35:16,840] [INFO] - Epoch: 85, error: 1.2834983482149984
+[2021-12-09 18:35:27,816] [INFO] -  -> epoch computation duration 10906ms
+[2021-12-09 18:35:30,336] [INFO] - Epoch: 86, error: 1.215437606841105
+[2021-12-09 18:35:41,026] [INFO] -  -> epoch computation duration 10625ms
+[2021-12-09 18:35:43,563] [INFO] - Epoch: 87, error: 1.1582394139520755
+[2021-12-09 18:35:54,613] [INFO] -  -> epoch computation duration 10984ms
+[2021-12-09 18:35:57,105] [INFO] - Epoch: 88, error: 1.142257799378023
+[2021-12-09 18:36:08,295] [INFO] -  -> epoch computation duration 11121ms
+[2021-12-09 18:36:10,777] [INFO] - Epoch: 89, error: 1.1246100353664745
+[2021-12-09 18:36:22,547] [INFO] -  -> epoch computation duration 11704ms
+[2021-12-09 18:36:25,155] [INFO] - Epoch: 90, error: 1.118266309583006
+[2021-12-09 18:36:44,995] [INFO] -  -> epoch computation duration 19547ms
+[2021-12-09 18:36:48,564] [INFO] - Epoch: 91, error: 1.1156617727791642
+[2021-12-09 18:37:07,987] [INFO] -  -> epoch computation duration 19270ms
+[2021-12-09 18:37:13,168] [INFO] - Epoch: 92, error: 1.113267992280426
+[2021-12-09 18:37:32,455] [INFO] -  -> epoch computation duration 19170ms
+[2021-12-09 18:37:32,544] [INFO] - Increase mutation weight: 7
+[2021-12-09 18:37:35,517] [INFO] - Epoch: 93, error: 1.105338481741939
+[2021-12-09 18:38:11,533] [INFO] -  -> epoch computation duration 35929ms
+[2021-12-09 18:38:11,627] [INFO] - Increase mutation weight: 7
+[2021-12-09 18:38:14,621] [INFO] - Epoch: 94, error: 1.105338481741939
+[2021-12-09 18:38:50,446] [INFO] -  -> epoch computation duration 35756ms
+[2021-12-09 18:38:53,023] [INFO] - Epoch: 95, error: 0.9580794769991158
+[2021-12-09 18:39:04,089] [INFO] -  -> epoch computation duration 10993ms
+[2021-12-09 18:39:06,594] [INFO] - Epoch: 96, error: 0.8940767674367673
+[2021-12-09 18:39:17,905] [INFO] -  -> epoch computation duration 11244ms
+[2021-12-09 18:39:20,526] [INFO] - Epoch: 97, error: 0.7832391971590075
+[2021-12-09 18:39:32,529] [INFO] -  -> epoch computation duration 11936ms
+[2021-12-09 18:39:35,026] [INFO] - Epoch: 98, error: 0.7773479932522727
+[2021-12-09 18:39:46,244] [INFO] -  -> epoch computation duration 11154ms
+[2021-12-09 18:39:48,804] [INFO] - Epoch: 99, error: 0.7747215425555664
+[2021-12-09 18:40:00,629] [INFO] -  -> epoch computation duration 11758ms
+[2021-12-09 18:40:03,223] [INFO] - Epoch: 100, error: 0.773753174721196
+[2021-12-09 18:40:15,437] [INFO] -  -> epoch computation duration 11989ms
+[2021-12-09 18:40:15,525] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:40:18,273] [INFO] - Epoch: 101, error: 0.7730478322642944
+[2021-12-09 18:40:43,703] [INFO] -  -> epoch computation duration 25364ms
+[2021-12-09 18:40:46,266] [INFO] - Epoch: 102, error: 0.6717976047136056
+[2021-12-09 18:40:58,767] [INFO] -  -> epoch computation duration 12432ms
+[2021-12-09 18:41:01,369] [INFO] - Epoch: 103, error: 0.639124404823235
+[2021-12-09 18:41:12,675] [INFO] -  -> epoch computation duration 11236ms
+[2021-12-09 18:41:15,196] [INFO] - Epoch: 104, error: 0.5618994914121347
+[2021-12-09 18:41:26,363] [INFO] -  -> epoch computation duration 11098ms
+[2021-12-09 18:41:29,053] [INFO] - Epoch: 105, error: 0.5418760050978051
+[2021-12-09 18:41:40,540] [INFO] -  -> epoch computation duration 11421ms
+[2021-12-09 18:41:43,093] [INFO] - Epoch: 106, error: 0.5196588130960577
+[2021-12-09 18:41:54,975] [INFO] -  -> epoch computation duration 11814ms
+[2021-12-09 18:41:57,609] [INFO] - Epoch: 107, error: 0.5094268176731069
+[2021-12-09 18:42:08,774] [INFO] -  -> epoch computation duration 11098ms
+[2021-12-09 18:42:11,361] [INFO] - Epoch: 108, error: 0.5068153512588525
+[2021-12-09 18:42:22,594] [INFO] -  -> epoch computation duration 11168ms
+[2021-12-09 18:42:25,149] [INFO] - Epoch: 109, error: 0.502898712755613
+[2021-12-09 18:42:36,236] [INFO] -  -> epoch computation duration 11022ms
+[2021-12-09 18:42:36,329] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:42:39,015] [INFO] - Epoch: 110, error: 0.49815720114956974
+[2021-12-09 18:43:03,846] [INFO] -  -> epoch computation duration 24576ms
+[2021-12-09 18:43:03,940] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:43:06,656] [INFO] - Epoch: 111, error: 0.4915775333811282
+[2021-12-09 18:43:31,583] [INFO] -  -> epoch computation duration 24862ms
+[2021-12-09 18:43:31,674] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:43:34,447] [INFO] - Epoch: 112, error: 0.4906190419302475
+[2021-12-09 18:43:59,940] [INFO] -  -> epoch computation duration 25427ms
+[2021-12-09 18:44:00,040] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:44:02,895] [INFO] - Epoch: 113, error: 0.4906190419302475
+[2021-12-09 18:44:30,271] [INFO] -  -> epoch computation duration 27303ms
+[2021-12-09 18:44:30,367] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:44:33,203] [INFO] - Epoch: 114, error: 0.4780636953395896
+[2021-12-09 18:44:59,811] [INFO] -  -> epoch computation duration 26535ms
+[2021-12-09 18:44:59,905] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:45:02,762] [INFO] - Epoch: 115, error: 0.4780636953395896
+[2021-12-09 18:45:31,463] [INFO] -  -> epoch computation duration 28623ms
+[2021-12-09 18:45:31,553] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:45:34,311] [INFO] - Epoch: 116, error: 0.4780636953395896
+[2021-12-09 18:46:00,387] [INFO] -  -> epoch computation duration 26004ms
+[2021-12-09 18:46:02,996] [INFO] - Epoch: 117, error: 0.45049264084538887
+[2021-12-09 18:46:15,286] [INFO] -  -> epoch computation duration 12222ms
+[2021-12-09 18:46:17,911] [INFO] - Epoch: 118, error: 0.4425399747339299
+[2021-12-09 18:46:30,161] [INFO] -  -> epoch computation duration 12184ms
+[2021-12-09 18:46:32,725] [INFO] - Epoch: 119, error: 0.43637762004867486
+[2021-12-09 18:46:46,029] [INFO] -  -> epoch computation duration 13233ms
+[2021-12-09 18:46:48,566] [INFO] - Epoch: 120, error: 0.41442701678276916
+[2021-12-09 18:47:00,048] [INFO] -  -> epoch computation duration 11239ms
+[2021-12-09 18:47:02,561] [INFO] - Epoch: 121, error: 0.4057858797854313
+[2021-12-09 18:47:14,369] [INFO] -  -> epoch computation duration 11740ms
+[2021-12-09 18:47:16,926] [INFO] - Epoch: 122, error: 0.4041530107739762
+[2021-12-09 18:47:27,994] [INFO] -  -> epoch computation duration 11001ms
+[2021-12-09 18:47:30,549] [INFO] - Epoch: 123, error: 0.4026458863007771
+[2021-12-09 18:47:41,969] [INFO] -  -> epoch computation duration 11351ms
+[2021-12-09 18:47:42,055] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:47:44,853] [INFO] - Epoch: 124, error: 0.3987922614642093
+[2021-12-09 18:48:10,500] [INFO] -  -> epoch computation duration 25576ms
+[2021-12-09 18:48:10,605] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:48:13,288] [INFO] - Epoch: 125, error: 0.3987922614642093
+[2021-12-09 18:48:38,815] [INFO] -  -> epoch computation duration 25459ms
+[2021-12-09 18:48:38,909] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:48:41,624] [INFO] - Epoch: 126, error: 0.3987922614642093
+[2021-12-09 18:49:06,756] [INFO] -  -> epoch computation duration 25063ms
+[2021-12-09 18:49:06,849] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:49:09,562] [INFO] - Epoch: 127, error: 0.3987922614642093
+[2021-12-09 18:49:35,390] [INFO] -  -> epoch computation duration 25755ms
+[2021-12-09 18:49:35,480] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:49:38,223] [INFO] - Epoch: 128, error: 0.3987922614642093
+[2021-12-09 18:50:04,674] [INFO] -  -> epoch computation duration 26382ms
+[2021-12-09 18:50:04,791] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:50:09,452] [INFO] - Epoch: 129, error: 0.3987922614642093
+[2021-12-09 18:51:22,928] [INFO] -  -> epoch computation duration 73386ms
+[2021-12-09 18:51:23,288] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:51:31,286] [INFO] - Epoch: 130, error: 0.3977990818749199
+[2021-12-09 18:53:09,257] [INFO] -  -> epoch computation duration 97272ms
+[2021-12-09 18:53:10,078] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:53:37,578] [INFO] - Epoch: 131, error: 0.3849573569450916
+[2021-12-09 18:54:33,943] [INFO] -  -> epoch computation duration 55890ms
+[2021-12-09 18:54:34,290] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:54:39,467] [INFO] - Epoch: 132, error: 0.3799872112967342
+[2021-12-09 18:55:35,810] [INFO] -  -> epoch computation duration 56241ms
+[2021-12-09 18:55:35,912] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:55:38,748] [INFO] - Epoch: 133, error: 0.3799872112967342
+[2021-12-09 18:56:05,209] [INFO] -  -> epoch computation duration 26390ms
+[2021-12-09 18:56:05,307] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:56:08,180] [INFO] - Epoch: 134, error: 0.3799872112967342
+[2021-12-09 18:56:35,947] [INFO] -  -> epoch computation duration 27692ms
+[2021-12-09 18:56:36,043] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:56:38,852] [INFO] - Epoch: 135, error: 0.3799872112967342
+[2021-12-09 18:57:04,788] [INFO] -  -> epoch computation duration 25865ms
+[2021-12-09 18:57:04,885] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:57:07,714] [INFO] - Epoch: 136, error: 0.375283570171223
+[2021-12-09 18:57:33,611] [INFO] -  -> epoch computation duration 25823ms
+[2021-12-09 18:57:33,717] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:57:36,543] [INFO] - Epoch: 137, error: 0.375283570171223
+[2021-12-09 18:58:02,564] [INFO] -  -> epoch computation duration 25946ms
+[2021-12-09 18:58:02,673] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:58:05,534] [INFO] - Epoch: 138, error: 0.375283570171223
+[2021-12-09 18:58:31,538] [INFO] -  -> epoch computation duration 25928ms
+[2021-12-09 18:58:31,654] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:58:34,524] [INFO] - Epoch: 139, error: 0.373907698532852
+[2021-12-09 18:59:01,037] [INFO] -  -> epoch computation duration 26439ms
+[2021-12-09 18:59:01,140] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:59:04,007] [INFO] - Epoch: 140, error: 0.373907698532852
+[2021-12-09 18:59:29,768] [INFO] -  -> epoch computation duration 25460ms
+[2021-12-09 18:59:29,860] [INFO] - Increase mutation weight: 4
+[2021-12-09 18:59:32,597] [INFO] - Epoch: 141, error: 0.373907698532852
+[2021-12-09 18:59:58,355] [INFO] -  -> epoch computation duration 25683ms
+[2021-12-09 18:59:58,450] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:00:01,321] [INFO] - Epoch: 142, error: 0.373907698532852
+[2021-12-09 19:00:27,553] [INFO] -  -> epoch computation duration 26160ms
+[2021-12-09 19:00:27,655] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:00:30,498] [INFO] - Epoch: 143, error: 0.373907698532852
+[2021-12-09 19:00:56,115] [INFO] -  -> epoch computation duration 25546ms
+[2021-12-09 19:00:56,211] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:00:58,966] [INFO] - Epoch: 144, error: 0.373907698532852
+[2021-12-09 19:01:25,162] [INFO] -  -> epoch computation duration 26125ms
+[2021-12-09 19:01:25,257] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:01:28,245] [INFO] - Epoch: 145, error: 0.373907698532852
+[2021-12-09 19:01:54,290] [INFO] -  -> epoch computation duration 25971ms
+[2021-12-09 19:01:54,385] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:01:57,222] [INFO] - Epoch: 146, error: 0.373907698532852
+[2021-12-09 19:02:23,291] [INFO] -  -> epoch computation duration 25994ms
+[2021-12-09 19:02:23,383] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:02:26,147] [INFO] - Epoch: 147, error: 0.373907698532852
+[2021-12-09 19:02:52,205] [INFO] -  -> epoch computation duration 25985ms
+[2021-12-09 19:02:52,298] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:02:55,222] [INFO] - Epoch: 148, error: 0.373907698532852
+[2021-12-09 19:03:21,837] [INFO] -  -> epoch computation duration 26539ms
+[2021-12-09 19:03:21,939] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:03:24,816] [INFO] - Epoch: 149, error: 0.373907698532852
+[2021-12-09 19:03:51,177] [INFO] -  -> epoch computation duration 26288ms
+[2021-12-09 19:03:51,279] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:03:54,168] [INFO] - Epoch: 150, error: 0.373907698532852
+[2021-12-09 19:04:21,067] [INFO] -  -> epoch computation duration 26606ms
+[2021-12-09 19:04:21,163] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:04:24,082] [INFO] - Epoch: 151, error: 0.373907698532852
+[2021-12-09 19:04:50,706] [INFO] -  -> epoch computation duration 26549ms
+[2021-12-09 19:04:50,816] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:04:53,631] [INFO] - Epoch: 152, error: 0.373907698532852
+[2021-12-09 19:05:19,928] [INFO] -  -> epoch computation duration 26222ms
+[2021-12-09 19:05:22,544] [INFO] - Epoch: 153, error: 0.34458007137340024
+[2021-12-09 19:05:34,557] [INFO] -  -> epoch computation duration 11941ms
+[2021-12-09 19:05:37,090] [INFO] - Epoch: 154, error: 0.3075113742078912
+[2021-12-09 19:05:52,783] [INFO] -  -> epoch computation duration 15616ms
+[2021-12-09 19:05:56,893] [INFO] - Epoch: 155, error: 0.3018291616031685
+[2021-12-09 19:06:09,814] [INFO] -  -> epoch computation duration 12737ms
+[2021-12-09 19:06:12,209] [INFO] - Epoch: 156, error: 0.29870650922364317
+[2021-12-09 19:06:22,754] [INFO] -  -> epoch computation duration 10480ms
+[2021-12-09 19:06:25,239] [INFO] - Epoch: 157, error: 0.29578056996634283
+[2021-12-09 19:06:36,734] [INFO] -  -> epoch computation duration 11424ms
+[2021-12-09 19:06:36,837] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:06:40,199] [INFO] - Epoch: 158, error: 0.2952929034217361
+[2021-12-09 19:07:05,849] [INFO] -  -> epoch computation duration 25575ms
+[2021-12-09 19:07:05,942] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:07:08,510] [INFO] - Epoch: 159, error: 0.2952929034217361
+[2021-12-09 19:07:32,446] [INFO] -  -> epoch computation duration 23869ms
+[2021-12-09 19:07:32,532] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:07:35,183] [INFO] - Epoch: 160, error: 0.2952929034217361
+[2021-12-09 19:07:59,955] [INFO] -  -> epoch computation duration 24423ms
+[2021-12-09 19:08:00,041] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:08:02,583] [INFO] - Epoch: 161, error: 0.2952929034217361
+[2021-12-09 19:08:26,908] [INFO] -  -> epoch computation duration 24259ms
+[2021-12-09 19:08:27,030] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:08:29,773] [INFO] - Epoch: 162, error: 0.2952929034217361
+[2021-12-09 19:08:54,239] [INFO] -  -> epoch computation duration 24396ms
+[2021-12-09 19:08:54,332] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:08:56,995] [INFO] - Epoch: 163, error: 0.2952929034217361
+[2021-12-09 19:09:20,896] [INFO] -  -> epoch computation duration 23830ms
+[2021-12-09 19:09:21,016] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:09:23,646] [INFO] - Epoch: 164, error: 0.2952929034217361
+[2021-12-09 19:09:47,842] [INFO] -  -> epoch computation duration 24122ms
+[2021-12-09 19:09:47,935] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:09:50,553] [INFO] - Epoch: 165, error: 0.2952929034217361
+[2021-12-09 19:10:14,547] [INFO] -  -> epoch computation duration 23923ms
+[2021-12-09 19:10:14,646] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:10:17,386] [INFO] - Epoch: 166, error: 0.2952929034217361
+[2021-12-09 19:10:42,097] [INFO] -  -> epoch computation duration 24638ms
+[2021-12-09 19:10:42,191] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:10:44,918] [INFO] - Epoch: 167, error: 0.2952929034217361
+[2021-12-09 19:11:09,009] [INFO] -  -> epoch computation duration 24016ms
+[2021-12-09 19:11:09,112] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:11:11,785] [INFO] - Epoch: 168, error: 0.2952929034217361
+[2021-12-09 19:11:35,879] [INFO] -  -> epoch computation duration 24021ms
+[2021-12-09 19:11:35,977] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:11:38,684] [INFO] - Epoch: 169, error: 0.2952929034217361
+[2021-12-09 19:12:03,022] [INFO] -  -> epoch computation duration 24267ms
+[2021-12-09 19:12:03,113] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:12:05,879] [INFO] - Epoch: 170, error: 0.2952929034217361
+[2021-12-09 19:12:30,468] [INFO] -  -> epoch computation duration 24309ms
+[2021-12-09 19:12:30,559] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:12:33,232] [INFO] - Epoch: 171, error: 0.2952929034217361
+[2021-12-09 19:12:57,729] [INFO] -  -> epoch computation duration 24426ms
+[2021-12-09 19:12:57,836] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:13:00,626] [INFO] - Epoch: 172, error: 0.2952929034217361
+[2021-12-09 19:13:25,390] [INFO] -  -> epoch computation duration 24691ms
+[2021-12-09 19:13:25,485] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:13:28,155] [INFO] - Epoch: 173, error: 0.2952929034217361
+[2021-12-09 19:13:52,524] [INFO] -  -> epoch computation duration 24295ms
+[2021-12-09 19:13:52,619] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:13:55,285] [INFO] - Epoch: 174, error: 0.2952929034217361
+[2021-12-09 19:14:19,356] [INFO] -  -> epoch computation duration 24001ms
+[2021-12-09 19:14:19,446] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:14:22,136] [INFO] - Epoch: 175, error: 0.2952929034217361
+[2021-12-09 19:14:45,686] [INFO] -  -> epoch computation duration 23477ms
+[2021-12-09 19:14:45,776] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:14:48,375] [INFO] - Epoch: 176, error: 0.2952929034217361
+[2021-12-09 19:15:12,121] [INFO] -  -> epoch computation duration 23677ms
+[2021-12-09 19:15:12,227] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:15:14,888] [INFO] - Epoch: 177, error: 0.2952929034217361
+[2021-12-09 19:15:38,336] [INFO] -  -> epoch computation duration 23370ms
+[2021-12-09 19:15:38,430] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:15:41,051] [INFO] - Epoch: 178, error: 0.2952929034217361
+[2021-12-09 19:16:04,367] [INFO] -  -> epoch computation duration 23250ms
+[2021-12-09 19:16:04,458] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:16:07,057] [INFO] - Epoch: 179, error: 0.2952929034217361
+[2021-12-09 19:16:30,689] [INFO] -  -> epoch computation duration 23566ms
+[2021-12-09 19:16:30,779] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:16:33,356] [INFO] - Epoch: 180, error: 0.2952929034217361
+[2021-12-09 19:16:57,107] [INFO] -  -> epoch computation duration 23474ms
+[2021-12-09 19:16:57,195] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:16:59,807] [INFO] - Epoch: 181, error: 0.2952929034217361
+[2021-12-09 19:17:23,326] [INFO] -  -> epoch computation duration 23449ms
+[2021-12-09 19:17:23,415] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:17:26,033] [INFO] - Epoch: 182, error: 0.2952929034217361
+[2021-12-09 19:17:49,744] [INFO] -  -> epoch computation duration 23641ms
+[2021-12-09 19:17:49,832] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:17:52,469] [INFO] - Epoch: 183, error: 0.2952929034217361
+[2021-12-09 19:18:16,112] [INFO] -  -> epoch computation duration 23572ms
+[2021-12-09 19:18:16,201] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:18:18,804] [INFO] - Epoch: 184, error: 0.2952929034217361
+[2021-12-09 19:18:42,544] [INFO] -  -> epoch computation duration 23667ms
+[2021-12-09 19:18:42,634] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:18:45,251] [INFO] - Epoch: 185, error: 0.2952929034217361
+[2021-12-09 19:19:08,913] [INFO] -  -> epoch computation duration 23592ms
+[2021-12-09 19:19:09,006] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:19:11,633] [INFO] - Epoch: 186, error: 0.2952929034217361
+[2021-12-09 19:19:35,328] [INFO] -  -> epoch computation duration 23629ms
+[2021-12-09 19:19:35,417] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:19:38,051] [INFO] - Epoch: 187, error: 0.2952929034217361
+[2021-12-09 19:20:01,952] [INFO] -  -> epoch computation duration 23832ms
+[2021-12-09 19:20:02,039] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:20:04,686] [INFO] - Epoch: 188, error: 0.2952929034217361
+[2021-12-09 19:20:28,416] [INFO] -  -> epoch computation duration 23660ms
+[2021-12-09 19:20:28,505] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:20:31,159] [INFO] - Epoch: 189, error: 0.2952929034217361
+[2021-12-09 19:20:55,001] [INFO] -  -> epoch computation duration 23771ms
+[2021-12-09 19:20:55,090] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:20:57,753] [INFO] - Epoch: 190, error: 0.2952929034217361
+[2021-12-09 19:21:21,996] [INFO] -  -> epoch computation duration 23939ms
+[2021-12-09 19:21:22,085] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:21:24,726] [INFO] - Epoch: 191, error: 0.2952929034217361
+[2021-12-09 19:21:48,557] [INFO] -  -> epoch computation duration 23762ms
+[2021-12-09 19:21:48,646] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:21:51,249] [INFO] - Epoch: 192, error: 0.2952929034217361
+[2021-12-09 19:22:15,198] [INFO] -  -> epoch computation duration 23877ms
+[2021-12-09 19:22:15,290] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:22:17,894] [INFO] - Epoch: 193, error: 0.2952929034217361
+[2021-12-09 19:22:41,701] [INFO] -  -> epoch computation duration 23737ms
+[2021-12-09 19:22:41,789] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:22:44,416] [INFO] - Epoch: 194, error: 0.2952929034217361
+[2021-12-09 19:23:08,309] [INFO] -  -> epoch computation duration 23823ms
+[2021-12-09 19:23:08,403] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:23:11,039] [INFO] - Epoch: 195, error: 0.2952929034217361
+[2021-12-09 19:23:34,822] [INFO] -  -> epoch computation duration 23712ms
+[2021-12-09 19:23:34,912] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:23:37,518] [INFO] - Epoch: 196, error: 0.2952929034217361
+[2021-12-09 19:24:01,248] [INFO] -  -> epoch computation duration 23662ms
+[2021-12-09 19:24:01,344] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:24:03,968] [INFO] - Epoch: 197, error: 0.2952929034217361
+[2021-12-09 19:24:27,738] [INFO] -  -> epoch computation duration 23701ms
+[2021-12-09 19:24:27,829] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:24:30,449] [INFO] - Epoch: 198, error: 0.2952929034217361
+[2021-12-09 19:24:54,129] [INFO] -  -> epoch computation duration 23610ms
+[2021-12-09 19:24:54,222] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:24:56,886] [INFO] - Epoch: 199, error: 0.2952929034217361
+[2021-12-09 19:25:20,602] [INFO] -  -> epoch computation duration 23646ms
+[2021-12-09 19:25:20,691] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:25:23,283] [INFO] - Epoch: 200, error: 0.2952929034217361
+[2021-12-09 19:25:47,256] [INFO] -  -> epoch computation duration 23694ms
+[2021-12-09 19:25:47,354] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:25:50,002] [INFO] - Epoch: 201, error: 0.2952929034217361
+[2021-12-09 19:26:13,975] [INFO] -  -> epoch computation duration 23903ms
+[2021-12-09 19:26:14,068] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:26:16,719] [INFO] - Epoch: 202, error: 0.2952929034217361
+[2021-12-09 19:26:40,604] [INFO] -  -> epoch computation duration 23816ms
+[2021-12-09 19:26:40,706] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:26:43,344] [INFO] - Epoch: 203, error: 0.2952929034217361
+[2021-12-09 19:27:07,389] [INFO] -  -> epoch computation duration 23974ms
+[2021-12-09 19:27:07,486] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:27:10,151] [INFO] - Epoch: 204, error: 0.2952929034217361
+[2021-12-09 19:27:34,137] [INFO] -  -> epoch computation duration 23916ms
+[2021-12-09 19:27:34,232] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:27:36,873] [INFO] - Epoch: 205, error: 0.2952929034217361
+[2021-12-09 19:28:00,910] [INFO] -  -> epoch computation duration 23967ms
+[2021-12-09 19:28:01,006] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:28:03,641] [INFO] - Epoch: 206, error: 0.2952929034217361
+[2021-12-09 19:28:27,862] [INFO] -  -> epoch computation duration 24150ms
+[2021-12-09 19:28:27,956] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:28:30,594] [INFO] - Epoch: 207, error: 0.2952929034217361
+[2021-12-09 19:28:54,382] [INFO] -  -> epoch computation duration 23718ms
+[2021-12-09 19:28:54,480] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:28:57,083] [INFO] - Epoch: 208, error: 0.2952929034217361
+[2021-12-09 19:29:20,955] [INFO] -  -> epoch computation duration 23802ms
+[2021-12-09 19:29:21,053] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:29:23,678] [INFO] - Epoch: 209, error: 0.2952929034217361
+[2021-12-09 19:29:47,506] [INFO] -  -> epoch computation duration 23758ms
+[2021-12-09 19:29:47,600] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:29:50,240] [INFO] - Epoch: 210, error: 0.2952929034217361
+[2021-12-09 19:30:14,134] [INFO] -  -> epoch computation duration 23588ms
+[2021-12-09 19:30:14,220] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:30:16,856] [INFO] - Epoch: 211, error: 0.2952929034217361
+[2021-12-09 19:30:41,032] [INFO] -  -> epoch computation duration 24107ms
+[2021-12-09 19:30:41,122] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:30:43,748] [INFO] - Epoch: 212, error: 0.2952929034217361
+[2021-12-09 19:31:07,737] [INFO] -  -> epoch computation duration 23920ms
+[2021-12-09 19:31:07,824] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:31:10,470] [INFO] - Epoch: 213, error: 0.2952929034217361
+[2021-12-09 19:31:34,292] [INFO] -  -> epoch computation duration 23753ms
+[2021-12-09 19:31:34,384] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:31:36,968] [INFO] - Epoch: 214, error: 0.2952929034217361
+[2021-12-09 19:32:00,903] [INFO] -  -> epoch computation duration 23867ms
+[2021-12-09 19:32:00,991] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:32:03,600] [INFO] - Epoch: 215, error: 0.2952929034217361
+[2021-12-09 19:32:27,402] [INFO] -  -> epoch computation duration 23732ms
+[2021-12-09 19:32:27,489] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:32:30,133] [INFO] - Epoch: 216, error: 0.2952929034217361
+[2021-12-09 19:32:53,992] [INFO] -  -> epoch computation duration 23785ms
+[2021-12-09 19:32:54,078] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:32:56,722] [INFO] - Epoch: 217, error: 0.2952929034217361
+[2021-12-09 19:33:20,735] [INFO] -  -> epoch computation duration 23944ms
+[2021-12-09 19:33:20,820] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:33:23,448] [INFO] - Epoch: 218, error: 0.2952929034217361
+[2021-12-09 19:33:47,471] [INFO] -  -> epoch computation duration 23955ms
+[2021-12-09 19:33:47,558] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:33:50,218] [INFO] - Epoch: 219, error: 0.2952929034217361
+[2021-12-09 19:34:14,022] [INFO] -  -> epoch computation duration 23732ms
+[2021-12-09 19:34:14,109] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:34:16,719] [INFO] - Epoch: 220, error: 0.2952929034217361
+[2021-12-09 19:34:40,684] [INFO] -  -> epoch computation duration 23633ms
+[2021-12-09 19:34:40,773] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:34:43,393] [INFO] - Epoch: 221, error: 0.2952929034217361
+[2021-12-09 19:35:07,340] [INFO] -  -> epoch computation duration 23878ms
+[2021-12-09 19:35:07,433] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:35:10,041] [INFO] - Epoch: 222, error: 0.2952929034217361
+[2021-12-09 19:35:33,974] [INFO] -  -> epoch computation duration 23864ms
+[2021-12-09 19:35:34,060] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:35:36,688] [INFO] - Epoch: 223, error: 0.2952929034217361
+[2021-12-09 19:36:00,737] [INFO] -  -> epoch computation duration 23978ms
+[2021-12-09 19:36:00,823] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:36:03,449] [INFO] - Epoch: 224, error: 0.2952929034217361
+[2021-12-09 19:36:27,375] [INFO] -  -> epoch computation duration 23857ms
+[2021-12-09 19:36:27,467] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:36:30,120] [INFO] - Epoch: 225, error: 0.2952929034217361
+[2021-12-09 19:36:54,076] [INFO] -  -> epoch computation duration 23881ms
+[2021-12-09 19:36:54,165] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:36:56,792] [INFO] - Epoch: 226, error: 0.2952929034217361
+[2021-12-09 19:37:20,609] [INFO] -  -> epoch computation duration 23746ms
+[2021-12-09 19:37:20,701] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:37:23,352] [INFO] - Epoch: 227, error: 0.2952929034217361
+[2021-12-09 19:37:47,288] [INFO] -  -> epoch computation duration 23861ms
+[2021-12-09 19:37:47,379] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:37:50,063] [INFO] - Epoch: 228, error: 0.2952929034217361
+[2021-12-09 19:38:14,106] [INFO] -  -> epoch computation duration 23970ms
+[2021-12-09 19:38:14,203] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:38:16,862] [INFO] - Epoch: 229, error: 0.2952929034217361
+[2021-12-09 19:38:40,949] [INFO] -  -> epoch computation duration 24016ms
+[2021-12-09 19:38:41,039] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:38:43,686] [INFO] - Epoch: 230, error: 0.2952929034217361
+[2021-12-09 19:39:07,968] [INFO] -  -> epoch computation duration 23981ms
+[2021-12-09 19:39:08,061] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:39:10,667] [INFO] - Epoch: 231, error: 0.2952929034217361
+[2021-12-09 19:39:34,629] [INFO] -  -> epoch computation duration 23893ms
+[2021-12-09 19:39:34,723] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:39:37,354] [INFO] - Epoch: 232, error: 0.2952929034217361
+[2021-12-09 19:40:01,314] [INFO] -  -> epoch computation duration 23884ms
+[2021-12-09 19:40:01,412] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:40:04,021] [INFO] - Epoch: 233, error: 0.2952929034217361
+[2021-12-09 19:40:27,840] [INFO] -  -> epoch computation duration 23747ms
+[2021-12-09 19:40:27,928] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:40:30,572] [INFO] - Epoch: 234, error: 0.2952929034217361
+[2021-12-09 19:40:54,544] [INFO] -  -> epoch computation duration 23898ms
+[2021-12-09 19:40:54,638] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:40:57,249] [INFO] - Epoch: 235, error: 0.2952929034217361
+[2021-12-09 19:41:21,303] [INFO] -  -> epoch computation duration 23984ms
+[2021-12-09 19:41:21,394] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:41:24,037] [INFO] - Epoch: 236, error: 0.2952929034217361
+[2021-12-09 19:41:47,907] [INFO] -  -> epoch computation duration 23799ms
+[2021-12-09 19:41:47,997] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:41:50,581] [INFO] - Epoch: 237, error: 0.2952929034217361
+[2021-12-09 19:42:14,411] [INFO] -  -> epoch computation duration 23757ms
+[2021-12-09 19:42:14,515] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:42:17,114] [INFO] - Epoch: 238, error: 0.2952929034217361
+[2021-12-09 19:42:41,065] [INFO] -  -> epoch computation duration 23882ms
+[2021-12-09 19:42:41,156] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:42:43,802] [INFO] - Epoch: 239, error: 0.2952929034217361
+[2021-12-09 19:43:07,588] [INFO] -  -> epoch computation duration 23715ms
+[2021-12-09 19:43:07,681] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:43:10,282] [INFO] - Epoch: 240, error: 0.2952929034217361
+[2021-12-09 19:43:34,413] [INFO] -  -> epoch computation duration 23760ms
+[2021-12-09 19:43:34,518] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:43:37,126] [INFO] - Epoch: 241, error: 0.2952929034217361
+[2021-12-09 19:44:00,844] [INFO] -  -> epoch computation duration 23646ms
+[2021-12-09 19:44:00,938] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:44:03,539] [INFO] - Epoch: 242, error: 0.2952929034217361
+[2021-12-09 19:44:27,493] [INFO] -  -> epoch computation duration 23883ms
+[2021-12-09 19:44:27,587] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:44:30,228] [INFO] - Epoch: 243, error: 0.2952929034217361
+[2021-12-09 19:44:54,043] [INFO] -  -> epoch computation duration 23744ms
+[2021-12-09 19:44:54,132] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:44:56,738] [INFO] - Epoch: 244, error: 0.2952929034217361
+[2021-12-09 19:45:20,530] [INFO] -  -> epoch computation duration 23723ms
+[2021-12-09 19:45:20,619] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:45:23,228] [INFO] - Epoch: 245, error: 0.2952929034217361
+[2021-12-09 19:45:47,066] [INFO] -  -> epoch computation duration 23770ms
+[2021-12-09 19:45:47,159] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:45:49,764] [INFO] - Epoch: 246, error: 0.2952929034217361
+[2021-12-09 19:46:13,640] [INFO] -  -> epoch computation duration 23808ms
+[2021-12-09 19:46:13,737] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:46:16,362] [INFO] - Epoch: 247, error: 0.2952929034217361
+[2021-12-09 19:46:40,201] [INFO] -  -> epoch computation duration 23767ms
+[2021-12-09 19:46:40,293] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:46:42,962] [INFO] - Epoch: 248, error: 0.2952929034217361
+[2021-12-09 19:47:06,647] [INFO] -  -> epoch computation duration 23613ms
+[2021-12-09 19:47:06,738] [INFO] - Increase mutation weight: 4
+[2021-12-09 19:47:09,389] [INFO] - Epoch: 249, error: 0.2952929034217361
+[2021-12-09 19:47:09,405] [INFO] - Best result: gens: [0.7961301401200905, 0.09652924940930545, 0.003284288596424682, -9.704049110437102e-06, 47.60402535314101, -36.8715376136168, 21.18394712626989, 11.881474390385334, -5008.220508660006, -15.86002318203742, -155.00250174797108, 22.839904447195305, -197.40290590396364]
+[2021-12-09 19:47:09,405] [INFO] - Emulation is finished
+[2021-12-10 13:22:47,135] [INFO] - Logging system is configured
+[2021-12-10 13:22:47,337] [INFO] - Start genetic world emulation...
+[2021-12-10 13:22:47,342] [INFO] - Read the input data. Data information:
+[2021-12-10 13:22:47,343] [INFO] - [[0.000e+00 0.000e+00]
+ [2.500e-03 5.000e-02]
+ [1.000e-02 1.000e-01]
+ [6.250e-02 2.500e-01]
+ [2.500e-01 5.000e-01]
+ [5.625e-01 7.500e-01]
+ [1.000e+00 1.000e+00]
+ [4.000e+00 2.000e+00]
+ [9.000e+00 3.000e+00]
+ [1.600e+01 4.000e+00]
+ [2.500e+01 5.000e+00]
+ [3.600e+01 6.000e+00]
+ [4.900e+01 7.000e+00]
+ [6.400e+01 8.000e+00]
+ [8.100e+01 9.000e+00]
+ [1.000e+02 1.000e+01]
+ [1.210e+02 1.100e+01]
+ [1.440e+02 1.200e+01]
+ [1.690e+02 1.300e+01]
+ [1.960e+02 1.400e+01]]
+[2021-12-10 13:22:47,345] [INFO] - Prepared context for population
+[2021-12-10 13:22:47,345] [INFO] - Start world emulation...
+[2021-12-10 13:22:47,648] [INFO] - Prepared bots, population
+[2021-12-10 13:22:47,649] [INFO] - Launch world...
+[2021-12-10 13:22:58,572] [INFO] -  -> epoch computation duration 10889ms
+[2021-12-10 13:23:01,068] [INFO] - Epoch: 0, error: 4.71354129248233
+[2021-12-10 13:23:31,855] [INFO] -  -> epoch computation duration 30540ms
+[2021-12-10 13:23:34,167] [INFO] - Epoch: 1, error: 0.5837727703847101
+[2021-12-10 13:23:44,148] [INFO] -  -> epoch computation duration 9878ms
+[2021-12-10 13:23:46,858] [INFO] - Epoch: 2, error: 0.21823704919343073
+[2021-12-10 13:23:57,645] [INFO] -  -> epoch computation duration 10637ms
+[2021-12-10 13:24:00,238] [INFO] - Epoch: 3, error: 0.17042023198191916
+[2021-12-10 13:24:12,979] [INFO] -  -> epoch computation duration 12593ms
+[2021-12-10 13:24:15,380] [INFO] - Epoch: 4, error: 0.15610581532981732
+[2021-12-10 13:24:27,653] [INFO] -  -> epoch computation duration 12112ms
+[2021-12-10 13:24:30,161] [INFO] - Epoch: 5, error: 0.15140131747589916
+[2021-12-10 13:24:42,478] [INFO] -  -> epoch computation duration 12260ms
+[2021-12-10 13:24:44,926] [INFO] - Epoch: 6, error: 0.1509274526094184
+[2021-12-10 13:24:57,463] [INFO] -  -> epoch computation duration 12477ms
+[2021-12-10 13:24:57,557] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:25:00,031] [INFO] - Epoch: 7, error: 0.15050971269640123
+[2021-12-10 13:25:15,947] [INFO] -  -> epoch computation duration 15855ms
+[2021-12-10 13:25:16,060] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:25:18,675] [INFO] - Epoch: 8, error: 0.15050971269640123
+[2021-12-10 13:25:36,222] [INFO] -  -> epoch computation duration 17482ms
+[2021-12-10 13:25:36,355] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:25:38,906] [INFO] - Epoch: 9, error: 0.15050971269640123
+[2021-12-10 13:25:55,121] [INFO] -  -> epoch computation duration 16152ms
+[2021-12-10 13:25:55,222] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:25:57,908] [INFO] - Epoch: 10, error: 0.15050971269640123
+[2021-12-10 13:26:15,240] [INFO] -  -> epoch computation duration 17155ms
+[2021-12-10 13:26:15,337] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:26:18,015] [INFO] - Epoch: 11, error: 0.15050971269640123
+[2021-12-10 13:26:33,739] [INFO] -  -> epoch computation duration 15663ms
+[2021-12-10 13:26:33,842] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:26:36,377] [INFO] - Epoch: 12, error: 0.15048015036075443
+[2021-12-10 13:26:52,193] [INFO] -  -> epoch computation duration 15739ms
+[2021-12-10 13:26:52,293] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:26:54,846] [INFO] - Epoch: 13, error: 0.1503827612257525
+[2021-12-10 13:27:10,350] [INFO] -  -> epoch computation duration 15442ms
+[2021-12-10 13:27:10,444] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:27:13,064] [INFO] - Epoch: 14, error: 0.14996562333547508
+[2021-12-10 13:27:29,495] [INFO] -  -> epoch computation duration 16372ms
+[2021-12-10 13:27:29,581] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:27:32,110] [INFO] - Epoch: 15, error: 0.14996562333547506
+[2021-12-10 13:27:47,677] [INFO] -  -> epoch computation duration 15508ms
+[2021-12-10 13:27:47,764] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:27:50,249] [INFO] - Epoch: 16, error: 0.14991634179087399
+[2021-12-10 13:28:05,304] [INFO] -  -> epoch computation duration 15000ms
+[2021-12-10 13:28:05,395] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:28:07,937] [INFO] - Epoch: 17, error: 0.14990873373510194
+[2021-12-10 13:28:23,437] [INFO] -  -> epoch computation duration 15448ms
+[2021-12-10 13:28:23,538] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:28:26,465] [INFO] - Epoch: 18, error: 0.14990873373510163
+[2021-12-10 13:28:45,337] [INFO] -  -> epoch computation duration 18793ms
+[2021-12-10 13:28:45,440] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:28:48,086] [INFO] - Epoch: 19, error: 0.14990873373510163
+[2021-12-10 13:29:05,723] [INFO] -  -> epoch computation duration 17578ms
+[2021-12-10 13:29:05,891] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:29:08,769] [INFO] - Epoch: 20, error: 0.14990873373510163
+[2021-12-10 13:29:27,879] [INFO] -  -> epoch computation duration 18906ms
+[2021-12-10 13:29:27,984] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:29:30,560] [INFO] - Epoch: 21, error: 0.14990873373510163
+[2021-12-10 13:29:49,688] [INFO] -  -> epoch computation duration 19060ms
+[2021-12-10 13:29:49,828] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:29:53,039] [INFO] - Epoch: 22, error: 0.14989799431728773
+[2021-12-10 13:30:12,705] [INFO] -  -> epoch computation duration 19600ms
+[2021-12-10 13:30:12,814] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:30:15,819] [INFO] - Epoch: 23, error: 0.14989799431728773
+[2021-12-10 13:30:36,353] [INFO] -  -> epoch computation duration 20440ms
+[2021-12-10 13:30:36,608] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:30:39,745] [INFO] - Epoch: 24, error: 0.14989799431728773
+[2021-12-10 13:31:00,306] [INFO] -  -> epoch computation duration 20494ms
+[2021-12-10 13:31:00,412] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:31:03,290] [INFO] - Epoch: 25, error: 0.14989799431728773
+[2021-12-10 13:31:16,775] [INFO] -  -> epoch computation duration 13434ms
+[2021-12-10 13:31:16,858] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:31:19,185] [INFO] - Epoch: 26, error: 0.1498520017372657
+[2021-12-10 13:31:32,587] [INFO] -  -> epoch computation duration 13353ms
+[2021-12-10 13:31:32,672] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:31:34,997] [INFO] - Epoch: 27, error: 0.14981541077708677
+[2021-12-10 13:31:50,134] [INFO] -  -> epoch computation duration 15082ms
+[2021-12-10 13:31:50,220] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:31:52,779] [INFO] - Epoch: 28, error: 0.14981541077708657
+[2021-12-10 13:32:10,302] [INFO] -  -> epoch computation duration 17465ms
+[2021-12-10 13:32:10,404] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:32:12,936] [INFO] - Epoch: 29, error: 0.14978606275195416
+[2021-12-10 13:32:29,555] [INFO] -  -> epoch computation duration 16562ms
+[2021-12-10 13:32:29,649] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:32:32,080] [INFO] - Epoch: 30, error: 0.14978606275195416
+[2021-12-10 13:32:46,407] [INFO] -  -> epoch computation duration 14148ms
+[2021-12-10 13:32:46,503] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:32:48,791] [INFO] - Epoch: 31, error: 0.14978606275195402
+[2021-12-10 13:33:02,629] [INFO] -  -> epoch computation duration 13789ms
+[2021-12-10 13:33:02,710] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:33:05,044] [INFO] - Epoch: 32, error: 0.14978606275195372
+[2021-12-10 13:33:19,570] [INFO] -  -> epoch computation duration 14467ms
+[2021-12-10 13:33:19,666] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:33:22,190] [INFO] - Epoch: 33, error: 0.14978606275195372
+[2021-12-10 13:33:36,450] [INFO] -  -> epoch computation duration 14204ms
+[2021-12-10 13:33:36,569] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:33:39,012] [INFO] - Epoch: 34, error: 0.14978606275195364
+[2021-12-10 13:33:56,193] [INFO] -  -> epoch computation duration 17120ms
+[2021-12-10 13:33:56,300] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:33:59,138] [INFO] - Epoch: 35, error: 0.14978606275195364
+[2021-12-10 13:34:16,437] [INFO] -  -> epoch computation duration 17241ms
+[2021-12-10 13:34:16,609] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:34:19,471] [INFO] - Epoch: 36, error: 0.14978606275195364
+[2021-12-10 13:34:34,355] [INFO] -  -> epoch computation duration 14824ms
+[2021-12-10 13:34:34,448] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:34:37,306] [INFO] - Epoch: 37, error: 0.14977172714123899
+[2021-12-10 13:34:53,116] [INFO] -  -> epoch computation duration 15755ms
+[2021-12-10 13:34:53,197] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:34:55,533] [INFO] - Epoch: 38, error: 0.14977172714123899
+[2021-12-10 13:35:09,871] [INFO] -  -> epoch computation duration 14284ms
+[2021-12-10 13:35:09,999] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:35:12,402] [INFO] - Epoch: 39, error: 0.1497717271412389
+[2021-12-10 13:35:25,435] [INFO] -  -> epoch computation duration 12986ms
+[2021-12-10 13:35:25,514] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:35:27,966] [INFO] - Epoch: 40, error: 0.1497717271412389
+[2021-12-10 13:35:41,922] [INFO] -  -> epoch computation duration 13777ms
+[2021-12-10 13:35:42,009] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:35:44,192] [INFO] - Epoch: 41, error: 0.1497717271412389
+[2021-12-10 13:35:57,282] [INFO] -  -> epoch computation duration 13035ms
+[2021-12-10 13:35:57,365] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:35:59,656] [INFO] - Epoch: 42, error: 0.1497717271412389
+[2021-12-10 13:36:12,544] [INFO] -  -> epoch computation duration 12838ms
+[2021-12-10 13:36:12,628] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:36:14,836] [INFO] - Epoch: 43, error: 0.1497717271412389
+[2021-12-10 13:36:27,842] [INFO] -  -> epoch computation duration 12954ms
+[2021-12-10 13:36:27,928] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:36:30,208] [INFO] - Epoch: 44, error: 0.14976956107637004
+[2021-12-10 13:36:43,050] [INFO] -  -> epoch computation duration 12792ms
+[2021-12-10 13:36:43,131] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:36:45,350] [INFO] - Epoch: 45, error: 0.14976956107637004
+[2021-12-10 13:36:58,597] [INFO] -  -> epoch computation duration 13197ms
+[2021-12-10 13:36:58,697] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:37:01,127] [INFO] - Epoch: 46, error: 0.14976908159219254
+[2021-12-10 13:37:13,925] [INFO] -  -> epoch computation duration 12739ms
+[2021-12-10 13:37:14,006] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:37:16,285] [INFO] - Epoch: 47, error: 0.14976908159219254
+[2021-12-10 13:37:29,408] [INFO] -  -> epoch computation duration 13070ms
+[2021-12-10 13:37:29,492] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:37:31,805] [INFO] - Epoch: 48, error: 0.14976774236007276
+[2021-12-10 13:37:44,360] [INFO] -  -> epoch computation duration 12510ms
+[2021-12-10 13:37:44,442] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:37:46,822] [INFO] - Epoch: 49, error: 0.14976774236007268
+[2021-12-10 13:38:00,160] [INFO] -  -> epoch computation duration 13294ms
+[2021-12-10 13:38:00,243] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:38:02,589] [INFO] - Epoch: 50, error: 0.14976774236007268
+[2021-12-10 13:38:16,691] [INFO] -  -> epoch computation duration 13865ms
+[2021-12-10 13:38:16,774] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:38:19,036] [INFO] - Epoch: 51, error: 0.14976774236007268
+[2021-12-10 13:38:33,357] [INFO] -  -> epoch computation duration 14272ms
+[2021-12-10 13:38:33,446] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:38:35,928] [INFO] - Epoch: 52, error: 0.14976774236007268
+[2021-12-10 13:38:51,367] [INFO] -  -> epoch computation duration 15370ms
+[2021-12-10 13:38:51,644] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:38:54,618] [INFO] - Epoch: 53, error: 0.14976774236007268
+[2021-12-10 13:39:11,082] [INFO] -  -> epoch computation duration 16407ms
+[2021-12-10 13:39:11,180] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:39:13,803] [INFO] - Epoch: 54, error: 0.14976774236007268
+[2021-12-10 13:39:28,213] [INFO] -  -> epoch computation duration 14356ms
+[2021-12-10 13:39:28,308] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:39:30,590] [INFO] - Epoch: 55, error: 0.14976774236007268
+[2021-12-10 13:39:43,552] [INFO] -  -> epoch computation duration 12906ms
+[2021-12-10 13:39:43,629] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:39:45,813] [INFO] - Epoch: 56, error: 0.14976774236007256
+[2021-12-10 13:39:58,172] [INFO] -  -> epoch computation duration 12308ms
+[2021-12-10 13:39:58,249] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:40:00,425] [INFO] - Epoch: 57, error: 0.14976774236007256
+[2021-12-10 13:40:13,598] [INFO] -  -> epoch computation duration 13120ms
+[2021-12-10 13:40:13,685] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:40:16,531] [INFO] - Epoch: 58, error: 0.14976774236007256
+[2021-12-10 13:40:30,211] [INFO] -  -> epoch computation duration 13544ms
+[2021-12-10 13:40:30,299] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:40:33,655] [INFO] - Epoch: 59, error: 0.14976774236007256
+[2021-12-10 13:40:55,303] [INFO] -  -> epoch computation duration 21556ms
+[2021-12-10 13:40:55,403] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:40:57,957] [INFO] - Epoch: 60, error: 0.14976774236007245
+[2021-12-10 13:41:12,352] [INFO] -  -> epoch computation duration 14191ms
+[2021-12-10 13:41:12,447] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:41:14,866] [INFO] - Epoch: 61, error: 0.14976774236007245
+[2021-12-10 13:41:29,663] [INFO] -  -> epoch computation duration 14736ms
+[2021-12-10 13:41:29,789] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:41:33,069] [INFO] - Epoch: 62, error: 0.1497622340425919
+[2021-12-10 13:41:50,315] [INFO] -  -> epoch computation duration 17177ms
+[2021-12-10 13:41:50,427] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:41:52,735] [INFO] - Epoch: 63, error: 0.1497622340425919
+[2021-12-10 13:42:06,286] [INFO] -  -> epoch computation duration 13489ms
+[2021-12-10 13:42:06,379] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:42:08,655] [INFO] - Epoch: 64, error: 0.14974861990054783
+[2021-12-10 13:42:22,449] [INFO] -  -> epoch computation duration 13741ms
+[2021-12-10 13:42:22,550] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:42:24,859] [INFO] - Epoch: 65, error: 0.14974861990054783
+[2021-12-10 13:42:38,886] [INFO] -  -> epoch computation duration 13973ms
+[2021-12-10 13:42:38,982] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:42:42,265] [INFO] - Epoch: 66, error: 0.14974861990054783
+[2021-12-10 13:42:59,914] [INFO] -  -> epoch computation duration 17588ms
+[2021-12-10 13:43:00,012] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:43:02,436] [INFO] - Epoch: 67, error: 0.14974861990054783
+[2021-12-10 13:43:15,560] [INFO] -  -> epoch computation duration 13069ms
+[2021-12-10 13:43:15,647] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:43:18,095] [INFO] - Epoch: 68, error: 0.14974861990054783
+[2021-12-10 13:43:32,442] [INFO] -  -> epoch computation duration 14285ms
+[2021-12-10 13:43:32,539] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:43:34,930] [INFO] - Epoch: 69, error: 0.14974810463963223
+[2021-12-10 13:43:49,310] [INFO] -  -> epoch computation duration 14324ms
+[2021-12-10 13:43:49,401] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:43:51,830] [INFO] - Epoch: 70, error: 0.14974810463963223
+[2021-12-10 13:44:05,500] [INFO] -  -> epoch computation duration 13467ms
+[2021-12-10 13:44:05,586] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:44:08,080] [INFO] - Epoch: 71, error: 0.14974810463963223
+[2021-12-10 13:44:23,190] [INFO] -  -> epoch computation duration 15053ms
+[2021-12-10 13:44:23,282] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:44:25,815] [INFO] - Epoch: 72, error: 0.14974810463963223
+[2021-12-10 13:44:39,323] [INFO] -  -> epoch computation duration 13454ms
+[2021-12-10 13:44:39,414] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:44:41,810] [INFO] - Epoch: 73, error: 0.14974810463963223
+[2021-12-10 13:44:56,551] [INFO] -  -> epoch computation duration 14688ms
+[2021-12-10 13:44:56,691] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:44:59,133] [INFO] - Epoch: 74, error: 0.14974810463963223
+[2021-12-10 13:45:12,933] [INFO] -  -> epoch computation duration 13748ms
+[2021-12-10 13:45:13,034] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:45:16,227] [INFO] - Epoch: 75, error: 0.14974810463963223
+[2021-12-10 13:45:50,121] [INFO] -  -> epoch computation duration 33824ms
+[2021-12-10 13:45:50,347] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:45:55,244] [INFO] - Epoch: 76, error: 0.14974810463963223
+[2021-12-10 13:46:24,691] [INFO] -  -> epoch computation duration 29326ms
+[2021-12-10 13:46:24,968] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:46:29,313] [INFO] - Epoch: 77, error: 0.14974810463963223
+[2021-12-10 13:46:59,619] [INFO] -  -> epoch computation duration 30231ms
+[2021-12-10 13:46:59,882] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:47:04,460] [INFO] - Epoch: 78, error: 0.14974810463963223
+[2021-12-10 13:47:35,823] [INFO] -  -> epoch computation duration 31283ms
+[2021-12-10 13:47:36,061] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:47:40,695] [INFO] - Epoch: 79, error: 0.14974810463963223
+[2021-12-10 13:48:09,975] [INFO] -  -> epoch computation duration 29193ms
+[2021-12-10 13:48:10,217] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:48:14,669] [INFO] - Epoch: 80, error: 0.14974810463963223
+[2021-12-10 13:48:43,901] [INFO] -  -> epoch computation duration 28818ms
+[2021-12-10 13:48:44,124] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:48:48,682] [INFO] - Epoch: 81, error: 0.14974810463963223
+[2021-12-10 13:49:18,502] [INFO] -  -> epoch computation duration 29679ms
+[2021-12-10 13:49:18,729] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:49:23,211] [INFO] - Epoch: 82, error: 0.14974810463963223
+[2021-12-10 13:49:53,460] [INFO] -  -> epoch computation duration 30161ms
+[2021-12-10 13:49:53,693] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:49:58,653] [INFO] - Epoch: 83, error: 0.14974810463963223
+[2021-12-10 13:50:28,392] [INFO] -  -> epoch computation duration 29646ms
+[2021-12-10 13:50:28,610] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:50:32,946] [INFO] - Epoch: 84, error: 0.14974810463963223
+[2021-12-10 13:51:03,203] [INFO] -  -> epoch computation duration 30172ms
+[2021-12-10 13:51:03,440] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:51:07,868] [INFO] - Epoch: 85, error: 0.14974810463963223
+[2021-12-10 13:51:36,954] [INFO] -  -> epoch computation duration 29000ms
+[2021-12-10 13:51:37,165] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:51:41,047] [INFO] - Epoch: 86, error: 0.14974777518756993
+[2021-12-10 13:52:09,968] [INFO] -  -> epoch computation duration 28840ms
+[2021-12-10 13:52:10,193] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:52:14,772] [INFO] - Epoch: 87, error: 0.14974777518756993
+[2021-12-10 13:52:41,122] [INFO] -  -> epoch computation duration 26272ms
+[2021-12-10 13:52:41,333] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:52:45,513] [INFO] - Epoch: 88, error: 0.14974777518756993
+[2021-12-10 13:53:08,640] [INFO] -  -> epoch computation duration 23048ms
+[2021-12-10 13:53:08,785] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:53:12,757] [INFO] - Epoch: 89, error: 0.14974777518756993
+[2021-12-10 13:53:26,799] [INFO] -  -> epoch computation duration 13975ms
+[2021-12-10 13:53:26,888] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:53:29,252] [INFO] - Epoch: 90, error: 0.14974777518756993
+[2021-12-10 13:53:42,994] [INFO] -  -> epoch computation duration 13468ms
+[2021-12-10 13:53:43,087] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:53:45,506] [INFO] - Epoch: 91, error: 0.14974777518756993
+[2021-12-10 13:54:00,854] [INFO] -  -> epoch computation duration 15279ms
+[2021-12-10 13:54:01,004] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:54:03,572] [INFO] - Epoch: 92, error: 0.14974777518756993
+[2021-12-10 13:54:17,640] [INFO] -  -> epoch computation duration 14001ms
+[2021-12-10 13:54:17,775] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:54:20,540] [INFO] - Epoch: 93, error: 0.14974777518756993
+[2021-12-10 13:54:35,031] [INFO] -  -> epoch computation duration 14431ms
+[2021-12-10 13:54:35,172] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:54:37,668] [INFO] - Epoch: 94, error: 0.14974777518756993
+[2021-12-10 13:54:51,466] [INFO] -  -> epoch computation duration 13744ms
+[2021-12-10 13:54:51,565] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:54:54,066] [INFO] - Epoch: 95, error: 0.14974777518756993
+[2021-12-10 13:55:08,661] [INFO] -  -> epoch computation duration 14537ms
+[2021-12-10 13:55:08,756] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:55:11,140] [INFO] - Epoch: 96, error: 0.14974777518756993
+[2021-12-10 13:55:25,956] [INFO] -  -> epoch computation duration 14762ms
+[2021-12-10 13:55:26,074] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:55:28,908] [INFO] - Epoch: 97, error: 0.14974777518756993
+[2021-12-10 13:55:47,588] [INFO] -  -> epoch computation duration 18619ms
+[2021-12-10 13:55:47,696] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:55:51,216] [INFO] - Epoch: 98, error: 0.14974777518756993
+[2021-12-10 13:56:08,911] [INFO] -  -> epoch computation duration 17607ms
+[2021-12-10 13:56:09,000] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:56:11,458] [INFO] - Epoch: 99, error: 0.14974777518756993
+[2021-12-10 13:56:27,589] [INFO] -  -> epoch computation duration 16072ms
+[2021-12-10 13:56:27,699] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:56:30,194] [INFO] - Epoch: 100, error: 0.14974777518756993
+[2021-12-10 13:56:44,085] [INFO] -  -> epoch computation duration 13654ms
+[2021-12-10 13:56:44,171] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:56:46,572] [INFO] - Epoch: 101, error: 0.14974777518756993
+[2021-12-10 13:57:01,526] [INFO] -  -> epoch computation duration 14899ms
+[2021-12-10 13:57:01,710] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:57:05,349] [INFO] - Epoch: 102, error: 0.14974777518756993
+[2021-12-10 13:57:20,319] [INFO] -  -> epoch computation duration 14912ms
+[2021-12-10 13:57:20,400] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:57:22,711] [INFO] - Epoch: 103, error: 0.1497462040789698
+[2021-12-10 13:57:36,173] [INFO] -  -> epoch computation duration 13399ms
+[2021-12-10 13:57:36,261] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:57:38,641] [INFO] - Epoch: 104, error: 0.1497462040789698
+[2021-12-10 13:57:51,938] [INFO] -  -> epoch computation duration 13241ms
+[2021-12-10 13:57:52,026] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:57:54,404] [INFO] - Epoch: 105, error: 0.1497462040789698
+[2021-12-10 13:58:08,026] [INFO] -  -> epoch computation duration 13568ms
+[2021-12-10 13:58:08,114] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:58:10,458] [INFO] - Epoch: 106, error: 0.1497462040789698
+[2021-12-10 13:58:24,168] [INFO] -  -> epoch computation duration 13647ms
+[2021-12-10 13:58:24,253] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:58:27,001] [INFO] - Epoch: 107, error: 0.1497462040789698
+[2021-12-10 13:58:46,565] [INFO] -  -> epoch computation duration 19503ms
+[2021-12-10 13:58:46,666] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:58:49,338] [INFO] - Epoch: 108, error: 0.1497462040789698
+[2021-12-10 13:59:05,034] [INFO] -  -> epoch computation duration 15641ms
+[2021-12-10 13:59:05,124] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:59:07,546] [INFO] - Epoch: 109, error: 0.1497462040789698
+[2021-12-10 13:59:21,666] [INFO] -  -> epoch computation duration 14064ms
+[2021-12-10 13:59:21,750] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:59:24,217] [INFO] - Epoch: 110, error: 0.1497462040789698
+[2021-12-10 13:59:40,283] [INFO] -  -> epoch computation duration 15787ms
+[2021-12-10 13:59:40,368] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:59:42,868] [INFO] - Epoch: 111, error: 0.1497462040789698
+[2021-12-10 13:59:56,646] [INFO] -  -> epoch computation duration 13722ms
+[2021-12-10 13:59:56,733] [INFO] - Increase mutation weight: 2
+[2021-12-10 13:59:59,097] [INFO] - Epoch: 112, error: 0.1497462040789698
+[2021-12-10 14:00:13,000] [INFO] -  -> epoch computation duration 13844ms
+[2021-12-10 14:00:13,087] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:00:15,409] [INFO] - Epoch: 113, error: 0.1497462040789698
+[2021-12-10 14:00:28,775] [INFO] -  -> epoch computation duration 13309ms
+[2021-12-10 14:00:28,865] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:00:31,177] [INFO] - Epoch: 114, error: 0.1497462040789698
+[2021-12-10 14:00:44,718] [INFO] -  -> epoch computation duration 13482ms
+[2021-12-10 14:00:44,808] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:00:47,198] [INFO] - Epoch: 115, error: 0.1497462040789698
+[2021-12-10 14:01:00,750] [INFO] -  -> epoch computation duration 13484ms
+[2021-12-10 14:01:00,837] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:01:03,179] [INFO] - Epoch: 116, error: 0.1497462040789698
+[2021-12-10 14:01:16,511] [INFO] -  -> epoch computation duration 13276ms
+[2021-12-10 14:01:16,600] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:01:19,004] [INFO] - Epoch: 117, error: 0.1497462040789698
+[2021-12-10 14:01:32,736] [INFO] -  -> epoch computation duration 13660ms
+[2021-12-10 14:01:32,822] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:01:35,244] [INFO] - Epoch: 118, error: 0.1497462040789698
+[2021-12-10 14:01:50,322] [INFO] -  -> epoch computation duration 15006ms
+[2021-12-10 14:01:50,408] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:01:52,797] [INFO] - Epoch: 119, error: 0.1497462040789698
+[2021-12-10 14:02:06,347] [INFO] -  -> epoch computation duration 13492ms
+[2021-12-10 14:02:06,436] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:02:08,819] [INFO] - Epoch: 120, error: 0.1497462040789698
+[2021-12-10 14:02:22,351] [INFO] -  -> epoch computation duration 13228ms
+[2021-12-10 14:02:22,440] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:02:24,762] [INFO] - Epoch: 121, error: 0.1497462040789698
+[2021-12-10 14:02:38,856] [INFO] -  -> epoch computation duration 14039ms
+[2021-12-10 14:02:38,949] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:02:41,418] [INFO] - Epoch: 122, error: 0.14974419091749985
+[2021-12-10 14:02:57,123] [INFO] -  -> epoch computation duration 15645ms
+[2021-12-10 14:02:57,292] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:03:00,301] [INFO] - Epoch: 123, error: 0.14974419091749985
+[2021-12-10 14:03:15,748] [INFO] -  -> epoch computation duration 15382ms
+[2021-12-10 14:03:15,843] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:03:19,955] [INFO] - Epoch: 124, error: 0.14974419091749985
+[2021-12-10 14:03:37,161] [INFO] -  -> epoch computation duration 17136ms
+[2021-12-10 14:03:37,263] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:03:39,722] [INFO] - Epoch: 125, error: 0.14974419091749985
+[2021-12-10 14:03:55,356] [INFO] -  -> epoch computation duration 15573ms
+[2021-12-10 14:03:55,444] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:03:58,016] [INFO] - Epoch: 126, error: 0.14974419091749985
+[2021-12-10 14:04:18,499] [INFO] -  -> epoch computation duration 20412ms
+[2021-12-10 14:04:18,597] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:04:21,148] [INFO] - Epoch: 127, error: 0.14974419091749985
+[2021-12-10 14:04:36,048] [INFO] -  -> epoch computation duration 14844ms
+[2021-12-10 14:04:36,138] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:04:38,596] [INFO] - Epoch: 128, error: 0.14974419091749985
+[2021-12-10 14:04:53,660] [INFO] -  -> epoch computation duration 15005ms
+[2021-12-10 14:04:53,776] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:04:56,272] [INFO] - Epoch: 129, error: 0.14974419091749985
+[2021-12-10 14:05:10,297] [INFO] -  -> epoch computation duration 13969ms
+[2021-12-10 14:05:10,381] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:05:12,689] [INFO] - Epoch: 130, error: 0.14974419091749985
+[2021-12-10 14:05:26,398] [INFO] -  -> epoch computation duration 13396ms
+[2021-12-10 14:05:26,487] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:05:28,870] [INFO] - Epoch: 131, error: 0.14974419091749985
+[2021-12-10 14:05:42,446] [INFO] -  -> epoch computation duration 13518ms
+[2021-12-10 14:05:42,530] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:05:44,949] [INFO] - Epoch: 132, error: 0.14974419091749985
+[2021-12-10 14:05:58,790] [INFO] -  -> epoch computation duration 13783ms
+[2021-12-10 14:05:58,876] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:06:01,253] [INFO] - Epoch: 133, error: 0.14974419091749985
+[2021-12-10 14:06:14,852] [INFO] -  -> epoch computation duration 13535ms
+[2021-12-10 14:06:14,944] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:06:17,294] [INFO] - Epoch: 134, error: 0.14974389836203125
+[2021-12-10 14:06:30,811] [INFO] -  -> epoch computation duration 13461ms
+[2021-12-10 14:06:30,905] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:06:33,363] [INFO] - Epoch: 135, error: 0.14974389836203125
+[2021-12-10 14:06:47,603] [INFO] -  -> epoch computation duration 14178ms
+[2021-12-10 14:06:47,700] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:06:50,130] [INFO] - Epoch: 136, error: 0.14974389836203125
+[2021-12-10 14:07:04,026] [INFO] -  -> epoch computation duration 13830ms
+[2021-12-10 14:07:04,118] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:07:06,486] [INFO] - Epoch: 137, error: 0.14974389836203125
+[2021-12-10 14:07:20,127] [INFO] -  -> epoch computation duration 13584ms
+[2021-12-10 14:07:20,213] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:07:22,551] [INFO] - Epoch: 138, error: 0.14974389836203125
+[2021-12-10 14:07:36,246] [INFO] -  -> epoch computation duration 13628ms
+[2021-12-10 14:07:36,339] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:07:38,723] [INFO] - Epoch: 139, error: 0.14974389836203125
+[2021-12-10 14:07:52,948] [INFO] -  -> epoch computation duration 14170ms
+[2021-12-10 14:07:53,040] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:07:55,449] [INFO] - Epoch: 140, error: 0.14974389836203125
+[2021-12-10 14:08:09,633] [INFO] -  -> epoch computation duration 13921ms
+[2021-12-10 14:08:09,734] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:08:12,071] [INFO] - Epoch: 141, error: 0.14974389836203125
+[2021-12-10 14:08:26,327] [INFO] -  -> epoch computation duration 14197ms
+[2021-12-10 14:08:26,419] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:08:28,964] [INFO] - Epoch: 142, error: 0.14974389836203125
+[2021-12-10 14:08:43,756] [INFO] -  -> epoch computation duration 14717ms
+[2021-12-10 14:08:43,880] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:08:46,311] [INFO] - Epoch: 143, error: 0.14974389836203125
+[2021-12-10 14:09:01,447] [INFO] -  -> epoch computation duration 15074ms
+[2021-12-10 14:09:01,562] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:09:04,306] [INFO] - Epoch: 144, error: 0.14974389836203125
+[2021-12-10 14:09:21,661] [INFO] -  -> epoch computation duration 17290ms
+[2021-12-10 14:09:21,753] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:09:24,542] [INFO] - Epoch: 145, error: 0.14974389836203125
+[2021-12-10 14:09:40,716] [INFO] -  -> epoch computation duration 16114ms
+[2021-12-10 14:09:40,814] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:09:43,462] [INFO] - Epoch: 146, error: 0.14974389836203125
+[2021-12-10 14:09:59,943] [INFO] -  -> epoch computation duration 16422ms
+[2021-12-10 14:10:00,053] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:10:03,686] [INFO] - Epoch: 147, error: 0.14974389836203125
+[2021-12-10 14:10:21,928] [INFO] -  -> epoch computation duration 18175ms
+[2021-12-10 14:10:22,050] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:10:24,767] [INFO] - Epoch: 148, error: 0.14974389836203125
+[2021-12-10 14:10:43,013] [INFO] -  -> epoch computation duration 18180ms
+[2021-12-10 14:10:43,116] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:10:46,157] [INFO] - Epoch: 149, error: 0.14974389836203125
+[2021-12-10 14:11:02,693] [INFO] -  -> epoch computation duration 16461ms
+[2021-12-10 14:11:02,795] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:11:05,311] [INFO] - Epoch: 150, error: 0.14974389836203125
+[2021-12-10 14:11:22,357] [INFO] -  -> epoch computation duration 16715ms
+[2021-12-10 14:11:22,457] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:11:25,012] [INFO] - Epoch: 151, error: 0.14974389836203125
+[2021-12-10 14:11:42,400] [INFO] -  -> epoch computation duration 17329ms
+[2021-12-10 14:11:42,497] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:11:45,515] [INFO] - Epoch: 152, error: 0.14974389836203125
+[2021-12-10 14:12:02,956] [INFO] -  -> epoch computation duration 17376ms
+[2021-12-10 14:12:03,047] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:12:05,569] [INFO] - Epoch: 153, error: 0.14974389836203109
+[2021-12-10 14:12:23,023] [INFO] -  -> epoch computation duration 17394ms
+[2021-12-10 14:12:23,117] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:12:25,530] [INFO] - Epoch: 154, error: 0.14974389836203109
+[2021-12-10 14:12:40,291] [INFO] -  -> epoch computation duration 14703ms
+[2021-12-10 14:12:40,395] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:12:42,798] [INFO] - Epoch: 155, error: 0.14974389836203109
+[2021-12-10 14:12:57,089] [INFO] -  -> epoch computation duration 14233ms
+[2021-12-10 14:12:57,178] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:12:59,617] [INFO] - Epoch: 156, error: 0.14974389836203109
+[2021-12-10 14:13:13,647] [INFO] -  -> epoch computation duration 13971ms
+[2021-12-10 14:13:13,735] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:13:16,127] [INFO] - Epoch: 157, error: 0.14974389836203109
+[2021-12-10 14:13:29,696] [INFO] -  -> epoch computation duration 13507ms
+[2021-12-10 14:13:29,782] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:13:32,335] [INFO] - Epoch: 158, error: 0.14974389836203109
+[2021-12-10 14:13:45,895] [INFO] -  -> epoch computation duration 13500ms
+[2021-12-10 14:13:45,991] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:13:48,478] [INFO] - Epoch: 159, error: 0.14974389836203109
+[2021-12-10 14:14:09,327] [INFO] -  -> epoch computation duration 20791ms
+[2021-12-10 14:14:09,498] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:14:13,442] [INFO] - Epoch: 160, error: 0.14974389836203109
+[2021-12-10 14:14:34,012] [INFO] -  -> epoch computation duration 20060ms
+[2021-12-10 14:14:34,094] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:14:36,453] [INFO] - Epoch: 161, error: 0.14974389836203109
+[2021-12-10 14:14:50,066] [INFO] -  -> epoch computation duration 13557ms
+[2021-12-10 14:14:50,145] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:14:52,526] [INFO] - Epoch: 162, error: 0.14974389836203109
+[2021-12-10 14:15:06,641] [INFO] -  -> epoch computation duration 14060ms
+[2021-12-10 14:15:06,757] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:15:10,032] [INFO] - Epoch: 163, error: 0.14974389836203109
+[2021-12-10 14:15:27,076] [INFO] -  -> epoch computation duration 16984ms
+[2021-12-10 14:15:27,174] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:15:29,743] [INFO] - Epoch: 164, error: 0.14974389836203109
+[2021-12-10 14:15:45,607] [INFO] -  -> epoch computation duration 15808ms
+[2021-12-10 14:15:45,714] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:15:48,613] [INFO] - Epoch: 165, error: 0.14974389836203109
+[2021-12-10 14:16:07,490] [INFO] -  -> epoch computation duration 18819ms
+[2021-12-10 14:16:07,606] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:16:11,126] [INFO] - Epoch: 166, error: 0.14974389836203109
+[2021-12-10 14:16:33,494] [INFO] -  -> epoch computation duration 22306ms
+[2021-12-10 14:16:33,598] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:16:36,425] [INFO] - Epoch: 167, error: 0.14974389836203109
+[2021-12-10 14:16:52,959] [INFO] -  -> epoch computation duration 16472ms
+[2021-12-10 14:16:53,053] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:16:55,970] [INFO] - Epoch: 168, error: 0.14974389836203109
+[2021-12-10 14:17:12,442] [INFO] -  -> epoch computation duration 16406ms
+[2021-12-10 14:17:12,538] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:17:15,439] [INFO] - Epoch: 169, error: 0.14974389836203109
+[2021-12-10 14:17:32,645] [INFO] -  -> epoch computation duration 17147ms
+[2021-12-10 14:17:32,735] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:17:35,668] [INFO] - Epoch: 170, error: 0.14974389836203109
+[2021-12-10 14:17:53,411] [INFO] -  -> epoch computation duration 17357ms
+[2021-12-10 14:17:53,514] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:17:56,255] [INFO] - Epoch: 171, error: 0.14974389836203109
+[2021-12-10 14:18:15,819] [INFO] -  -> epoch computation duration 19491ms
+[2021-12-10 14:18:15,965] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:18:18,894] [INFO] - Epoch: 172, error: 0.14974389836203109
+[2021-12-10 14:18:37,608] [INFO] -  -> epoch computation duration 18651ms
+[2021-12-10 14:18:37,699] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:18:40,241] [INFO] - Epoch: 173, error: 0.14974389836203109
+[2021-12-10 14:18:56,249] [INFO] -  -> epoch computation duration 15945ms
+[2021-12-10 14:18:56,340] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:18:58,870] [INFO] - Epoch: 174, error: 0.14974389836203109
+[2021-12-10 14:19:17,117] [INFO] -  -> epoch computation duration 18183ms
+[2021-12-10 14:19:17,237] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:19:20,063] [INFO] - Epoch: 175, error: 0.14974389836203109
+[2021-12-10 14:19:36,348] [INFO] -  -> epoch computation duration 16217ms
+[2021-12-10 14:19:36,506] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:19:39,809] [INFO] - Epoch: 176, error: 0.14974389836203109
+[2021-12-10 14:19:56,653] [INFO] -  -> epoch computation duration 16763ms
+[2021-12-10 14:19:56,750] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:19:59,411] [INFO] - Epoch: 177, error: 0.14974389836203109
+[2021-12-10 14:20:23,317] [INFO] -  -> epoch computation duration 23847ms
+[2021-12-10 14:20:23,443] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:20:26,618] [INFO] - Epoch: 178, error: 0.14974389836203109
+[2021-12-10 14:20:44,895] [INFO] -  -> epoch computation duration 18210ms
+[2021-12-10 14:20:45,025] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:20:47,967] [INFO] - Epoch: 179, error: 0.14974389836203109
+[2021-12-10 14:21:03,674] [INFO] -  -> epoch computation duration 15645ms
+[2021-12-10 14:21:03,761] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:21:06,282] [INFO] - Epoch: 180, error: 0.14974389836203109
+[2021-12-10 14:21:20,821] [INFO] -  -> epoch computation duration 14252ms
+[2021-12-10 14:21:20,907] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:21:23,389] [INFO] - Epoch: 181, error: 0.14974389836203109
+[2021-12-10 14:21:38,835] [INFO] -  -> epoch computation duration 15389ms
+[2021-12-10 14:21:38,928] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:21:41,296] [INFO] - Epoch: 182, error: 0.14974389836203109
+[2021-12-10 14:21:56,382] [INFO] -  -> epoch computation duration 15028ms
+[2021-12-10 14:21:56,468] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:21:59,030] [INFO] - Epoch: 183, error: 0.14974389836203109
+[2021-12-10 14:22:14,254] [INFO] -  -> epoch computation duration 15166ms
+[2021-12-10 14:22:14,349] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:22:16,904] [INFO] - Epoch: 184, error: 0.14974389836203109
+[2021-12-10 14:22:31,367] [INFO] -  -> epoch computation duration 14403ms
+[2021-12-10 14:22:31,450] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:22:33,878] [INFO] - Epoch: 185, error: 0.14974389836203109
+[2021-12-10 14:22:48,218] [INFO] -  -> epoch computation duration 14273ms
+[2021-12-10 14:22:48,312] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:22:50,839] [INFO] - Epoch: 186, error: 0.14974389836203109
+[2021-12-10 14:23:05,598] [INFO] -  -> epoch computation duration 14698ms
+[2021-12-10 14:23:05,684] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:23:08,100] [INFO] - Epoch: 187, error: 0.14974389836203109
+[2021-12-10 14:23:22,773] [INFO] -  -> epoch computation duration 14609ms
+[2021-12-10 14:23:22,858] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:23:25,321] [INFO] - Epoch: 188, error: 0.14974389836203109
+[2021-12-10 14:23:39,510] [INFO] -  -> epoch computation duration 14128ms
+[2021-12-10 14:23:39,593] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:23:42,006] [INFO] - Epoch: 189, error: 0.14974389836203109
+[2021-12-10 14:23:56,751] [INFO] -  -> epoch computation duration 14689ms
+[2021-12-10 14:23:56,837] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:23:59,299] [INFO] - Epoch: 190, error: 0.14974389836203109
+[2021-12-10 14:24:13,647] [INFO] -  -> epoch computation duration 14037ms
+[2021-12-10 14:24:13,741] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:24:16,184] [INFO] - Epoch: 191, error: 0.14974389836203109
+[2021-12-10 14:24:30,622] [INFO] -  -> epoch computation duration 14377ms
+[2021-12-10 14:24:30,711] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:24:33,118] [INFO] - Epoch: 192, error: 0.14974389836203109
+[2021-12-10 14:24:47,462] [INFO] -  -> epoch computation duration 14288ms
+[2021-12-10 14:24:47,558] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:24:49,994] [INFO] - Epoch: 193, error: 0.14974389836203109
+[2021-12-10 14:25:04,304] [INFO] -  -> epoch computation duration 14234ms
+[2021-12-10 14:25:04,484] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:25:07,360] [INFO] - Epoch: 194, error: 0.14974253451932693
+[2021-12-10 14:25:28,472] [INFO] -  -> epoch computation duration 21039ms
+[2021-12-10 14:25:28,607] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:25:31,722] [INFO] - Epoch: 195, error: 0.14974253451932693
+[2021-12-10 14:25:49,080] [INFO] -  -> epoch computation duration 17293ms
+[2021-12-10 14:25:49,223] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:25:51,769] [INFO] - Epoch: 196, error: 0.14974253451932693
+[2021-12-10 14:26:06,309] [INFO] -  -> epoch computation duration 14457ms
+[2021-12-10 14:26:06,399] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:26:08,829] [INFO] - Epoch: 197, error: 0.14974253451932693
+[2021-12-10 14:26:24,752] [INFO] -  -> epoch computation duration 15862ms
+[2021-12-10 14:26:24,844] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:26:27,307] [INFO] - Epoch: 198, error: 0.14974253451932693
+[2021-12-10 14:26:42,973] [INFO] -  -> epoch computation duration 15607ms
+[2021-12-10 14:26:43,124] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:26:45,767] [INFO] - Epoch: 199, error: 0.14974253451932693
+[2021-12-10 14:27:00,537] [INFO] -  -> epoch computation duration 14708ms
+[2021-12-10 14:27:00,634] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:27:03,176] [INFO] - Epoch: 200, error: 0.14974253451932693
+[2021-12-10 14:27:19,938] [INFO] -  -> epoch computation duration 16288ms
+[2021-12-10 14:27:20,169] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:27:23,418] [INFO] - Epoch: 201, error: 0.14974253451932693
+[2021-12-10 14:27:40,203] [INFO] -  -> epoch computation duration 16724ms
+[2021-12-10 14:27:40,299] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:27:42,762] [INFO] - Epoch: 202, error: 0.14974253451932693
+[2021-12-10 14:27:57,859] [INFO] -  -> epoch computation duration 15039ms
+[2021-12-10 14:27:57,972] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:28:00,509] [INFO] - Epoch: 203, error: 0.14974253451932693
+[2021-12-10 14:28:18,681] [INFO] -  -> epoch computation duration 18111ms
+[2021-12-10 14:28:18,816] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:28:21,610] [INFO] - Epoch: 204, error: 0.14974253451932693
+[2021-12-10 14:28:37,115] [INFO] -  -> epoch computation duration 15443ms
+[2021-12-10 14:28:37,225] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:28:39,722] [INFO] - Epoch: 205, error: 0.14974253451932693
+[2021-12-10 14:28:54,365] [INFO] -  -> epoch computation duration 14583ms
+[2021-12-10 14:28:54,450] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:28:56,981] [INFO] - Epoch: 206, error: 0.14974253451932693
+[2021-12-10 14:29:12,079] [INFO] -  -> epoch computation duration 15038ms
+[2021-12-10 14:29:12,174] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:29:14,628] [INFO] - Epoch: 207, error: 0.14974253451932693
+[2021-12-10 14:29:29,407] [INFO] -  -> epoch computation duration 14704ms
+[2021-12-10 14:29:29,498] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:29:31,959] [INFO] - Epoch: 208, error: 0.14974253451932693
+[2021-12-10 14:29:46,709] [INFO] -  -> epoch computation duration 14692ms
+[2021-12-10 14:29:46,798] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:29:49,236] [INFO] - Epoch: 209, error: 0.14974253451932693
+[2021-12-10 14:30:03,804] [INFO] -  -> epoch computation duration 14510ms
+[2021-12-10 14:30:03,890] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:30:06,356] [INFO] - Epoch: 210, error: 0.14974253451932693
+[2021-12-10 14:30:21,295] [INFO] -  -> epoch computation duration 14640ms
+[2021-12-10 14:30:21,401] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:30:23,915] [INFO] - Epoch: 211, error: 0.14974253451932693
+[2021-12-10 14:30:38,568] [INFO] -  -> epoch computation duration 14593ms
+[2021-12-10 14:30:38,653] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:30:41,248] [INFO] - Epoch: 212, error: 0.14974253451932693
+[2021-12-10 14:30:56,211] [INFO] -  -> epoch computation duration 14902ms
+[2021-12-10 14:30:56,299] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:30:58,833] [INFO] - Epoch: 213, error: 0.14974253451932693
+[2021-12-10 14:31:18,500] [INFO] -  -> epoch computation duration 19601ms
+[2021-12-10 14:31:18,631] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:31:22,312] [INFO] - Epoch: 214, error: 0.14974253451932693
+[2021-12-10 14:31:39,737] [INFO] -  -> epoch computation duration 17349ms
+[2021-12-10 14:31:39,831] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:31:42,398] [INFO] - Epoch: 215, error: 0.14974253451932693
+[2021-12-10 14:31:59,348] [INFO] -  -> epoch computation duration 16884ms
+[2021-12-10 14:31:59,447] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:32:02,327] [INFO] - Epoch: 216, error: 0.14974253451932693
+[2021-12-10 14:32:23,786] [INFO] -  -> epoch computation duration 21393ms
+[2021-12-10 14:32:24,000] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:32:28,119] [INFO] - Epoch: 217, error: 0.14974253451932693
+[2021-12-10 14:32:48,693] [INFO] -  -> epoch computation duration 20493ms
+[2021-12-10 14:32:48,799] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:32:52,562] [INFO] - Epoch: 218, error: 0.14974253451932693
+[2021-12-10 14:33:12,342] [INFO] -  -> epoch computation duration 19674ms
+[2021-12-10 14:33:12,449] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:33:15,508] [INFO] - Epoch: 219, error: 0.14974253451932693
+[2021-12-10 14:33:34,132] [INFO] -  -> epoch computation duration 18555ms
+[2021-12-10 14:33:34,250] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:33:37,351] [INFO] - Epoch: 220, error: 0.14974253451932693
+[2021-12-10 14:33:57,755] [INFO] -  -> epoch computation duration 19993ms
+[2021-12-10 14:33:57,854] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:34:00,865] [INFO] - Epoch: 221, error: 0.14974253451932693
+[2021-12-10 14:34:20,345] [INFO] -  -> epoch computation duration 19411ms
+[2021-12-10 14:34:20,504] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:34:23,593] [INFO] - Epoch: 222, error: 0.14974253451932693
+[2021-12-10 14:34:41,837] [INFO] -  -> epoch computation duration 18170ms
+[2021-12-10 14:34:41,942] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:34:44,566] [INFO] - Epoch: 223, error: 0.14974253451932693
+[2021-12-10 14:35:02,117] [INFO] -  -> epoch computation duration 17487ms
+[2021-12-10 14:35:02,262] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:35:04,953] [INFO] - Epoch: 224, error: 0.14974253451932693
+[2021-12-10 14:35:23,024] [INFO] -  -> epoch computation duration 18004ms
+[2021-12-10 14:35:23,121] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:35:25,674] [INFO] - Epoch: 225, error: 0.14974253451932693
+[2021-12-10 14:35:42,353] [INFO] -  -> epoch computation duration 16617ms
+[2021-12-10 14:35:42,471] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:35:45,368] [INFO] - Epoch: 226, error: 0.14974253451932693
+[2021-12-10 14:36:02,201] [INFO] -  -> epoch computation duration 16765ms
+[2021-12-10 14:36:02,305] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:36:05,085] [INFO] - Epoch: 227, error: 0.14974253451932693
+[2021-12-10 14:36:22,236] [INFO] -  -> epoch computation duration 17087ms
+[2021-12-10 14:36:22,337] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:36:24,998] [INFO] - Epoch: 228, error: 0.14974253451932693
+[2021-12-10 14:36:42,690] [INFO] -  -> epoch computation duration 17625ms
+[2021-12-10 14:36:42,795] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:36:45,520] [INFO] - Epoch: 229, error: 0.14974253451932693
+[2021-12-10 14:37:02,120] [INFO] -  -> epoch computation duration 16535ms
+[2021-12-10 14:37:02,329] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:37:05,245] [INFO] - Epoch: 230, error: 0.14974253451932693
+[2021-12-10 14:37:21,902] [INFO] -  -> epoch computation duration 16313ms
+[2021-12-10 14:37:22,002] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:37:24,538] [INFO] - Epoch: 231, error: 0.14974253451932693
+[2021-12-10 14:37:42,212] [INFO] -  -> epoch computation duration 17612ms
+[2021-12-10 14:37:42,309] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:37:44,978] [INFO] - Epoch: 232, error: 0.14974253451932693
+[2021-12-10 14:38:02,340] [INFO] -  -> epoch computation duration 17300ms
+[2021-12-10 14:38:02,450] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:38:05,407] [INFO] - Epoch: 233, error: 0.14974253451932693
+[2021-12-10 14:38:22,954] [INFO] -  -> epoch computation duration 17480ms
+[2021-12-10 14:38:23,075] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:38:25,656] [INFO] - Epoch: 234, error: 0.14974253451932693
+[2021-12-10 14:38:42,557] [INFO] -  -> epoch computation duration 16833ms
+[2021-12-10 14:38:42,662] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:38:45,445] [INFO] - Epoch: 235, error: 0.14974253451932693
+[2021-12-10 14:39:02,809] [INFO] -  -> epoch computation duration 17300ms
+[2021-12-10 14:39:02,920] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:39:05,829] [INFO] - Epoch: 236, error: 0.14974253451932693
+[2021-12-10 14:39:22,735] [INFO] -  -> epoch computation duration 16841ms
+[2021-12-10 14:39:22,848] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:39:25,534] [INFO] - Epoch: 237, error: 0.14974253451932693
+[2021-12-10 14:39:43,501] [INFO] -  -> epoch computation duration 17886ms
+[2021-12-10 14:39:43,657] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:39:46,297] [INFO] - Epoch: 238, error: 0.14974253451932693
+[2021-12-10 14:40:03,484] [INFO] -  -> epoch computation duration 17119ms
+[2021-12-10 14:40:03,585] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:40:06,209] [INFO] - Epoch: 239, error: 0.14974253451932693
+[2021-12-10 14:40:24,096] [INFO] -  -> epoch computation duration 17813ms
+[2021-12-10 14:40:24,199] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:40:27,157] [INFO] - Epoch: 240, error: 0.14974253451932693
+[2021-12-10 14:40:45,896] [INFO] -  -> epoch computation duration 18280ms
+[2021-12-10 14:40:46,089] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:40:50,050] [INFO] - Epoch: 241, error: 0.14974253451932693
+[2021-12-10 14:41:17,980] [INFO] -  -> epoch computation duration 27810ms
+[2021-12-10 14:41:18,126] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:41:21,742] [INFO] - Epoch: 242, error: 0.14974253451932693
+[2021-12-10 14:41:41,549] [INFO] -  -> epoch computation duration 19735ms
+[2021-12-10 14:41:41,652] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:41:44,388] [INFO] - Epoch: 243, error: 0.14974253451932693
+[2021-12-10 14:42:01,380] [INFO] -  -> epoch computation duration 16932ms
+[2021-12-10 14:42:01,476] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:42:04,100] [INFO] - Epoch: 244, error: 0.14974253451932693
+[2021-12-10 14:42:19,152] [INFO] -  -> epoch computation duration 14989ms
+[2021-12-10 14:42:19,243] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:42:21,794] [INFO] - Epoch: 245, error: 0.14974253451932693
+[2021-12-10 14:42:37,977] [INFO] -  -> epoch computation duration 16116ms
+[2021-12-10 14:42:38,087] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:42:40,868] [INFO] - Epoch: 246, error: 0.14974253451932693
+[2021-12-10 14:42:57,211] [INFO] -  -> epoch computation duration 16275ms
+[2021-12-10 14:42:57,337] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:43:00,193] [INFO] - Epoch: 247, error: 0.14974253451932693
+[2021-12-10 14:43:17,457] [INFO] -  -> epoch computation duration 17196ms
+[2021-12-10 14:43:17,564] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:43:20,272] [INFO] - Epoch: 248, error: 0.14974253451932693
+[2021-12-10 14:43:37,161] [INFO] -  -> epoch computation duration 16824ms
+[2021-12-10 14:43:37,281] [INFO] - Increase mutation weight: 2
+[2021-12-10 14:43:40,073] [INFO] - Epoch: 249, error: 0.14974253451932693
+[2021-12-10 14:43:40,086] [INFO] - Best result: gens: [6.25389535693636, 0.04364873133387625, -0.40201384131923323, -82.318792116909, 13.682326358781228]
+[2021-12-10 14:43:40,086] [INFO] - Emulation is finished
