@@ -36,6 +36,10 @@ class WorldConfiguration:
         functionName = self.config['configuration']['population']['solveFunction']
         return getattr(fun, functionName)
 
+    def getPrintFunction(self):
+        functionName = self.config['configuration']['population']['printFunction']
+        return getattr(fun, functionName)
+
     def getBestAmountToReproduce(self):
         value = self.config['configuration']['population']['bestAmountToReproduce']
         return int(value)

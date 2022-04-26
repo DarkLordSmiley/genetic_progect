@@ -4,9 +4,9 @@ configuration:
     #train: test_4_5x2.csv
     #train: test_x-1.csv
     #train: test_310_ext.csv
-    #train: test_310.csv
+    train: test_310.csv
     #train: test_3-2_x_1_2.csv
-    train: test_sqrt_x.csv
+    #train: test_sqrt_x.csv
     #train: ../docs/examples/page306/test.csv
     #train: ../docs/examples/page306/testExtended.csv
     #train: ../docs/examples/page299/test.csv
@@ -23,17 +23,20 @@ configuration:
     # Полином виде a0 + a1x + a2x^2 + a3x^3 + ...
 #    solveFunction: polynom
 #    chromosomeSize: 3
+#    printFunction: polynomToString
 
     # Полином виде a0 + a1x + a2x^2 + ... + an*x^n + ... + b1x^(-1) + b2x^(-2) + ... + bn*x^(-n)
     # Размер хромосомы должен высчитываться по формуле n * 2 + 1, где n - старшая степень
-#    solveFunction: polynomSym
+#    solveFunction: polynomSum
 #    chromosomeSize: 5
+#    printFunction: polynomSumToString
 
     # Полином вида a0 + a1(x+b1) + a2(x+b2)^2 + ... + c1(x+d1)^(-1) + c2(x+d2)(-2) + ...
     # Размер хромосомы должен высчитываться по формуле n * 4 + 1, где n - старшая степень
     solveFunction: polynomL
     chromosomeSize: 5
+    printFunction: polynomLToString
 
 #    solveFunction: power
 #    solveFunction: sincos
-    numberOfEpochs: 250
+    numberOfEpochs: 50

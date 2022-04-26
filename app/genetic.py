@@ -40,6 +40,10 @@ bestBot = bestBotEstimation.getBot()
 
 # 5. print out the best result
 log.info(f"Best result: gens: {bestBot.getGens()}")
+# 6. print out the hypothesis string
+printFunction = wc.getPrintFunction()
+log.info(f"Hypothesis: {printFunction(bestBot.getGens())}")
+
 log.info("Emulation is finished")
 
 

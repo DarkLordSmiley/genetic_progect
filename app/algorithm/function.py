@@ -10,7 +10,7 @@ def cost(ethalonY, botOutput):
     и результатом расчета ботом с его Solve функцией."""
     return abs(botOutput - ethalonY)
 
-
+# ToDo: rework as classes
 def polynom(inputValues, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
     где a0 - an - значения ген бота,
@@ -40,8 +40,24 @@ def polynom(inputValues, gens):
     # value = numpy.sum(np.multiply(powers, gens))
     # return value
 
+def polynomToString(gens):
+    """Функция для вывода в виде строки полинома с данными коэффициентами в виде:
+    y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
+    где a0 - an - значения ген бота
+    """
+    if len(gens) == 0:
+        return 'y=0'
+    result = 'y='
+    for (index, gen) in enumerate(gens):
+        if index == 0:
+            result = result + "{:0.4f}".format(gen)
+        else:
+            sign = (' +' if gen >= 0 else ' ')
+            power = ('^' + str(index) if index > 1 else '')
+            result = result + sign + "{:0.4f}".format(gen) + "*x" + power
+    return result
 
-def polynomSym(inputValues, gens):
+def polynomSum(inputValues, gens):
     """Solve функция полиномиального вида: y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
         + b0*x^(-1) + b1 * x^(-2) + b2 * x^(-3) + b3 * x^(-4) + ... + b(n-1) * a^(-n))
     где a0 - an, b0 - b(n-1) - значения ген бота
@@ -81,6 +97,41 @@ def polynomSym(inputValues, gens):
     # и суммируем: value = a0*x^0 + a1*x^1 + a2*x^2 + a3*x^3, ...
     # value = np.sum(np.multiply(a_powers, a_array)) + np.sum(np.multiply(b_powers, b_array))
     # return value
+
+def polynomSumToString(gens):
+    """Функция для вывода в виде строки полинома с данными коэффициентами в виде:
+    y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
+        + b0*x^(-1) + b1 * x^(-2) + b2 * x^(-3) + b3 * x^(-4) + ... + b(n-1) * a^(-n))
+    где a0 - an, b0 - b(n-1) - значения ген бота
+    Если кол-во ген четно, то используются len(gens)-1 ген
+    """
+    if len(gens) == 0:
+        return 'y=0'
+
+    if len(gens) % 2 == 0:
+        length_a = int(len(gens) / 2)
+    else:
+        length_a = int((len(gens) + 1) / 2)
+
+    length_b = length_a - 1
+
+    a_array = gens[:length_a]
+    b_array = gens[length_a:length_a + length_b]
+
+    result = 'y='
+    for (index, gen) in enumerate(a_array):
+        if index == 0:
+            result = result + "{:0.4f}".format(gen)
+        else:
+            sign = (' +' if gen >= 0 else ' ')
+            power = ('^' + str(index) if index > 1 else '')
+            result = result + sign + "{:0.4f}".format(gen) + "*x" + power
+    for (index, gen) in enumerate(b_array):
+            sign = (' +' if gen >= 0 else ' ')
+            power = '^(-' + str(index + 1) + ')'
+            result = result + sign + "{:0.4f}".format(gen) + "*x" + power
+
+    return result
 
 def polynomL(inputValues, gens):
     """Solve функция полиномиального вида:
@@ -130,6 +181,41 @@ def polynomL(inputValues, gens):
     # и суммируем: value = a0*x^0 + a1*x^1 + a2*x^2 + a3*x^3, ...
     # value = np.sum(np.multiply(a_powers, a_array)) + np.sum(np.multiply(b_powers, b_array))
     # return value
+
+def polynomLToString(gens):
+    """Функция для вывода в виде строки полинома с данными коэффициентами в виде:
+    y = a0 + a1*(x + b1) + a2*(x + b2)^2 + a3*(x+b3)^3 + ... + an*(x+bn)^n
+           + c1*(x + d1)^(-1) + c2*(x + d2)^(-2) + c3*(x+d3)^(-3) + ... + cn*(x+dn)^(-n)
+
+    где a0 - an, b1 - bn, c1 - cn, d1 - dn - значения ген бота
+    """
+    if len(gens) == 0:
+        return 'y=0'
+
+    length = int((len(gens) - 1) / 4)
+    a0 = gens[0]
+    a_array = gens[1:length + 1]
+    b_array = gens[length + 1 : length * 2 + 1]
+    c_array = gens[length * 2 + 1 : length * 3 + 1]
+    d_array = gens[length * 3 + 1 : length * 4 + 1]
+
+    result = 'y=' + "{:0.4f}".format(a0)
+    for i in range(0, length):
+        a = a_array[i]
+        b = b_array[i]
+        sign = (' +' if a >= 0 else ' ')
+        x_sign = (' +' if b >= 0 else ' ')
+        power = ('^' + str(i + 1) if i > 0 else '')
+        result = result + sign + "{:0.4f}".format(a) + "*(x" + x_sign + "{:0.4f}".format(b) +")" + power
+    for i in range(0, length):
+        c = c_array[i]
+        d = d_array[i]
+        sign = (' +' if c >= 0 else ' ')
+        x_sign = (' +' if d >= 0 else ' ')
+        power = '^(-' + str(i + 1) + ')'
+        result = result + sign + "{:0.4f}".format(c) + "*(x" + x_sign + "{:0.4f}".format(d) +")" + power
+
+    return result
 
 def power(inputValue, gens):
     """Solve функция вида: y = a0 + a1*x^b0 + a2*x^b1 + a3*x^b2 + ... + an*x^b(n-1)
